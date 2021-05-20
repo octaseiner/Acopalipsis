@@ -1298,7 +1298,7 @@
 @media only screen and (min-device-width: 768px) and (max-device-width: 1224px) {
   /* --------------- BODY --------------- */
   body {
-    background-image: url(/imagenes/fondo.png);
+    background-image: url(../imagenes/fondo.png);
     background-attachment: fixed; }
   /* --------------- HEADER --------------- */
   body header div#titulo {

@@ -1952,13 +1952,72 @@
     body main#service div {
       display: flex;
       flex-direction: row;
-      justify-content: space-around;
-      margin: 50px; }
+      justify-content: space-around; }
       body main#service div img {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         border-radius: 20px; }
+  .top {
+    margin: 50px; }
+  /* FLIP */
+  .flip-card {
+    background-color: transparent;
+    width: 350px;
+    height: 640px;
+    perspective: 1000px; }
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d; }
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg); }
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; }
+  .flip-card-front {
+    color: black; }
+  .flip-card-back {
+    color: white;
+    transform: rotateY(180deg); }
+  /* OPACITY */
+  .container {
+    position: relative;
+    width: 100%;
+    padding: 0%; }
+  .image {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden; }
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); }
+  .container:hover .image {
+    opacity: 0.3; }
+  .container:hover .middle {
+    opacity: 1; }
+  .text {
+    background-color: black;
+    font-family: "haters";
+    color: #FFCF0B;
+    font-size: 32px;
+    padding: 16px 32px;
+    border: solid #FFCF0B; }
+  .sep {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
   /* --------------- NOSOTROS --------------- */
   body main#nos {
     display: flex;

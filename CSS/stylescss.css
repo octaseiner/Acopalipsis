@@ -2056,7 +2056,8 @@
           body main#nos div div div div {
             box-shadow: none;
             width: 500px;
-            margin: 35px; }
+            margin: 35px;
+            border: none; }
             body main#nos div div div div ul {
               display: flex;
               flex-direction: column;
@@ -2072,7 +2073,6 @@
   img#imgOcta {
     margin-right: 77px; }
   div#todoNosotros {
-    border: solid;
     height: 800px; }
   div#valen:hover {
     width: 800px;
@@ -2094,9 +2094,9 @@
       background-color: snow;
       border: solid black;
       padding: 10px; }
-  div#ulNos {
-    border: none;
-    height: 50px; }
+  .certificados {
+    padding-left: 150px;
+    padding-right: 150px; }
   /* --------------- COCKTAILS --------------- */
   body main#bebidas div {
     display: flex;
@@ -2224,6 +2224,8 @@
     display: none; }
   .marginTop {
     margin-top: 100px; }
+  .margin {
+    margin: 20px; }
   .borde {
     text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
   /* TEXTO */

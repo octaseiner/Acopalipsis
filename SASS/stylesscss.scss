@@ -3435,6 +3435,7 @@ body {
                         box-shadow: none;
                         width: 500px;
                         margin: 35px;
+                        border: none;
 
                         ul {
                             display: flex;
@@ -3467,7 +3468,6 @@ img#imgOcta {
 }
 
 div#todoNosotros {
-    border: solid;
     height: 800px;
 }
 
@@ -3499,10 +3499,11 @@ div#octa:hover {
     }
 }
 
-div#ulNos {
-    border: none;
-    height: 50px;
+.certificados {
+    padding-left: 150px;
+    padding-right: 150px;
 }
+
 
 /* --------------- COCKTAILS --------------- */
 body {
@@ -3709,6 +3710,10 @@ label.check input:checked+span {
 
 .marginTop {
     margin-top: 100px;
+}
+
+.margin {
+    margin: 20px;
 }
 
 .borde {

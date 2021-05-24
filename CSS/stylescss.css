@@ -2027,20 +2027,76 @@
     body main#nos div {
       display: flex;
       flex-direction: row;
-      justify-content: center;
+      justify-content: space-between;
       margin: 20px; }
-      body main#nos div img {
+      body main#nos div div {
         display: flex;
         flex-direction: column;
-        justify-items: center;
-        border: solid black;
-        padding: 5px;
-        box-shadow: 10px 5px 5px #7c7c7c; }
-      body main#nos div ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding-right: 20px; }
+        justify-content: space-around;
+        align-items: center;
+        margin: 20px; }
+        body main#nos div div div {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          width: 295px;
+          height: 295px;
+          transition: background-color 1s, height 2s, width 2s;
+          overflow: hidden;
+          border: solid;
+          box-shadow: 10px 5px 5px #7c7c7c;
+          background-color: snow; }
+          body main#nos div div div img {
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            padding: 17px;
+            background-color: snow;
+            transition: border 1s; }
+          body main#nos div div div div {
+            box-shadow: none;
+            width: 500px;
+            margin: 35px; }
+            body main#nos div div div div ul {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              padding-right: 20px;
+              box-shadow: none; }
+              body main#nos div div div div ul li {
+                color: black; }
+  div#valenOcta {
+    width: 800px; }
+  img#imgValen {
+    margin-left: 75px; }
+  img#imgOcta {
+    margin-right: 77px; }
+  div#todoNosotros {
+    border: solid;
+    height: 800px; }
+  div#valen:hover {
+    width: 800px;
+    height: 300px;
+    margin-bottom: 20px;
+    border: black solid;
+    background-color: snow; }
+    div#valen:hover img {
+      background-color: snow;
+      border: solid black;
+      padding: 10px; }
+  div#octa:hover {
+    width: 800px;
+    height: 300px;
+    margin-bottom: 20px;
+    border: black solid;
+    background-color: snow; }
+    div#octa:hover img {
+      background-color: snow;
+      border: solid black;
+      padding: 10px; }
+  div#ulNos {
+    border: none;
+    height: 50px; }
   /* --------------- COCKTAILS --------------- */
   body main#bebidas div {
     display: flex;

@@ -3400,26 +3400,108 @@ body {
         div {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-between;
         margin: 20px;
 
-            img {
+            div {
                 display: flex;
                 flex-direction: column;
-                justify-items: center;
-                border: solid $negro;
-                padding: 5px;
-                box-shadow: 10px 5px 5px rgb(124, 124, 124);
-            }
+                justify-content: space-around;
+                align-items: center;
+                margin: 20px;
 
-            ul {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                padding-right: 20px;
+                div {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    width: 295px;
+                    height: 295px;
+                    transition: background-color 1s, height 2s, width 2s;
+                    overflow: hidden;
+                    border: solid;
+                    box-shadow: 10px 5px 5px rgb(124, 124, 124);
+                    background-color: $blanco;
+
+                    img {
+                        display: flex;
+                        flex-direction: column;
+                        justify-items: center;
+                        padding: 17px;
+                        background-color: $blanco;
+                        transition: border 1s;
+                    }
+
+                    div {
+                        box-shadow: none;
+                        width: 500px;
+                        margin: 35px;
+
+                        ul {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            padding-right: 20px;    
+                            box-shadow: none;
+                            
+                            li {
+                                color: $negro;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
+}
+
+div#valenOcta {
+    width: 800px;
+}
+
+img#imgValen {
+    margin-left: 75px;
+}
+
+img#imgOcta {
+    margin-right: 77px;
+}
+
+div#todoNosotros {
+    border: solid;
+    height: 800px;
+}
+
+div#valen:hover {
+    width: 800px;
+    height: 300px;
+    margin-bottom: 20px; 
+    border: $negro solid;
+    background-color: $blanco;
+
+    img {
+        background-color: $blanco;
+        border: solid $negro;
+        padding: 10px;
+    }
+}
+
+div#octa:hover {
+    width: 800px;
+    height: 300px;
+    margin-bottom: 20px;
+    border: $negro solid;
+    background-color: $blanco;
+
+    img {
+        background-color: $blanco;
+        border: solid $negro;
+        padding: 10px;
+    }
+}
+
+div#ulNos {
+    border: none;
+    height: 50px;
 }
 
 /* --------------- COCKTAILS --------------- */

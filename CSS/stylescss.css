@@ -1959,7 +1959,7 @@
         justify-content: space-around;
         border-radius: 20px; }
   .top {
-    margin: 50px; }
+    margin-bottom: 50px; }
   /* FLIP */
   .flip-card {
     background-color: transparent;
@@ -2022,8 +2022,7 @@
   body main#nos {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-top: 100px; }
+    justify-content: center; }
     body main#nos div {
       display: flex;
       flex-direction: row;
@@ -2101,12 +2100,12 @@
   body main#bebidas div {
     display: flex;
     flex-direction: row;
-    justify-content: space-around; }
+    justify-content: space-around;
+    margin: 20px; }
     body main#bebidas div div {
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
-      padding: 20px;
       border: 2px solid black;
       background-color: black;
       box-shadow: 10px 5px 5px #7c7c7c;
@@ -2114,10 +2113,9 @@
       body main#bebidas div div div {
         box-shadow: none; }
   div#bat {
-    height: 1380px; }
+    height: 1400px; }
   table {
     border-collapse: collapse;
-    padding: 5px;
     background-image: url(../imagenes/logoopaco.png);
     background-repeat: no-repeat;
     background-position: center center; }
@@ -2128,7 +2126,8 @@
     background: transparent;
     border-top: 4px solid black;
     border-bottom: 1px solid snow;
-    color: #FFCF0B; }
+    color: #FFCF0B;
+    letter-spacing: 2px; }
   td {
     padding: 8px;
     background: transparent;
@@ -2193,7 +2192,7 @@
     font-weight: 400;
     color: slategray; }
   main#reservaBarra div p {
-    font-size: 0.875rem;
+    font-size: 20px;
     margin-bottom: .5rem;
     line-height: 1.5rem; }
   main#reservaBarra div button {
@@ -2217,7 +2216,7 @@
   label.check input:checked + span {
     border-color: #FFCF0B;
     background-color: #FFCF0B;
-    color: snow; }
+    color: black; }
   /* --------------- CLASES ---------------*/
   /* GENERALES*/
   .oculto {

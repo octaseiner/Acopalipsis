@@ -3300,7 +3300,7 @@ body {
 }
 
 .top {
-    margin: 50px;
+    margin-bottom: 50px;
 }
 
 /* FLIP */
@@ -3395,7 +3395,6 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-top: 100px;
 
         div {
         display: flex;
@@ -3512,12 +3511,12 @@ body {
             display: flex;
             flex-direction: row;
             justify-content: space-around;
+            margin: 20px;
 
             div {
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
-            padding: 20px;
             border: 2px solid $negro;
             background-color: $negro;
             box-shadow: 10px 5px 5px rgb(124, 124, 124);
@@ -3532,12 +3531,11 @@ body {
 }
 
 div#bat {
-    height: 1380px;
+    height: 1400px;
 }
 
 table {
     border-collapse: collapse;
-    padding: 5px;
     background-image: url(../imagenes/logoopaco.png);
     background-repeat:no-repeat;
     background-position:center center;
@@ -3551,6 +3549,7 @@ th {
     border-top: 4px solid $negro;    
     border-bottom: 1px solid $blanco; 
     color: $mostaza; 
+    letter-spacing: 2px;
 }
 
 td {    
@@ -3644,14 +3643,14 @@ hr, .hrcolor {
 .card .card-description {
     margin-bottom: .875rem;
     font-weight: 400;
-    color: $gris
+    color: $gris;
 }
 
 
 main#reservaBarra {
     div {
         p {
-            font-size: 0.875rem;
+            font-size: 20px;
             margin-bottom: .5rem;
             line-height: 1.5rem
         }
@@ -3687,7 +3686,7 @@ label.check span {
 label.check input:checked+span {
     border-color: $mostaza;
     background-color: $mostaza;
-    color: $blanco;    
+    color: $negro;    
 }
 
 
@@ -3796,8 +3795,8 @@ $colorFont: (
     }
 }
 
-}
 
+}
 
 
 

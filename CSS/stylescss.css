@@ -2260,4 +2260,12 @@
   .listRoman {
     list-style-type: upper-roman; }
   .listDisc {
-    list-style-type: disc; } }
+    list-style-type: disc; }
+  /* TRANSICION */
+  .logo {
+    animation: logo 1 3s; }
+  @keyframes logo {
+    0% {
+      transform: rotate(0deg); }
+    100% {
+      transform: rotate(360deg); } } }

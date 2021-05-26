@@ -11,7 +11,7 @@ $font: "Architects Daughter", cursive;
 // FONT COLOR
 $amarillo: #FFCF0B;
 $mostaza: #FFCF0B;
-$gris: slategray;
+$gris: #708090;
 $blanco: snow;
 $negro: black;
 
@@ -3116,6 +3116,7 @@ img#mesa {
 
 img#mesa:hover {
     background: url(../imagenes/BarrasC.png) no-repeat;
+    border: black;
 }
 
 /* FLECHAS */
@@ -3780,14 +3781,36 @@ $colorFont: (
 }
 
 
-/* TRANSICION */
-.logo {
+/* TRANSICIONES */
+.logoIndex {
+    animation: logo 1 3s;
+}
+
+.logoSecciones {
     animation: logo 1 3s;
 }
 
 @keyframes logo {
     0% {
         transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes logo {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(90deg);
+    }
+
+    75% {
+        transform: rotate(180deg);
     }
 
     100% {

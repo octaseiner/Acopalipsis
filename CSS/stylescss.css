@@ -379,7 +379,7 @@
   .card .card-description {
     margin-bottom: .875rem;
     font-weight: 400;
-    color: slategray; }
+    color: #708090; }
   label.check {
     cursor: pointer; }
   label.check input {
@@ -416,7 +416,7 @@
   .colorBlanco {
     color: snow; }
   .colorGris {
-    color: slategray; }
+    color: #708090; }
   /* FONT */
   .haters {
     font-family: "haters"; }
@@ -808,7 +808,7 @@
   .card .card-description {
     margin-bottom: .875rem;
     font-weight: 400;
-    color: slategray; }
+    color: #708090; }
   label.check {
     cursor: pointer; }
   label.check input {
@@ -845,7 +845,7 @@
   .colorBlanco {
     color: snow; }
   .colorGris {
-    color: slategray; }
+    color: #708090; }
   /* FONT */
   .haters {
     font-family: "haters"; }
@@ -1237,7 +1237,7 @@
   .card .card-description {
     margin-bottom: .875rem;
     font-weight: 400;
-    color: slategray; }
+    color: #708090; }
   label.check {
     cursor: pointer; }
   label.check input {
@@ -1274,7 +1274,7 @@
   .colorBlanco {
     color: snow; }
   .colorGris {
-    color: slategray; }
+    color: #708090; }
   /* FONT */
   .mostazaHaters {
     color: #FFCF0B;
@@ -1680,7 +1680,7 @@
   .card .card-description {
     margin-bottom: .875rem;
     font-weight: 400;
-    color: slategray; }
+    color: #708090; }
   label.check {
     cursor: pointer; }
   label.check input {
@@ -1718,7 +1718,7 @@
   .colorBlanco {
     color: snow; }
   .colorGris {
-    color: slategray; }
+    color: #708090; }
   /* FONT */
   .haters {
     font-family: "haters"; }
@@ -1855,7 +1855,8 @@
   img#mesa {
     background: url(../imagenes/Barras.png) no-repeat; }
   img#mesa:hover {
-    background: url(../imagenes/BarrasC.png) no-repeat; }
+    background: url(../imagenes/BarrasC.png) no-repeat;
+    border: black; }
   /* FLECHAS */
   div#izquierda {
     display: flex;
@@ -2190,7 +2191,7 @@
   .card .card-description {
     margin-bottom: .875rem;
     font-weight: 400;
-    color: slategray; }
+    color: #708090; }
   main#reservaBarra div p {
     font-size: 20px;
     margin-bottom: .5rem;
@@ -2236,7 +2237,7 @@
   .colorBlanco {
     color: snow; }
   .colorGris {
-    color: slategray; }
+    color: #708090; }
   /* FONT */
   .haters {
     font-family: "haters"; }
@@ -2260,11 +2261,22 @@
     list-style-type: upper-roman; }
   .listDisc {
     list-style-type: disc; }
-  /* TRANSICION */
-  .logo {
+  /* TRANSICIONES */
+  .logoIndex {
+    animation: logo 1 3s; }
+  .logoSecciones {
     animation: logo 1 3s; }
   @keyframes logo {
     0% {
       transform: rotate(0deg); }
+    100% {
+      transform: rotate(360deg); } }
+  @keyframes logo {
+    0% {
+      transform: rotate(0deg); }
+    25% {
+      transform: rotate(90deg); }
+    75% {
+      transform: rotate(180deg); }
     100% {
       transform: rotate(360deg); } } }

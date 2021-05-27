@@ -699,6 +699,22 @@ $colorFont: (
 .listDisc {
     list-style-type: disc;
 }
+
+/* TRANSICIONES */
+.logo {
+    animation: logo 1 3s;
+}
+
+@keyframes logo {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 }
 
 
@@ -991,35 +1007,110 @@ footer {
 
 /* --------------- INDEX --------------- */
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
-ul#mainMobile {
+
+div#mainMobile {
     display: flex;
     flex-direction: column;
     align-items: start;
     list-style-type: none;
+    margin-top: 100px;
 
-    li {
-        padding: 6px 0;
+    div#up {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        z-index: 1;
 
-        a {
-            position: relative;
-            display: block;
-            padding: 4px 0;
-            font: 2rem $haters;
-            text-decoration: none;
-            text-transform: uppercase;
-            background: linear-gradient(var(--fill-color) 0 100%) left / 0 no-repeat;
-            color: $mostaza;
-            background-clip: text;
-            transition: 0.5s linear;
-            text-shadow:
-            0 0 1px #000,
-            -1px -1px 0 #000,  
-            1px -1px 0 #000,
-            -1px 1px 0 #000,
-            1px 1px 0 #000;
+        div {
+            display: flex;
+            flex-direction: column;
+
+            a {
+                font: 1rem $haters;
+                text-decoration: none;
+                text-transform: uppercase;
+                background: linear-gradient(var(--fill-color) 0 100%) left / 0 no-repeat;
+                color: $mostaza;
+                background-clip: text;
+                text-shadow:
+                0 0 1px #000,
+                -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                1px 1px 0 #000;
+            }
+        }
+    }
+
+    div#down {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        z-index: 0;
+
+        div#barra {
+
+            a#bar {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                font: 1rem $haters;
+                text-decoration: none;
+                text-transform: uppercase;
+                background: linear-gradient(var(--fill-color) 0 100%) left / 0 no-repeat;
+                color: $mostaza;
+                background-clip: text;
+                text-shadow:
+                0 0 1px #000,
+                -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                1px 1px 0 #000;
+                margin-top: 15px;
+                font-size: 150%;
+                border: solid $mostaza;
+                margin-left: 50px;
+                margin-right: 50px;
+            }
+
+            img {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                margin-top: 33px;
+            }
         }
     }
 }
+
+div#bartender {
+    margin-bottom: -43px;
+}
+
+a#nos {
+    text-align: right;
+}
+
+div#tragos {
+    margin-bottom: -110px;
+}
+
+div#cuadro {
+    margin-top: -100px;
+}
+
+div#carta {
+    margin-bottom: -100px;
+    margin-left: 20px;
+}
+
+div#barra {
+    margin-bottom: 70px;
+}
+
 
 
 /* --------------- SERVICIOS --------------- */
@@ -1048,6 +1139,7 @@ body {
         }
     }
 }
+
 
 /* --------------- NOSOTROS --------------- */
 body {
@@ -1406,6 +1498,21 @@ $colorFont: (
     list-style-type: disc;
 }
 
+/* TRANSICIONES */
+.logo {
+    animation: logo 1 3s;
+}
+
+@keyframes logo {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 }
 
 
@@ -1714,35 +1821,110 @@ footer {
 
 /* --------------- INDEX --------------- */
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
-ul#mainMobile {
+
+div#mainMobile {
     display: flex;
     flex-direction: column;
     align-items: start;
     list-style-type: none;
+    margin-top: 100px;
 
-    li {
-        padding: 6px 0;
+    div#up {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        z-index: 1;
 
-        a {
-            position: relative;
-            display: block;
-            padding: 4px 0;
-            font: 2rem $haters;
-            text-decoration: none;
-            text-transform: uppercase;
-            background: linear-gradient(var(--fill-color) 0 100%) left / 0 no-repeat;
-            color: $mostaza;
-            background-clip: text;
-            transition: 0.5s linear;
-            text-shadow:
-            0 0 1px #000,
-            -1px -1px 0 #000,  
-            1px -1px 0 #000,
-            -1px 1px 0 #000,
-            1px 1px 0 #000;
+        div {
+            display: flex;
+            flex-direction: column;
+
+            a {
+                font: 1rem $haters;
+                text-decoration: none;
+                text-transform: uppercase;
+                background: linear-gradient(var(--fill-color) 0 100%) left / 0 no-repeat;
+                color: $mostaza;
+                background-clip: text;
+                text-shadow:
+                0 0 1px #000,
+                -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                1px 1px 0 #000;
+            }
+        }
+    }
+
+    div#down {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        z-index: 0;
+
+        div#barra {
+
+            a#bar {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                font: 1rem $haters;
+                text-decoration: none;
+                text-transform: uppercase;
+                background: linear-gradient(var(--fill-color) 0 100%) left / 0 no-repeat;
+                color: $mostaza;
+                background-clip: text;
+                text-shadow:
+                0 0 1px #000,
+                -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                1px 1px 0 #000;
+                margin-top: 15px;
+                font-size: 150%;
+                border: solid $mostaza;
+                margin-left: 50px;
+                margin-right: 50px;
+            }
+
+            img {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                margin-top: 33px;
+            }
         }
     }
 }
+
+div#bartender {
+    margin-bottom: -43px;
+}
+
+a#nos {
+    text-align: right;
+}
+
+div#tragos {
+    margin-bottom: -110px;
+}
+
+div#cuadro {
+    margin-top: -100px;
+}
+
+div#carta {
+    margin-bottom: -100px;
+    margin-left: 20px;
+}
+
+div#barra {
+    margin-bottom: 70px;
+}
+
 
 
 /* --------------- SERVICIOS --------------- */
@@ -2130,6 +2312,21 @@ $colorFont: (
 
 .listDisc {
     list-style-type: disc;
+}
+
+/* TRANSICIONES */
+.logo {
+    animation: logo 1 3s;
+}
+
+@keyframes logo {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 }
@@ -2843,6 +3040,10 @@ label.check input:checked+span {
     display: none;
 }
 
+.escondido {
+    display: none;
+}
+
 /* TEXTO*/
 /* COLOR */
 /* COLOR */
@@ -2895,6 +3096,21 @@ $colorFont: (
 .listDisc {
     list-style-type: disc;
 }
+/* TRANSICIONES */
+.logo {
+    animation: logo 1 3s;
+}
+
+@keyframes logo {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 }
 
 
@@ -3799,7 +4015,6 @@ $colorFont: (
         transform: rotate(360deg);
     }
 }
-
 
 }
 

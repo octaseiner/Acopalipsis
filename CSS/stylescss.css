@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
 @font-face {
   font-family: "haters";
   src: url("../font/heaters/Heaters.otf"); }
@@ -175,25 +176,70 @@
         width: 100px;
         height: 100px; }
   /* --------------- INDEX --------------- */
-  ul#mainMobile {
+  div#mainMobile {
     display: flex;
     flex-direction: column;
     align-items: start;
-    list-style-type: none; }
-    ul#mainMobile li {
-      padding: 6px 0; }
-      ul#mainMobile li a {
-        position: relative;
-        display: block;
-        padding: 4px 0;
-        font: 2rem "haters";
+    list-style-type: none;
+    margin-top: 100px; }
+    div#mainMobile div#up {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      z-index: 1; }
+      div#mainMobile div#up div {
+        display: flex;
+        flex-direction: column; }
+        div#mainMobile div#up div a {
+          font: 1rem "haters";
+          text-decoration: none;
+          text-transform: uppercase;
+          background: linear-gradient(var(--fill-color) 0 100%) left/0 no-repeat;
+          color: #FFCF0B;
+          background-clip: text;
+          text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+    div#mainMobile div#down {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      z-index: 0; }
+      div#mainMobile div#down div#barra a#bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font: 1rem "haters";
         text-decoration: none;
         text-transform: uppercase;
         background: linear-gradient(var(--fill-color) 0 100%) left/0 no-repeat;
         color: #FFCF0B;
         background-clip: text;
-        transition: 0.5s linear;
-        text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+        text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        margin-top: 15px;
+        font-size: 150%;
+        border: solid #FFCF0B;
+        margin-left: 50px;
+        margin-right: 50px; }
+      div#mainMobile div#down div#barra img {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 33px; }
+  div#bartender {
+    margin-bottom: -43px; }
+  a#nos {
+    text-align: right; }
+  div#tragos {
+    margin-bottom: -110px; }
+  div#cuadro {
+    margin-top: -100px; }
+  div#carta {
+    margin-bottom: -100px;
+    margin-left: 20px; }
+  div#barra {
+    margin-bottom: 70px; }
   /* --------------- SERVICIOS --------------- */
   body main#service {
     display: flex;
@@ -755,8 +801,12 @@
     font-size: 30px; }
   body main#bebidas ul {
     font-size: 12px; }
+    body main#bebidas ul li {
+      width: 50px; }
   body main#bebidas ol {
     font-size: 12px; }
+    body main#bebidas ol li {
+      width: 50px; }
   table {
     border-collapse: collapse;
     padding: 3px;
@@ -775,15 +825,14 @@
   th#th {
     font-size: 17px; }
   td {
-    padding: 4px;
     background: transparent;
     border-bottom: 1px solid snow;
     color: snow;
     border-top: 1px solid transparent; }
-  table#segunda {
+  table#bat {
     width: 100px;
     margin-right: 200px; }
-  table#segunda th {
+  table#bat th {
     width: fit-content; }
   tr:hover td {
     background: transparent;
@@ -1469,159 +1518,72 @@
     footer p {
       padding-top: 17px;
       margin-left: 20px;
-      font-size: 12px; }
+      font-size: 5px; }
   /* --------------- INDEX --------------- */
-  /* DIV */
-  body main nav {
-    width: 100%;
-    height: 800px;
+  div#mainMobile {
     display: flex;
-    flex-direction: row;
-    justify-content: center; }
-  div#medio {
-    display: flex;
-    flex-direction: column; }
-  div#centro {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-end;
-    margin-bottom: 30px; }
+    flex-direction: column;
+    align-items: start;
+    list-style-type: none;
+    margin-top: 100px; }
+    div#mainMobile div#up {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      z-index: 1; }
+      div#mainMobile div#up div {
+        display: flex;
+        flex-direction: column; }
+        div#mainMobile div#up div a {
+          font: 1rem "haters";
+          text-decoration: none;
+          text-transform: uppercase;
+          background: linear-gradient(var(--fill-color) 0 100%) left/0 no-repeat;
+          color: #FFCF0B;
+          background-clip: text;
+          text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+    div#mainMobile div#down {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      z-index: 0; }
+      div#mainMobile div#down div#barra a#bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font: 1rem "haters";
+        text-decoration: none;
+        text-transform: uppercase;
+        background: linear-gradient(var(--fill-color) 0 100%) left/0 no-repeat;
+        color: #FFCF0B;
+        background-clip: text;
+        text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        margin-top: 15px;
+        font-size: 150%;
+        border: solid #FFCF0B;
+        margin-left: 50px;
+        margin-right: 50px; }
+      div#mainMobile div#down div#barra img {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 33px; }
+  div#bartender {
+    margin-bottom: -43px; }
+  a#nos {
+    text-align: right; }
+  div#tragos {
+    margin-bottom: -110px; }
+  div#cuadro {
+    margin-top: -100px; }
+  div#carta {
+    margin-bottom: -100px;
+    margin-left: 20px; }
   div#barra {
-    padding: 0%;
-    margin: 0%; }
-  div#centro a {
-    z-index: 1; }
-  div#barra a {
-    z-index: 0; }
-  /* /imagenes */
-  img#bartender {
-    margin-bottom: -50px;
-    margin-right: 40px;
-    z-index: 1; }
-  img#bartender:hover {
-    background: url(..) no-repeat;
-    margin-bottom: -50px;
-    z-index: 1; }
-  img#carta {
-    background: url(../imagenes/Cartas.png);
-    margin-right: 120px;
-    margin-bottom: -50px;
-    z-index: 1; }
-  img#carta:hover {
-    background: url(../imagenes/CartasC.png) no-repeat;
-    margin-right: 120px;
-    margin-bottom: -50px;
-    z-index: 1; }
-  img#cuadro {
-    background: url(../imagenes/Cuadro.png);
-    margin-bottom: 120px;
-    margin-right: 20px; }
-  img#cuadro:hover {
-    background: url(../imagenes/CuadroC.png);
-    margin-bottom: 120px;
-    margin-right: 20px; }
-  img#tragos {
-    margin-left: 120px;
-    margin-bottom: -40px;
-    z-index: 1; }
-  img#tragos:hover {
-    background: url(../imagenes/TragosC.png) no-repeat;
-    margin-left: 120px;
-    margin-bottom: -40px;
-    z-index: 1; }
-  img#mesa {
-    background: url(../imagenes/Barras.png) no-repeat; }
-  img#mesa:hover {
-    background: url(../imagenes/BarrasC.png) no-repeat; }
-  /* FLECHAS */
-  div#izquierda {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-end; }
-  div#derecha {
-    flex-direction: column;
-    justify-content: flex-start; }
-  img#a {
-    margin-top: 100px;
-    margin-right: -80px; }
-  img#r {
-    margin-top: 150px;
-    margin-right: -120px; }
-  img#o {
-    margin-right: -200px; }
-  img#w {
-    margin-left: -280px;
-    margin-top: -70px; }
-  img#s {
-    margin-top: 230px;
-    margin-left: -40px; }
-  /* TEXTO */
-  div#izq {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-end;
-    height: 570px;
-    margin-top: 30px;
-    padding-bottom: 40px; }
-  div#izq a {
-    text-decoration: none; }
-  div#der {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    height: 180px;
-    margin-top: 70px; }
-  div#der a {
-    text-decoration: none; }
-  a#cont {
-    margin-right: -170px;
-    transform: rotate(15deg);
-    font-family: "haters";
-    font-size: 300%;
-    color: black; }
-  a#cont:hover {
-    color: #FFCF0B;
-    text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
-  a#coc {
-    margin-right: -60px;
-    transform: rotate(-15deg);
-    font-family: "haters";
-    font-size: 300%;
-    color: black; }
-  a#coc:hover {
-    color: #FFCF0B;
-    text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
-  a#res {
-    margin-right: -40px;
-    transform: rotate(15deg);
-    font-family: "haters";
-    font-size: 300%;
-    color: black; }
-  a#res:hover {
-    color: #FFCF0B;
-    text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
-  a#bart {
-    margin-left: -120px;
-    transform: rotate(-15deg);
-    font-family: "haters";
-    font-size: 300%;
-    color: black; }
-  a#bart:hover {
-    color: #FFCF0B;
-    text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
-  a#serv {
-    margin-left: -40px;
-    transform: rotate(15deg);
-    font-family: "haters";
-    font-size: 300%;
-    color: black; }
-  a#serv:hover {
-    color: #FFCF0B;
-    text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+    margin-bottom: 70px; }
   /* --------------- SERVICIOS --------------- */
   body main#service {
     display: flex;
@@ -1721,6 +1683,10 @@
   tr:hover td {
     background: transparent;
     color: #FFCF0B; }
+  .imgCenter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
   /* --------------- CONTACTO --------------- */
   body main form {
     display: flex;
@@ -1822,7 +1788,7 @@
     text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
   .oculto {
     display: none; }
-  .escondido {
+  .hiddenIpad {
     display: none; }
   /* TEXTO*/
   /* COLOR */

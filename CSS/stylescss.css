@@ -335,7 +335,8 @@
     background: transparent;
     border-top: 4px solid black;
     border-bottom: 1px solid snow;
-    color: #FFCF0B; }
+    color: #FFCF0B;
+    letter-spacing: 2px; }
   th#th {
     font-size: 17px; }
   td {
@@ -821,7 +822,8 @@
     background: transparent;
     border-top: 4px solid black;
     border-bottom: 1px solid snow;
-    color: #FFCF0B; }
+    color: #FFCF0B;
+    letter-spacing: 2px; }
   th#th {
     font-size: 17px; }
   td {
@@ -1302,7 +1304,8 @@
     background: transparent;
     border-top: 4px solid black;
     border-bottom: 1px solid snow;
-    color: #FFCF0B; }
+    color: #FFCF0B;
+    letter-spacing: 2px; }
   th#th {
     font-size: 17px; }
   td {
@@ -1518,7 +1521,11 @@
     footer p {
       padding-top: 17px;
       margin-left: 20px;
-      font-size: 5px; }
+      font-size: 12px; }
+    footer p#foot {
+      padding-top: 17px;
+      margin-left: 20px;
+      font-size: 20px; }
   /* --------------- INDEX --------------- */
   div#mainMobile {
     display: flex;
@@ -1666,7 +1673,8 @@
     background: transparent;
     border-top: 4px solid black;
     border-bottom: 1px solid snow;
-    color: #FFCF0B; }
+    color: #FFCF0B;
+    letter-spacing: 2px; }
   th#th {
     font-size: 17px; }
   td {

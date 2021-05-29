@@ -1043,7 +1043,9 @@ footer {
     justify-content: space-between;
     align-items: center;
     background-color: $negro;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 30px;
 
     p {
         font-family: $haters;
@@ -1218,6 +1220,7 @@ body {
 
 
 /* --------------- NOSOTROS --------------- */
+
 body {
     main#nos {
         display: flex;
@@ -1234,42 +1237,47 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin: 20px;
+        align-items: center;
+
+        img {
+            padding: 10px;
+            border: solid;
+            background-color: $blanco;
+            }
         }
 
         div#octa {
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
-        margin: 20px;
+        align-items: center;
+
+        img {
+            padding: 10px;
+            border: solid;
+            background-color: $blanco;
+            }
         }
 
-        div {
-            img {
-                display: flex;
-                flex-direction: column;
-                justify-items: center;
-                border: solid $negro;
-                padding: 5px;
-                width: 200px;
-                height: 200px;
-                box-shadow: 10px 5px 5px rgb(124, 124, 124);
-                background-color: $blanco;
-            }
+        div#ulNos {
 
             ul {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                padding-right: 20px;
-                font-size: 15px;
+                width: 350px;
+                padding: 10px;
+                padding-left: 20px;
                 border: solid;
                 background-color: $blanco;
-                width: 200px;
+                font-size: 80%;
+                margin: 30px;
             }
         }
     }
 }
+
+
 
 /* --------------- COCKTAILS --------------- */
 body {
@@ -1324,13 +1332,9 @@ body {
 }
 
 
-table {
-    border-collapse: collapse;
-    padding: 3px;
-    background-image: url(../imagenes/logoopaco.png);
-    background-repeat:no-repeat;
-    background-position:center center;
-    background-size: 120%;
+table#dir {
+    width: 100px;
+    margin-right: 200px;
 }
 
 th {     
@@ -1341,11 +1345,12 @@ th {
     border-top: 4px solid $negro;    
     border-bottom: 1px solid $blanco; 
     color: $mostaza; 
-    letter-spacing: 2px;
+    width: 10px;
 }
 
 th#th { 
     font-size: 17px;
+    letter-spacing: 2px;
 }
 
 td {     
@@ -1353,6 +1358,15 @@ td {
     border-bottom: 1px solid $blanco;
     color: $blanco;    
     border-top: 1px solid transparent; 
+}
+
+table#dir {
+    width: 100px;
+    margin-right: 200px;
+}
+
+table#dir th{
+    width: fit-content;
 }
 
 table#bat {
@@ -2789,7 +2803,7 @@ th {
 }
 
 th#th { 
-    font-size: 17px;
+    font-size: 25px;
 }
 
 td {    
@@ -3160,6 +3174,12 @@ footer {
     background-color: $negro;
     height: 60px;
     margin-top: 40px;
+
+    a#logoFooter {
+        img {
+            width: 100px;
+        }
+    }
 
     div {
         display: flex;
@@ -3698,7 +3718,7 @@ body {
 }
 
 div#bat {
-    height: 1400px;
+    height: 1150px;
 }
 
 table {
@@ -3709,7 +3729,7 @@ table {
 }
 
 th {     
-    font-size: 18px;     
+    font-size: 12px;     
     font-weight: bold;     
     padding: 8px;     
     background: transparent;
@@ -3717,6 +3737,10 @@ th {
     border-bottom: 1px solid $blanco; 
     color: $mostaza; 
     letter-spacing: 2px;
+}
+
+th#th {
+    font-size: 18px;     
 }
 
 td {    

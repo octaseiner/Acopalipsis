@@ -636,7 +636,9 @@
     justify-content: space-between;
     align-items: center;
     background-color: black;
-    padding-bottom: 10px; }
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 30px; }
     footer p {
       font-family: "haters";
       font-size: 30px;
@@ -753,31 +755,31 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      margin: 20px; }
+      align-items: center; }
+      body main#nos div#valen img {
+        padding: 10px;
+        border: solid;
+        background-color: snow; }
     body main#nos div#octa {
       display: flex;
       flex-direction: column-reverse;
       justify-content: center;
-      margin: 20px; }
-    body main#nos div img {
-      display: flex;
-      flex-direction: column;
-      justify-items: center;
-      border: solid black;
-      padding: 5px;
-      width: 200px;
-      height: 200px;
-      box-shadow: 10px 5px 5px #7c7c7c;
-      background-color: snow; }
-    body main#nos div ul {
+      align-items: center; }
+      body main#nos div#octa img {
+        padding: 10px;
+        border: solid;
+        background-color: snow; }
+    body main#nos div#ulNos ul {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      padding-right: 20px;
-      font-size: 15px;
+      width: 350px;
+      padding: 10px;
+      padding-left: 20px;
       border: solid;
       background-color: snow;
-      width: 200px; }
+      font-size: 80%;
+      margin: 30px; }
   /* --------------- COCKTAILS --------------- */
   body main#bebidas div {
     display: flex;
@@ -808,13 +810,9 @@
     font-size: 12px; }
     body main#bebidas ol li {
       width: 50px; }
-  table {
-    border-collapse: collapse;
-    padding: 3px;
-    background-image: url(../imagenes/logoopaco.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 120%; }
+  table#dir {
+    width: 100px;
+    margin-right: 200px; }
   th {
     font-size: 12px;
     font-weight: bold;
@@ -823,14 +821,20 @@
     border-top: 4px solid black;
     border-bottom: 1px solid snow;
     color: #FFCF0B;
-    letter-spacing: 2px; }
+    width: 10px; }
   th#th {
-    font-size: 17px; }
+    font-size: 17px;
+    letter-spacing: 2px; }
   td {
     background: transparent;
     border-bottom: 1px solid snow;
     color: snow;
     border-top: 1px solid transparent; }
+  table#dir {
+    width: 100px;
+    margin-right: 200px; }
+  table#dir th {
+    width: fit-content; }
   table#bat {
     width: 100px;
     margin-right: 200px; }
@@ -1676,7 +1680,7 @@
     color: #FFCF0B;
     letter-spacing: 2px; }
   th#th {
-    font-size: 17px; }
+    font-size: 25px; }
   td {
     padding: 4px;
     background: transparent;
@@ -1881,6 +1885,8 @@
     background-color: black;
     height: 60px;
     margin-top: 40px; }
+    footer a#logoFooter img {
+      width: 100px; }
     footer div {
       display: flex;
       flex-direction: row;
@@ -2214,14 +2220,14 @@
       body main#bebidas div div div {
         box-shadow: none; }
   div#bat {
-    height: 1400px; }
+    height: 1150px; }
   table {
     border-collapse: collapse;
     background-image: url(../imagenes/logoopaco.png);
     background-repeat: no-repeat;
     background-position: center center; }
   th {
-    font-size: 18px;
+    font-size: 12px;
     font-weight: bold;
     padding: 8px;
     background: transparent;
@@ -2229,6 +2235,8 @@
     border-bottom: 1px solid snow;
     color: #FFCF0B;
     letter-spacing: 2px; }
+  th#th {
+    font-size: 18px; }
   td {
     padding: 8px;
     background: transparent;

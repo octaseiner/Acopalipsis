@@ -301,6 +301,7 @@ div#mainMobile {
         div {
             display: flex;
             flex-direction: column;
+            align-items: center;
 
             a {
                 font: 1rem $haters;
@@ -361,29 +362,54 @@ div#mainMobile {
     }
 }
 
-div#bartender {
-    margin-bottom: -43px;
-}
-
 a#nos {
     text-align: right;
 }
 
+div#bartender {
+    margin-bottom: -40px;
+
+    img#bartender  {
+        margin-bottom: -50px;
+        margin-right: 40px;
+        z-index: 1;
+        width: 75px; 
+    }
+    
+}
+
 div#tragos {
-    margin-bottom: -110px;
+    margin-bottom: -140px;
+
+    img#tragos {
+        width: 30px; 
+    }
 }
 
 div#cuadro {
-    margin-top: -100px;
+    margin-top: -60px;
+
+    img#cuadro {
+        width: 35px; 
+    }
 }
 
 div#carta {
-    margin-bottom: -100px;
-    margin-left: 20px;
+    margin-bottom: -130px;
+
+    img#carta {
+        width: 35px; 
+    }
 }
 
 div#barra {
     margin-bottom: 70px;
+    margin-top: 50px;
+
+    img#tabla {
+        width: 320px; 
+    }
+    
 }
 
 
@@ -425,45 +451,50 @@ body {
         align-items: center;
 
         h1 {
-            font-size: 40px;
+            font-size: 20px;
         }
 
         div#valen {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin: 20px;
+        align-items: center;
+
+        img {
+            padding: 5px;
+            border: solid;
+            background-color: $blanco;
+            width: 180px;
+            }
         }
 
         div#octa {
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
-        margin: 20px;
+        align-items: center;
+
+        img {
+            padding: 5px;
+            border: solid;
+            background-color: $blanco;
+            width: 180px;
+            }
         }
 
-        div {
-            img {
-                display: flex;
-                flex-direction: column;
-                justify-items: center;
-                border: solid $negro;
-                padding: 5px;
-                width: 200px;
-                height: 200px;
-                box-shadow: 10px 5px 5px rgb(124, 124, 124);
-                background-color: $blanco;
-            }
+        div#ulNos {
 
             ul {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                padding-right: 20px;
-                font-size: 15px;
+                width: 180px;
+                padding: 10px;
+                padding-left: 20px;
                 border: solid;
                 background-color: $blanco;
-                width: 200px;
+                font-size: 60%;
+                margin: 30px;
             }
         }
     }
@@ -524,9 +555,9 @@ table {
 }
 
 th {     
-    font-size: 12px;     
+    font-size: 9px;     
     font-weight: bold;     
-    padding: 4px;     
+    padding: 2px;     
     background: transparent;
     border-top: 4px solid $negro;    
     border-bottom: 1px solid $blanco; 
@@ -535,11 +566,11 @@ th {
 }
 
 th#th { 
-    font-size: 17px;
+    font-size: 14px;
 }
 
 td {    
-    padding: 4px;    
+    padding: 2px;    
     background: transparent;     
     border-bottom: 1px solid $blanco;
     color: $blanco;    
@@ -616,6 +647,7 @@ main#reservaBarra {
             margin-bottom: 50px;
             width: 70px;
             font-size: 15px;
+            margin-left: 10px;
         }
     }
 }
@@ -1104,6 +1136,7 @@ div#mainMobile {
         div {
             display: flex;
             flex-direction: column;
+            align-items: center;
 
             a {
                 font: 1rem $haters;
@@ -1158,7 +1191,7 @@ div#mainMobile {
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
-                margin-top: 33px;
+                margin-top: 83px;
             }
         }
     }
@@ -1166,6 +1199,14 @@ div#mainMobile {
 
 div#bartender {
     margin-bottom: -43px;
+
+    img#bartender  {
+        margin-bottom: -50px;
+        margin-right: 40px;
+        z-index: 1;
+        width: 100px; 
+    }
+    
 }
 
 a#nos {
@@ -1173,22 +1214,38 @@ a#nos {
 }
 
 div#tragos {
-    margin-bottom: -110px;
+    margin-bottom: -162px;
+
+    img#tragos {
+        width: 40px; 
+    }
 }
 
 div#cuadro {
     margin-top: -100px;
+
+    img#cuadro {
+        width: 50px; 
+    }
 }
 
 div#carta {
-    margin-bottom: -100px;
+    margin-bottom: -145px;
     margin-left: 20px;
+
+    img#carta {
+        width: 40px; 
+    }
 }
 
 div#barra {
     margin-bottom: 70px;
-}
 
+    img#tabla {
+        width: 320px; 
+    }
+    
+}
 
 
 /* --------------- SERVICIOS --------------- */
@@ -1265,7 +1322,7 @@ body {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                width: 350px;
+                width: 250px;
                 padding: 10px;
                 padding-left: 20px;
                 border: solid;
@@ -1439,6 +1496,7 @@ main#reservaBarra {
             margin-bottom: 50px;
             width: 70px;
             font-size: 15px;
+            margin-left: 20px;
         }
     }
 }
@@ -2059,51 +2117,121 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-top: 40px;
-        align-items: center;
 
         h1 {
             font-size: 40px;
         }
 
-        div#valen {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin: 20px;
-        }
-
-        div#octa {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        margin: 20px;
-        }
-
         div {
-            img {
-                display: flex;
-                flex-direction: column;
-                justify-items: center;
-                border: solid $negro;
-                padding: 5px;
-                width: 200px;
-                height: 200px;
-                box-shadow: 10px 5px 5px rgb(124, 124, 124);
-                background-color: $blanco;
-            }
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 500px;
 
-            ul {
+            div {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                padding-right: 20px;
-                font-size: 15px;
-                border: solid;
-                background-color: $blanco;
-                width: 200px;
+                align-items: center;
+                margin: 20px;
+                height: 400px;
+
+                div {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    width: 147px;
+                    height: 147px;
+                    transition: background-color 1s, height 2s, width 2s;
+                    overflow: hidden;
+                    border: solid;
+                    box-shadow: 10px 5px 5px rgb(124, 124, 124);
+                    background-color: $blanco;
+
+                    img {
+                        display: flex;
+                        flex-direction: column;
+                        justify-items: center;
+                        padding: 17px;
+                        background-color: $blanco;
+                        transition: border 1s;
+                        width: 145px;
+                    }
+
+                    div {
+                        box-shadow: none;
+                        width: 600px;
+                        border: none;
+
+                        ul {
+                            display: flex;
+                            flex-direction: column;  
+                            box-shadow: none;
+                            
+                            li {
+                                color: $negro;
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
             }
         }
+    }
+}
+
+div#valenOcta {
+    width: 800px;
+}
+
+img#imgValen {
+    margin-left: 40px;
+}
+
+img#imgOcta {
+    margin-right: 40px;
+}
+
+div#todoNosotros {
+    height: 800px;
+}
+
+div#valen:hover {
+    width: 430px;
+    height: 180px;
+    margin-bottom: 20px; 
+    border: $negro solid;
+    background-color: $blanco;
+
+    img {
+        background-color: $blanco;
+        border: solid $negro;
+        padding: 10px;
+        margin-left: 10px;
+    }
+}
+
+div#octa:hover {
+    width: 430px;
+    height: 180px;
+    margin-bottom: 20px;
+    border: $negro solid;
+    background-color: $blanco;
+
+    img {
+        background-color: $blanco;
+        border: solid $negro;
+        padding: 10px;
+        margin-right: 10px;
+    }
+}
+
+div#cert {
+    display: none;
+
+    img {
+        width: 70px;
+        margin-bottom: 50px;
     }
 }
 
@@ -2254,6 +2382,7 @@ main#reservaBarra {
             margin-bottom: 50px;
             width: 70px;
             font-size: 15px;
+            margin-left: 20px;
         }
     }
 }
@@ -2566,6 +2695,12 @@ footer {
         margin-left: 20px;
         font-size: 20px
     }
+
+    a#logoFooter {
+        img {
+            width: 100px
+        }
+    }
 }
 
 
@@ -2592,7 +2727,7 @@ div#mainMobile {
             flex-direction: column;
 
             a {
-                font: 1rem $haters;
+                font: 2rem $haters;
                 text-decoration: none;
                 text-transform: uppercase;
                 background: linear-gradient(var(--fill-color) 0 100%) left / 0 no-repeat;
@@ -2634,7 +2769,7 @@ div#mainMobile {
                 -1px 1px 0 #000,
                 1px 1px 0 #000;
                 margin-top: 15px;
-                font-size: 150%;
+                font-size: 200%;
                 border: solid $mostaza;
                 margin-left: 50px;
                 margin-right: 50px;
@@ -2645,13 +2780,14 @@ div#mainMobile {
                 flex-direction: row;
                 justify-content: center;
                 margin-top: 33px;
+                margin-bottom: 50px;
             }
         }
     }
 }
 
 div#bartender {
-    margin-bottom: -43px;
+    margin-bottom: -123px;
 }
 
 a#nos {
@@ -2659,7 +2795,7 @@ a#nos {
 }
 
 div#tragos {
-    margin-bottom: -110px;
+    margin-bottom: -255px;
 }
 
 div#cuadro {
@@ -2667,11 +2803,12 @@ div#cuadro {
 }
 
 div#carta {
-    margin-bottom: -100px;
-    margin-left: 20px;
+    margin-bottom: -220px;
+    margin-left: 50px;
 }
 
 div#barra {
+    margin-top: 70px;
     margin-bottom: 70px;
 }
 
@@ -2710,31 +2847,115 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-top: 100px;
 
         div {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-between;
         margin: 20px;
 
-            img {
+            div {
                 display: flex;
                 flex-direction: column;
-                justify-items: center;
-                border: solid $negro;
-                padding: 5px;
-                box-shadow: 10px 5px 5px rgb(124, 124, 124);
-            }
+                justify-content: space-around;
+                align-items: center;
+                margin: 20px;
 
-            ul {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                padding-right: 20px;
-                font-size: 20px;
+                div {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    width: 147px;
+                    height: 147px;
+                    transition: background-color 1s, height 2s, width 2s;
+                    overflow: hidden;
+                    border: solid;
+                    box-shadow: 10px 5px 5px rgb(124, 124, 124);
+                    background-color: $blanco;
+
+                    img {
+                        display: flex;
+                        flex-direction: column;
+                        justify-items: center;
+                        padding: 17px;
+                        background-color: $blanco;
+                        transition: border 1s;
+                        width: 145px;
+                    }
+
+                    div {
+                        box-shadow: none;
+                        width: 600px;
+                        border: none;
+
+                        ul {
+                            display: flex;
+                            flex-direction: column;  
+                            box-shadow: none;
+                            
+                            li {
+                                color: $negro;
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
             }
         }
+    }
+}
+
+div#valenOcta {
+    width: 800px;
+}
+
+img#imgValen {
+    margin-left: 40px;
+}
+
+img#imgOcta {
+    margin-right: 40px;
+}
+
+div#todoNosotros {
+    height: 800px;
+}
+
+div#valen:hover {
+    width: 430px;
+    height: 180px;
+    margin-bottom: 20px; 
+    border: $negro solid;
+    background-color: $blanco;
+
+    img {
+        background-color: $blanco;
+        border: solid $negro;
+        padding: 10px;
+        margin-left: 10px;
+    }
+}
+
+div#octa:hover {
+    width: 430px;
+    height: 180px;
+    margin-bottom: 20px;
+    border: $negro solid;
+    background-color: $blanco;
+
+    img {
+        background-color: $blanco;
+        border: solid $negro;
+        padding: 10px;
+        margin-right: 10px;
+    }
+}
+
+div#cert {
+    display: none;
+
+    img {
+        width: 65px;
     }
 }
 
@@ -2865,9 +3086,10 @@ body {
 }
 
 /* --------------- RESERVA --------------- */
+
 main#reservaBarra {
     h1 {
-        font-size: 60px;
+        font-size: 40px;
         margin: 0px;
         margin-bottom: 20px;
     }
@@ -2889,6 +3111,8 @@ main#reservaBarra {
             margin-bottom: 50px;
             width: 70px;
             font-size: 15px;
+            background-color: $blanco;
+            margin-left: 20px;
         }
     }
 }
@@ -2971,7 +3195,6 @@ label.check input:checked+span {
     background-color: $mostaza;
     color: $blanco;    
 }
-
 
 
 
@@ -3245,6 +3468,23 @@ img#bartender  {
     margin-bottom: -50px;
     margin-right: 40px;
     z-index: 1;
+    width: 200px; 
+    height: 220px;
+}
+
+img#carta {
+    width: 100px; 
+    height: 130px;
+}
+
+img#cuadro {
+    width: 100px; 
+    height: 134px;
+}
+
+img#mesa {
+    width: 840px;
+    height: 490px;
 }
 
 img#bartender:hover {
@@ -3740,7 +3980,7 @@ th {
 }
 
 th#th {
-    font-size: 18px;     
+    font-size: 23px;     
 }
 
 td {    
@@ -3785,6 +4025,33 @@ body {
 }
 
 /* --------------- RESERVA --------------- */
+
+
+
+main#reservaBarra {
+    h1 {
+        margin: 0px;
+    }
+
+    div {
+        p {
+            font-size: 20px;
+            margin-bottom: .5rem;
+            line-height: 1.5rem
+        }
+
+        input {
+            box-shadow: 10px 5px 5px rgb(124, 124, 124);
+            margin-bottom: 50px;
+            width: 70px;
+            font-size: 15px;
+            background-color: $blanco;
+            margin-left: 20px;
+            margin-top: 0px;
+        }
+    }
+}
+
 .mt-100 {
     margin-top: 100px
 }
@@ -3835,22 +4102,6 @@ hr, .hrcolor {
     margin-bottom: .875rem;
     font-weight: 400;
     color: $gris;
-}
-
-
-main#reservaBarra {
-    div {
-        p {
-            font-size: 20px;
-            margin-bottom: .5rem;
-            line-height: 1.5rem
-        }
-
-        button {
-            box-shadow: 10px 5px 5px rgb(124, 124, 124);
-            margin-bottom: 50px;
-        }
-    }
 }
 
 label.check {

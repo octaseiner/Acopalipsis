@@ -253,7 +253,7 @@
     margin-bottom: 70px;
     margin-top: 50px; }
     div#barra img#tabla {
-      width: 320px; }
+      width: 240px; }
   /* --------------- SERVICIOS --------------- */
   body main#service {
     display: flex;
@@ -730,6 +730,8 @@
         flex-direction: row;
         justify-content: center;
         margin-top: 83px; }
+  a#nos {
+    text-align: right; }
   div#bartender {
     margin-bottom: -43px; }
     div#bartender img#bartender {
@@ -737,8 +739,6 @@
       margin-right: 40px;
       z-index: 1;
       width: 100px; }
-  a#nos {
-    text-align: right; }
   div#tragos {
     margin-bottom: -162px; }
     div#tragos img#tragos {
@@ -1193,10 +1193,12 @@
       justify-content: center;
       align-items: center;
       width: 100%;
-      z-index: 1; }
+      z-index: 1;
+      margin-top: 70px; }
       div#mainMobile div#up div {
         display: flex;
-        flex-direction: column; }
+        flex-direction: column;
+        align-items: center; }
         div#mainMobile div#up div a {
           font: 1rem "haters";
           text-decoration: none;
@@ -1232,19 +1234,43 @@
         flex-direction: row;
         justify-content: center;
         margin-top: 33px; }
-  div#bartender {
-    margin-bottom: -43px; }
   a#nos {
     text-align: right; }
+  div#bartender {
+    margin-bottom: -73px; }
+    div#bartender img#bartender {
+      margin-bottom: -50px;
+      margin-right: 40px;
+      z-index: 1;
+      width: 100px; }
   div#tragos {
-    margin-bottom: -110px; }
+    margin-bottom: -185px; }
+    div#tragos img#tragos {
+      width: 40px; }
   div#cuadro {
     margin-top: -100px; }
+    div#cuadro img#cuadro {
+      width: 50px; }
   div#carta {
-    margin-bottom: -100px;
+    margin-bottom: -175px;
     margin-left: 20px; }
+    div#carta img#carta {
+      width: 40px; }
   div#barra {
     margin-bottom: 70px; }
+    div#barra img#tabla {
+      width: 320px;
+      margin-bottom: 20px; }
+  div#barra {
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px; }
+    div#barra a#bar {
+      width: fit-content;
+      padding-left: 20px;
+      padding-right: 20px; }
   /* --------------- SERVICIOS --------------- */
   body main#service {
     display: flex;
@@ -2372,7 +2398,7 @@
       body main#bebidas div div div {
         box-shadow: none; }
   div#bat {
-    height: 1150px; }
+    height: 1250px; }
   table {
     border-collapse: collapse;
     background-image: url(../imagenes/logoopaco.png);

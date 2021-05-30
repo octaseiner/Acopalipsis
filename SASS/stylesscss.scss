@@ -407,7 +407,7 @@ div#barra {
     margin-top: 50px;
 
     img#tabla {
-        width: 320px; 
+        width: 240px; 
     }
     
 }
@@ -1197,6 +1197,10 @@ div#mainMobile {
     }
 }
 
+a#nos {
+    text-align: right;
+}
+
 div#bartender {
     margin-bottom: -43px;
 
@@ -1207,10 +1211,6 @@ div#bartender {
         width: 100px; 
     }
     
-}
-
-a#nos {
-    text-align: right;
 }
 
 div#tragos {
@@ -1993,10 +1993,12 @@ div#mainMobile {
         align-items: center;
         width: 100%;
         z-index: 1;
+        margin-top: 70px;
 
         div {
             display: flex;
             flex-direction: column;
+            align-items: center;
 
             a {
                 font: 1rem $haters;
@@ -2057,29 +2059,69 @@ div#mainMobile {
     }
 }
 
-div#bartender {
-    margin-bottom: -43px;
-}
-
 a#nos {
     text-align: right;
 }
 
+div#bartender {
+    margin-bottom: -73px;
+
+    img#bartender  {
+        margin-bottom: -50px;
+        margin-right: 40px;
+        z-index: 1;
+        width: 100px; 
+    }
+    
+}
+
 div#tragos {
-    margin-bottom: -110px;
+    margin-bottom: -185px;
+
+    img#tragos {
+        width: 40px; 
+    }
 }
 
 div#cuadro {
     margin-top: -100px;
+
+    img#cuadro {
+        width: 50px; 
+    }
 }
 
 div#carta {
-    margin-bottom: -100px;
+    margin-bottom: -175px;
     margin-left: 20px;
+
+    img#carta {
+        width: 40px; 
+    }
 }
 
 div#barra {
     margin-bottom: 70px;
+
+    img#tabla {
+        width: 320px; 
+        margin-bottom: 20px;
+    }
+    
+}
+
+div#barra {
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+
+    a#bar {
+        width: fit-content;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
 
@@ -3958,7 +4000,7 @@ body {
 }
 
 div#bat {
-    height: 1150px;
+    height: 1250px;
 }
 
 table {

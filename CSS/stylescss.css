@@ -8,7 +8,7 @@
 
 /* MEDIA QUERIES */
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 319px) {
   /* --------------- BODY --------------- */
   body {
     background-image: url(../imagenes/fondo.png);
@@ -1158,7 +1158,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: black;
-    padding-bottom: 10px; }
+    padding-bottom: 40px; }
     footer p {
       font-family: "haters";
       font-size: 30px;
@@ -1194,7 +1194,7 @@
       align-items: center;
       width: 100%;
       z-index: 1;
-      margin-top: 70px; }
+      margin-top: 120px; }
       div#mainMobile div#up div {
         display: flex;
         flex-direction: column;
@@ -1257,11 +1257,6 @@
     div#carta img#carta {
       width: 40px; }
   div#barra {
-    margin-bottom: 70px; }
-    div#barra img#tabla {
-      width: 320px;
-      margin-bottom: 20px; }
-  div#barra {
     margin-bottom: 70px;
     display: flex;
     flex-direction: column;
@@ -1270,7 +1265,11 @@
     div#barra a#bar {
       width: fit-content;
       padding-left: 20px;
-      padding-right: 20px; }
+      padding-right: 20px;
+      margin-bottom: 100px; }
+    div#barra img#tabla {
+      width: 320px;
+      margin-bottom: 30px; }
   /* --------------- SERVICIOS --------------- */
   body main#service {
     display: flex;
@@ -1292,86 +1291,40 @@
   body main#nos {
     display: flex;
     flex-direction: column;
-    justify-content: center; }
+    justify-content: center;
+    margin-top: 40px;
+    align-items: center; }
     body main#nos h1 {
       font-size: 40px; }
-    body main#nos div {
+    body main#nos div#valen {
       display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      height: 500px; }
-      body main#nos div div {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 20px;
-        height: 400px; }
-        body main#nos div div div {
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          width: 147px;
-          height: 147px;
-          transition: background-color 1s, height 2s, width 2s;
-          overflow: hidden;
-          border: solid;
-          box-shadow: 10px 5px 5px #7c7c7c;
-          background-color: snow; }
-          body main#nos div div div img {
-            display: flex;
-            flex-direction: column;
-            justify-items: center;
-            padding: 17px;
-            background-color: snow;
-            transition: border 1s;
-            width: 145px; }
-          body main#nos div div div div {
-            box-shadow: none;
-            width: 600px;
-            border: none; }
-            body main#nos div div div div ul {
-              display: flex;
-              flex-direction: column;
-              box-shadow: none; }
-              body main#nos div div div div ul li {
-                color: black;
-                font-size: 12px; }
-  div#valenOcta {
-    width: 800px; }
-  img#imgValen {
-    margin-left: 40px; }
-  img#imgOcta {
-    margin-right: 40px; }
-  div#todoNosotros {
-    height: 800px; }
-  div#valen:hover {
-    width: 430px;
-    height: 180px;
-    margin-bottom: 20px;
-    border: black solid;
-    background-color: snow; }
-    div#valen:hover img {
-      background-color: snow;
-      border: solid black;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      body main#nos div#valen img {
+        padding: 10px;
+        border: solid;
+        background-color: snow; }
+    body main#nos div#octa {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center; }
+      body main#nos div#octa img {
+        padding: 10px;
+        border: solid;
+        background-color: snow; }
+    body main#nos div#ulNos ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 250px;
       padding: 10px;
-      margin-left: 10px; }
-  div#octa:hover {
-    width: 430px;
-    height: 180px;
-    margin-bottom: 20px;
-    border: black solid;
-    background-color: snow; }
-    div#octa:hover img {
+      padding-left: 20px;
+      border: solid;
       background-color: snow;
-      border: solid black;
-      padding: 10px;
-      margin-right: 10px; }
-  div#cert {
-    display: none; }
-    div#cert img {
-      width: 70px;
-      margin-bottom: 50px; }
+      font-size: 80%;
+      margin: 30px; }
   /* --------------- COCKTAILS --------------- */
   body main#bebidas div {
     display: flex;
@@ -1570,7 +1523,7 @@
       transform: rotate(360deg); } } }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1224px) {
+@media only screen and (min-device-width: 769px) and (max-device-width: 1223px) {
   /* --------------- BODY --------------- */
   body {
     background-image: url(../imagenes/fondo.png);
@@ -2240,7 +2193,8 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        border-radius: 20px; }
+        border-radius: 20px;
+        width: 300px; }
   .top {
     margin-bottom: 50px; }
   /* FLIP */
@@ -2377,8 +2331,7 @@
       border: solid black;
       padding: 10px; }
   .certificados {
-    padding-left: 150px;
-    padding-right: 150px; }
+    display: none; }
     .certificados img {
       box-shadow: 0px 5px 5px #7c7c7c; }
   /* --------------- COCKTAILS --------------- */

@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
 @font-face {
   font-family: "haters";
   src: url("../font/heaters/Heaters.otf"); }
@@ -373,7 +372,7 @@
     font-size: 12px; }
   body main#bebidas ol {
     font-size: 12px; }
-  tr:hover td {
+  body main#bebidas tr:hover td {
     background: transparent;
     color: #FFCF0B; }
   /* --------------- CONTACTO --------------- */
@@ -543,7 +542,7 @@
       margin: 5px; }
   /* --------------- NAV --------------- */
   /* GENERAL*/
-  body header DIV#navMobile {
+  body header div#navMobile {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -710,59 +709,58 @@
           color: #FFCF0B;
           background-clip: text;
           text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+      div#mainMobile div#up div#bartender {
+        margin-bottom: -43px; }
+        div#mainMobile div#up div#bartender img#bartender {
+          margin-bottom: -50px;
+          margin-right: 40px;
+          z-index: 1;
+          width: 100px; }
+        div#mainMobile div#up div#bartender a#nos {
+          text-align: right; }
+      div#mainMobile div#up div#tragos {
+        margin-bottom: -162px; }
+        div#mainMobile div#up div#tragos img#tragos {
+          width: 40px; }
+      div#mainMobile div#up div#cuadro {
+        margin-top: -100px; }
+        div#mainMobile div#up div#cuadro img#cuadro {
+          width: 50px; }
+      div#mainMobile div#up div#carta {
+        margin-bottom: -145px;
+        margin-left: 20px; }
+        div#mainMobile div#up div#carta img#carta {
+          width: 40px; }
     div#mainMobile div#down {
       display: flex;
       flex-direction: column;
       align-items: center;
       width: 100%;
       z-index: 0; }
-      div#mainMobile div#down div#barra a#bar {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        font: 1rem "haters";
-        text-decoration: none;
-        text-transform: uppercase;
-        background: linear-gradient(var(--fill-color) 0 100%) left/0 no-repeat;
-        color: #FFCF0B;
-        background-clip: text;
-        text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-        margin-top: 15px;
-        font-size: 150%;
-        border: solid #FFCF0B;
-        margin-left: 50px;
-        margin-right: 50px; }
-      div#mainMobile div#down div#barra img {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin-top: 83px; }
-  a#nos {
-    text-align: right; }
-  div#bartender {
-    margin-bottom: -43px; }
-    div#bartender img#bartender {
-      margin-bottom: -50px;
-      margin-right: 40px;
-      z-index: 1;
-      width: 100px; }
-  div#tragos {
-    margin-bottom: -162px; }
-    div#tragos img#tragos {
-      width: 40px; }
-  div#cuadro {
-    margin-top: -100px; }
-    div#cuadro img#cuadro {
-      width: 50px; }
-  div#carta {
-    margin-bottom: -145px;
-    margin-left: 20px; }
-    div#carta img#carta {
-      width: 40px; }
-  div#barra {
-    margin-bottom: 70px; }
-    div#barra img#tabla {
-      width: 320px; }
+      div#mainMobile div#down div#barra {
+        margin-bottom: 70px; }
+        div#mainMobile div#down div#barra a#bar {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          font: 1rem "haters";
+          text-decoration: none;
+          text-transform: uppercase;
+          background: linear-gradient(var(--fill-color) 0 100%) left/0 no-repeat;
+          color: #FFCF0B;
+          background-clip: text;
+          text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+          margin-top: 15px;
+          font-size: 150%;
+          border: solid #FFCF0B;
+          margin-left: 50px;
+          margin-right: 50px; }
+        div#mainMobile div#down div#barra img {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          margin-top: 83px;
+          width: 320px; }
   /* --------------- SERVICIOS --------------- */
   body main#service {
     display: flex;
@@ -840,6 +838,16 @@
       body main#bebidas div div div {
         box-shadow: none;
         padding: 5px; }
+        body main#bebidas div div div table#bat {
+          width: 100px;
+          margin-right: 200px; }
+          body main#bebidas div div div table#bat th {
+            width: fit-content; }
+        body main#bebidas div div div table#dir {
+          width: 100px;
+          margin-right: 200px; }
+          body main#bebidas div div div table#dir th {
+            width: fit-content; }
   body main#bebidas h1 {
     font-size: 40px;
     margin-top: 40px; }
@@ -853,37 +861,24 @@
     font-size: 12px; }
     body main#bebidas ol li {
       width: 50px; }
-  table#dir {
-    width: 100px;
-    margin-right: 200px; }
-  th {
+  body main#bebidas th {
     font-size: 12px;
     font-weight: bold;
     padding: 4px;
     background: transparent;
-    border-top: 4px solid black;
+    border-top: 1px solid snow;
     border-bottom: 1px solid snow;
     color: #FFCF0B;
     width: 10px; }
-  th#th {
+  body main#bebidas th#th {
     font-size: 17px;
     letter-spacing: 2px; }
-  td {
+  body main#bebidas td {
     background: transparent;
     border-bottom: 1px solid snow;
     color: snow;
     border-top: 1px solid transparent; }
-  table#dir {
-    width: 100px;
-    margin-right: 200px; }
-  table#dir th {
-    width: fit-content; }
-  table#bat {
-    width: 100px;
-    margin-right: 200px; }
-  table#bat th {
-    width: fit-content; }
-  tr:hover td {
+  body main#bebidas tr:hover td {
     background: transparent;
     color: #FFCF0B; }
   /* --------------- CONTACTO --------------- */

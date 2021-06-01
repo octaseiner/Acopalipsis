@@ -592,12 +592,14 @@ body {
         ol {
             font-size: 12px;
         }
+
+        tr:hover td {
+            background: transparent; color: $mostaza; 
+        }
     }
 }
 
-tr:hover td {
-    background: transparent; color: $mostaza; 
-}
+
 
 
 /* --------------- CONTACTO --------------- */
@@ -912,7 +914,7 @@ body {
 /* GENERAL*/
 body {
     header {
-        DIV#navMobile {
+        div#navMobile {
                 display: flex;
                 flex-direction: row;
                 justify-content: space-around;
@@ -1124,8 +1126,6 @@ footer {
 }
 
 /* --------------- INDEX --------------- */
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
-
 div#mainMobile {
     display: flex;
     flex-direction: column;
@@ -1161,6 +1161,47 @@ div#mainMobile {
                 1px 1px 0 #000;
             }
         }
+
+        div#bartender {
+            margin-bottom: -43px;
+        
+            img#bartender  {
+                margin-bottom: -50px;
+                margin-right: 40px;
+                z-index: 1;
+                width: 100px; 
+            }
+            
+            a#nos {
+                text-align: right;
+            }
+        }
+
+        div#tragos {
+            margin-bottom: -162px;
+        
+            img#tragos {
+                width: 40px; 
+            }
+        }
+        
+        div#cuadro {
+            margin-top: -100px;
+        
+            img#cuadro {
+                width: 50px; 
+            }
+        }
+        
+        div#carta {
+            margin-bottom: -145px;
+            margin-left: 20px;
+        
+            img#carta {
+                width: 40px; 
+            }
+        }
+        
     }
 
     div#down {
@@ -1171,6 +1212,7 @@ div#mainMobile {
         z-index: 0;
 
         div#barra {
+            margin-bottom: 70px;
 
             a#bar {
                 display: flex;
@@ -1200,59 +1242,10 @@ div#mainMobile {
                 flex-direction: row;
                 justify-content: center;
                 margin-top: 83px;
+                width: 320px; 
             }
         }
     }
-}
-
-a#nos {
-    text-align: right;
-}
-
-div#bartender {
-    margin-bottom: -43px;
-
-    img#bartender  {
-        margin-bottom: -50px;
-        margin-right: 40px;
-        z-index: 1;
-        width: 100px; 
-    }
-    
-}
-
-div#tragos {
-    margin-bottom: -162px;
-
-    img#tragos {
-        width: 40px; 
-    }
-}
-
-div#cuadro {
-    margin-top: -100px;
-
-    img#cuadro {
-        width: 50px; 
-    }
-}
-
-div#carta {
-    margin-bottom: -145px;
-    margin-left: 20px;
-
-    img#carta {
-        width: 40px; 
-    }
-}
-
-div#barra {
-    margin-bottom: 70px;
-
-    img#tabla {
-        width: 320px; 
-    }
-    
 }
 
 
@@ -1263,7 +1256,6 @@ body {
         flex-direction: column;
         align-items: center;
         margin-bottom: 50px;
-
 
         h1 {
             font-size: 40px;
@@ -1358,7 +1350,6 @@ body {
 }
 
 
-
 /* --------------- COCKTAILS --------------- */
 body {
     main#bebidas {
@@ -1380,6 +1371,25 @@ body {
                 div {
                     box-shadow: none;
                     padding: 5px;
+
+                    table#bat {
+                        width: 100px;
+                        margin-right: 200px;
+                    
+                        th {
+                        width: fit-content;
+                        }
+                    }
+
+                    table#dir {
+                        width: 100px;
+                        margin-right: 200px;
+                        
+                        th {
+                        width: fit-content;
+                        }
+                    }
+                    
                 }
             }
         }
@@ -1408,59 +1418,38 @@ body {
                 width: 50px;
             }
         }
+
+        th {     
+            font-size: 12px;     
+            font-weight: bold;     
+            padding: 4px;     
+            background: transparent;
+            border-top: 1px solid $blanco;    
+            border-bottom: 1px solid $blanco; 
+            color: $mostaza; 
+            width: 10px;
+        }
+        
+        th#th { 
+            font-size: 17px;
+            letter-spacing: 2px;
+        }
+        
+        td {     
+            background: transparent;     
+            border-bottom: 1px solid $blanco;
+            color: $blanco;    
+            border-top: 1px solid transparent; 
+        }
+        
+        tr:hover td {
+            background: transparent; color: $mostaza; 
+        }
     }
 }
 
 
-table#dir {
-    width: 100px;
-    margin-right: 200px;
-}
 
-th {     
-    font-size: 12px;     
-    font-weight: bold;     
-    padding: 4px;     
-    background: transparent;
-    border-top: 4px solid $negro;    
-    border-bottom: 1px solid $blanco; 
-    color: $mostaza; 
-    width: 10px;
-}
-
-th#th { 
-    font-size: 17px;
-    letter-spacing: 2px;
-}
-
-td {     
-    background: transparent;     
-    border-bottom: 1px solid $blanco;
-    color: $blanco;    
-    border-top: 1px solid transparent; 
-}
-
-table#dir {
-    width: 100px;
-    margin-right: 200px;
-}
-
-table#dir th{
-    width: fit-content;
-}
-
-table#bat {
-    width: 100px;
-    margin-right: 200px;
-}
-
-table#bat th{
-    width: fit-content;
-}
-
-tr:hover td {
-    background: transparent; color: $mostaza; 
-}
 
 
 /* --------------- CONTACTO --------------- */
@@ -1630,7 +1619,6 @@ label.check input:checked+span {
 .hidden {
     display: none;
 }
-
 
 /* TEXTO*/
 /* COLOR */

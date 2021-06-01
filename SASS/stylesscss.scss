@@ -19,7 +19,9 @@ $negro: black;
 
 /* MEDIA QUERIES */
 
-/* Smartphones (portrait) ----------- */
+/* ---------------- Smartphones (portrait) ---------------- */
+
+
 @media only screen and (max-width : 319px) {
 /* --------------- BODY --------------- */
 body {
@@ -838,35 +840,10 @@ $colorFont: (
 
 
 
+/* ---------------- Smartphones (portrait and landscape) ---------------- */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen
-and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
 /* --------------- BODY --------------- */
 body {
@@ -1692,42 +1669,7 @@ $colorFont: (
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ---------------- INTERMEDIO ---------------- */
 
 
 
@@ -1988,8 +1930,6 @@ footer {
 }
 
 /* --------------- INDEX --------------- */
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
-
 div#mainMobile {
     display: flex;
     flex-direction: column;
@@ -2026,6 +1966,46 @@ div#mainMobile {
                 1px 1px 0 #000;
             }
         }
+
+        div#bartender {
+            margin-bottom: -73px;
+        
+            img#bartender  {
+                margin-bottom: -50px;
+                margin-right: 40px;
+                z-index: 1;
+                width: 100px; 
+            }
+            
+            a#nos {
+                text-align: right;
+            }
+        }
+        
+        div#tragos {
+            margin-bottom: -185px;
+        
+            img#tragos {
+                width: 40px; 
+            }
+        }
+        
+        div#cuadro {
+            margin-top: -100px;
+        
+            img#cuadro {
+                width: 50px; 
+            }
+        }
+        
+        div#carta {
+            margin-bottom: -175px;
+            margin-left: 20px;
+        
+            img#carta {
+                width: 40px; 
+            }
+        }
     }
 
     div#down {
@@ -2036,6 +2016,11 @@ div#mainMobile {
         z-index: 0;
 
         div#barra {
+            margin-bottom: 70px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 80px;
 
             a#bar {
                 display: flex;
@@ -2053,84 +2038,28 @@ div#mainMobile {
                 1px -1px 0 #000,
                 -1px 1px 0 #000,
                 1px 1px 0 #000;
-                margin-top: 15px;
                 font-size: 150%;
                 border: solid $mostaza;
+                padding-left: 20px;
+                padding-right: 20px;
                 margin-left: 50px;
                 margin-right: 50px;
+                margin-bottom: 100px;
+                margin-top: 15px;
+                width: fit-content;
             }
 
             img {
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
+                width: 320px; 
+                margin-bottom: 30px;
                 margin-top: 33px;
             }
         }
     }
 }
-
-a#nos {
-    text-align: right;
-}
-
-div#bartender {
-    margin-bottom: -73px;
-
-    img#bartender  {
-        margin-bottom: -50px;
-        margin-right: 40px;
-        z-index: 1;
-        width: 100px; 
-    }
-    
-}
-
-div#tragos {
-    margin-bottom: -185px;
-
-    img#tragos {
-        width: 40px; 
-    }
-}
-
-div#cuadro {
-    margin-top: -100px;
-
-    img#cuadro {
-        width: 50px; 
-    }
-}
-
-div#carta {
-    margin-bottom: -175px;
-    margin-left: 20px;
-
-    img#carta {
-        width: 40px; 
-    }
-}
-
-div#barra {
-    margin-bottom: 70px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 80px;
-
-    a#bar {
-        width: fit-content;
-        padding-left: 20px;
-        padding-right: 20px;
-        margin-bottom: 100px;
-    }
-
-    img#tabla {
-        width: 320px; 
-        margin-bottom: 30px;
-    }
-}
-
 
 
 /* --------------- SERVICIOS --------------- */
@@ -2262,6 +2191,47 @@ body {
                 div {
                     box-shadow: none;
                     padding: 5px;
+
+                    table {
+                        border-collapse: collapse;
+                        padding: 3px;
+                        background-image: url(../imagenes/logoopaco.png);
+                        background-repeat:no-repeat;
+                        background-position:center center;
+                        background-size: 120%;
+                    
+                        th {     
+                            font-size: 12px;     
+                            font-weight: bold;     
+                            padding: 4px;     
+                            background: transparent;
+                            border-top: 1px solid $blanco;    
+                            border-bottom: 1px solid $blanco; 
+                            color: $mostaza; 
+                            letter-spacing: 2px;
+                        }
+                    
+                        th#th { 
+                            font-size: 17px;
+                        }
+                    
+                        td {    
+                            padding: 4px;    
+                            background: transparent;     
+                            border-bottom: 1px solid $blanco;
+                            color: $blanco;    
+                            border-top: 1px solid transparent; 
+                        }
+                    }
+                    
+                    table#segunda {
+                        width: 100px;
+                        margin-right: 200px;
+                        
+                        th{
+                        width: fit-content;
+                        }
+                    }
                 }
             }
         }
@@ -2282,54 +2252,14 @@ body {
         ol {
             font-size: 12px;
         }
+
+        tr:hover td {
+            background: transparent; color: $mostaza; 
+        }        
     }
 }
 
 
-table {
-    border-collapse: collapse;
-    padding: 3px;
-    background-image: url(../imagenes/logoopaco.png);
-    background-repeat:no-repeat;
-    background-position:center center;
-    background-size: 120%;
-}
-
-th {     
-    font-size: 12px;     
-    font-weight: bold;     
-    padding: 4px;     
-    background: transparent;
-    border-top: 4px solid $negro;    
-    border-bottom: 1px solid $blanco; 
-    color: $mostaza; 
-    letter-spacing: 2px;
-}
-
-th#th { 
-    font-size: 17px;
-}
-
-td {    
-    padding: 4px;    
-    background: transparent;     
-    border-bottom: 1px solid $blanco;
-    color: $blanco;    
-    border-top: 1px solid transparent; 
-}
-
-table#segunda {
-    width: 100px;
-    margin-right: 200px;
-}
-
-table#segunda th{
-    width: fit-content;
-}
-
-tr:hover td {
-    background: transparent; color: $mostaza; 
-}
 
 
 /* --------------- CONTACTO --------------- */
@@ -2474,12 +2404,6 @@ label.check input:checked+span {
 
 
 
-
-
-
-
-
-
 /* --------------- CLASES --------------- */
 
 /* GENERALES */
@@ -2499,8 +2423,6 @@ label.check input:checked+span {
 .hidden {
     display: none;
 }
-
-
 
 /* TEXTO*/
 /* COLOR */
@@ -2541,7 +2463,6 @@ $colorFont: (
     font-family: $haters;
 }
 
-
 /* LISTAS */
 .listRoman {
     list-style-type: upper-roman;
@@ -2572,35 +2493,10 @@ $colorFont: (
 
 
 
+/* --------------- iPads (portrait and landscape) --------------- */
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 769px) and (max-device-width : 1223px) {
     /* --------------- BODY --------------- */
 body {

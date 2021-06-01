@@ -1946,7 +1946,6 @@
     display: none; }
   /* TEXTO*/
   /* COLOR */
-  /* COLOR */
   .colormostaza #FFCF0B {
     color: #FFCF0B; }
   .colorMostaza {
@@ -1985,6 +1984,7 @@
     100% {
       transform: rotate(360deg); } } }
 
+/* --------------- Desktops and laptops --------------- */
 @media only screen and (min-width: 1224px) {
   /* --------------- BODY --------------- */
   body {
@@ -2046,162 +2046,155 @@
     display: flex;
     flex-direction: row;
     justify-content: center; }
-  div#medio {
-    display: flex;
-    flex-direction: column; }
-  div#centro {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-end;
-    margin-bottom: 30px; }
-  div#barra {
-    padding: 0%;
-    margin: 0%; }
-  div#centro a {
-    z-index: 1; }
-  div#barra a {
-    z-index: 0; }
-  /* /imagenes */
-  img#bartender {
-    margin-bottom: -50px;
-    margin-right: 40px;
-    z-index: 1;
-    width: 200px;
-    height: 220px; }
-  img#carta {
-    width: 100px;
-    height: 130px; }
-  img#cuadro {
-    width: 100px;
-    height: 134px; }
-  img#mesa {
-    width: 840px;
-    height: 490px; }
-  img#bartender:hover {
-    background: url(../imagenes/BartenderC.png) no-repeat;
-    margin-bottom: -50px;
-    z-index: 1; }
-  img#carta {
-    background: url(../imagenes/Cartas.png);
-    margin-right: 120px;
-    margin-bottom: -50px;
-    z-index: 1; }
-  img#carta:hover {
-    background: url(../imagenes/CartasC.png) no-repeat;
-    margin-right: 120px;
-    margin-bottom: -50px;
-    z-index: 1; }
-  img#cuadro {
-    background: url(../imagenes/Cuadro.png);
-    margin-bottom: 120px;
-    margin-right: 20px; }
-  img#cuadro:hover {
-    background: url(../imagenes/CuadroC.png);
-    margin-bottom: 120px;
-    margin-right: 20px; }
-  img#tragos {
-    margin-left: 120px;
-    margin-bottom: -40px;
-    z-index: 1; }
-  img#tragos:hover {
-    background: url(../imagenes/TragosC.png) no-repeat;
-    margin-left: 120px;
-    margin-bottom: -40px;
-    z-index: 1; }
-  img#mesa {
-    background: url(../imagenes/Barras.png) no-repeat; }
-  img#mesa:hover {
-    background: url(../imagenes/BarrasC.png) no-repeat;
-    border: black; }
-  /* FLECHAS */
-  div#izquierda {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-end; }
-  div#derecha {
-    flex-direction: column;
-    justify-content: flex-start; }
-  img#a {
-    margin-top: 100px;
-    margin-right: -80px; }
-  img#r {
-    margin-top: 150px;
-    margin-right: -120px; }
-  img#o {
-    margin-right: -200px; }
-  img#w {
-    margin-left: -280px;
-    margin-top: -70px; }
-  img#s {
-    margin-top: 230px;
-    margin-left: -40px; }
-  /* TEXTO */
-  div#izq {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-end;
-    height: 570px;
-    margin-top: 30px;
-    padding-bottom: 40px; }
-  div#izq a {
-    text-decoration: none; }
-  div#der {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    height: 180px;
-    margin-top: 70px; }
-  div#der a {
-    text-decoration: none; }
-  a#cont {
-    margin-right: -170px;
-    transform: rotate(15deg);
-    font-family: "haters";
-    font-size: 300%;
-    color: black; }
-  a#cont:hover {
-    color: #FFCF0B;
-    text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
-  a#coc {
-    margin-right: -60px;
-    transform: rotate(-15deg);
-    font-family: "haters";
-    font-size: 300%;
-    color: black; }
-  a#coc:hover {
-    color: #FFCF0B;
-    text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
-  a#res {
-    margin-right: -40px;
-    transform: rotate(15deg);
-    font-family: "haters";
-    font-size: 300%;
-    color: black; }
-  a#res:hover {
-    color: #FFCF0B;
-    text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
-  a#bart {
-    margin-left: -120px;
-    transform: rotate(-15deg);
-    font-family: "haters";
-    font-size: 300%;
-    color: black; }
-  a#bart:hover {
-    color: #FFCF0B;
-    text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
-  a#serv {
-    margin-left: -40px;
-    transform: rotate(15deg);
-    font-family: "haters";
-    font-size: 300%;
-    color: black; }
-  a#serv:hover {
-    color: #FFCF0B;
-    text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+    body main nav div#izq {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-end;
+      height: 570px;
+      margin-top: 30px;
+      padding-bottom: 40px; }
+      body main nav div#izq a {
+        text-decoration: none; }
+      body main nav div#izq a#cont {
+        margin-right: -170px;
+        transform: rotate(15deg);
+        font-family: "haters";
+        font-size: 300%;
+        color: black; }
+      body main nav div#izq a#cont:hover {
+        color: #FFCF0B;
+        text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+      body main nav div#izq a#coc {
+        margin-right: -60px;
+        transform: rotate(-15deg);
+        font-family: "haters";
+        font-size: 300%;
+        color: black; }
+      body main nav div#izq a#coc:hover {
+        color: #FFCF0B;
+        text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+      body main nav div#izq a#res {
+        margin-right: -40px;
+        transform: rotate(15deg);
+        font-family: "haters";
+        font-size: 300%;
+        color: black; }
+      body main nav div#izq a#res:hover {
+        color: #FFCF0B;
+        text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+    body main nav div#izquierda {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-end; }
+      body main nav div#izquierda img#a {
+        margin-top: 100px;
+        margin-right: -80px; }
+      body main nav div#izquierda img#r {
+        margin-top: 150px;
+        margin-right: -120px; }
+      body main nav div#izquierda img#o {
+        margin-right: -200px; }
+    body main nav div#medio {
+      display: flex;
+      flex-direction: column; }
+      body main nav div#medio div#barra a {
+        z-index: 0;
+        padding: 0%;
+        margin: 0%; }
+      body main nav div#medio div#barra img#mesa {
+        width: 840px;
+        height: 490px;
+        background: url(../imagenes/Barras.png) no-repeat; }
+      body main nav div#medio div#barra img#mesa:hover {
+        background: url(../imagenes/BarrasC.png) no-repeat;
+        border: black; }
+      body main nav div#medio div#centro {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-end;
+        margin-bottom: 30px; }
+        body main nav div#medio div#centro img#bartender {
+          margin-bottom: -50px;
+          margin-right: 40px;
+          z-index: 1;
+          width: 200px;
+          height: 220px; }
+        body main nav div#medio div#centro img#bartender:hover {
+          background: url(../imagenes/BartenderC.png) no-repeat;
+          margin-bottom: -50px;
+          z-index: 1; }
+        body main nav div#medio div#centro img#carta {
+          width: 100px;
+          height: 130px;
+          background: url(../imagenes/Cartas.png);
+          margin-right: 120px;
+          margin-bottom: -50px;
+          z-index: 1; }
+        body main nav div#medio div#centro img#carta:hover {
+          background: url(../imagenes/CartasC.png) no-repeat;
+          margin-right: 120px;
+          margin-bottom: -50px;
+          z-index: 1; }
+        body main nav div#medio div#centro img#cuadro {
+          width: 100px;
+          height: 134px;
+          background: url(../imagenes/Cuadro.png);
+          margin-bottom: 120px;
+          margin-right: 20px; }
+        body main nav div#medio div#centro img#cuadro:hover {
+          background: url(../imagenes/CuadroC.png);
+          margin-bottom: 120px;
+          margin-right: 20px; }
+        body main nav div#medio div#centro img#tragos {
+          margin-left: 120px;
+          margin-bottom: -40px;
+          z-index: 1; }
+        body main nav div#medio div#centro img#tragos:hover {
+          background: url(../imagenes/TragosC.png) no-repeat;
+          margin-left: 120px;
+          margin-bottom: -40px;
+          z-index: 1; }
+        body main nav div#medio div#centro a {
+          z-index: 1; }
+    body main nav div#derecha {
+      flex-direction: column;
+      justify-content: flex-start; }
+      body main nav div#derecha img#w {
+        margin-left: -280px;
+        margin-top: -70px; }
+      body main nav div#derecha img#s {
+        margin-top: 230px;
+        margin-left: -40px; }
+    body main nav div#der {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      height: 180px;
+      margin-top: 70px; }
+      body main nav div#der a {
+        text-decoration: none; }
+      body main nav div#der a#bart {
+        margin-left: -120px;
+        transform: rotate(-15deg);
+        font-family: "haters";
+        font-size: 300%;
+        color: black; }
+      body main nav div#der a#bart:hover {
+        color: #FFCF0B;
+        text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+      body main nav div#der a#serv {
+        margin-left: -40px;
+        transform: rotate(15deg);
+        font-family: "haters";
+        font-size: 300%;
+        color: black; }
+      body main nav div#der a#serv:hover {
+        color: #FFCF0B;
+        text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
   /* --------------- SERVICIOS --------------- */
   body main#service {
     display: flex;
@@ -2380,31 +2373,31 @@
       border-radius: 5px; }
       body main#bebidas div div div {
         box-shadow: none; }
-  div#bat {
-    height: 1250px; }
-  table {
-    border-collapse: collapse;
-    background-image: url(../imagenes/logoopaco.png);
-    background-repeat: no-repeat;
-    background-position: center center; }
-  th {
-    font-size: 12px;
-    font-weight: bold;
-    padding: 8px;
-    background: transparent;
-    border-top: 4px solid black;
-    border-bottom: 1px solid snow;
-    color: #FFCF0B;
-    letter-spacing: 2px; }
-  th#th {
-    font-size: 23px; }
-  td {
-    padding: 8px;
-    background: transparent;
-    border-bottom: 1px solid snow;
-    color: snow;
-    border-top: 1px solid transparent; }
-  tr:hover td {
+        body main#bebidas div div div table {
+          border-collapse: collapse;
+          background-image: url(../imagenes/logoopaco.png);
+          background-repeat: no-repeat;
+          background-position: center center; }
+          body main#bebidas div div div table th {
+            font-size: 12px;
+            font-weight: bold;
+            padding: 8px;
+            background: transparent;
+            border-top: 1px solid snow;
+            border-bottom: 1px solid snow;
+            color: #FFCF0B;
+            letter-spacing: 2px; }
+          body main#bebidas div div div table th#th {
+            font-size: 23px; }
+          body main#bebidas div div div table td {
+            padding: 8px;
+            background: transparent;
+            border-bottom: 1px solid snow;
+            color: snow;
+            border-top: 1px solid transparent; }
+    body main#bebidas div div#bat {
+      height: 1250px; }
+  body main#bebidas tr:hover td {
     background: transparent;
     color: #FFCF0B; }
   /* --------------- CONTACTO --------------- */

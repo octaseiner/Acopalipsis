@@ -3120,11 +3120,6 @@ label.check input:checked+span {
 
 
 
-
-
-
-
-
 /* --------------- CLASES --------------- */
 
 /* GENERALES */
@@ -3149,9 +3144,7 @@ label.check input:checked+span {
     display: none;
 }
 
-
 /* TEXTO*/
-/* COLOR */
 /* COLOR */
 $colorFont: (
     colormostaza$mostaza: $mostaza,
@@ -3222,37 +3215,7 @@ $colorFont: (
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* --------------- Desktops and laptops --------------- */
 
 
 
@@ -3283,7 +3246,6 @@ body {
             margin-bottom: 50px;
             background-color: $negro;
         }
-
     }
 }
 
@@ -3353,272 +3315,257 @@ body {
         display: flex;
         flex-direction: row;
         justify-content: center;
+
+            div#izq {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: flex-end;
+                height: 570px;
+                margin-top: 30px;
+                padding-bottom: 40px;
+            
+                a {
+                    text-decoration: none;
+                }
+            
+                a#cont {
+                    margin-right: -170px;
+                    transform: rotate(15deg);
+                    font-family: $haters;
+                    font-size: 300%;
+                    color: $negro;
+                }
+                
+                a#cont:hover {
+                    color: $mostaza;
+                    text-shadow:
+                    0 0 1px #000,
+                    -1px -1px 0 #000,  
+                    1px -1px 0 #000,
+                    -1px 1px 0 #000,
+                    1px 1px 0 #000;
+                }
+                
+                a#coc {
+                    margin-right: -60px;
+                    transform: rotate(-15deg);
+                    font-family: $haters;
+                    font-size: 300%;
+                    color: $negro;
+                }
+                
+                a#coc:hover {
+                    color: $mostaza;
+                    text-shadow:
+                    0 0 1px #000,
+                    -1px -1px 0 #000,  
+                    1px -1px 0 #000,
+                    -1px 1px 0 #000,
+                    1px 1px 0 #000;
+                }
+                
+                a#res {
+                    margin-right: -40px;
+                    transform: rotate(15deg);
+                    font-family: $haters;
+                    font-size: 300%;
+                    color: $negro;
+                }
+                
+                a#res:hover {
+                    color: $mostaza;
+                    text-shadow:
+                    0 0 1px #000,
+                    -1px -1px 0 #000,  
+                    1px -1px 0 #000,
+                    -1px 1px 0 #000,
+                    1px 1px 0 #000;
+                }
+            }
+
+            div#izquierda {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-end;
+            
+                img#a  {
+                    margin-top: 100px;
+                    margin-right: -80px;
+                }
+                
+                img#r {
+                    margin-top: 150px;
+                    margin-right: -120px;
+                }
+                
+                img#o  {
+                    margin-right: -200px;
+                }
+            }
+
+            div#medio {
+                display: flex;
+                flex-direction: column;
+
+                div#barra {
+                    a {
+                        z-index: 0;
+                        padding:0%;
+                        margin:0%;
+                    }
+
+                    img#mesa {
+                        width: 840px;
+                        height: 490px;
+                        background: url(../imagenes/Barras.png) no-repeat;
+                    }
+
+                    img#mesa:hover {
+                        background: url(../imagenes/BarrasC.png) no-repeat;
+                        border: black;
+                    }
+                }
+
+                div#centro {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: flex-end;
+                    margin-bottom: 30px;
+
+                    img#bartender  {
+                        margin-bottom: -50px;
+                        margin-right: 40px;
+                        z-index: 1;
+                        width: 200px; 
+                        height: 220px;
+                    }
+
+                    img#bartender:hover {
+                        background:url(../imagenes/BartenderC.png) no-repeat;
+                        margin-bottom: -50px; 
+                        z-index: 1;
+                    }
+                    
+                    img#carta {
+                        width: 100px; 
+                        height: 130px;
+                        background: url(../imagenes/Cartas.png);
+                        margin-right: 120px;
+                        margin-bottom: -50px;
+                        z-index: 1;
+                    }
+
+                    img#carta:hover {
+                        background: url(../imagenes/CartasC.png) no-repeat;
+                        margin-right: 120px;
+                        margin-bottom: -50px;
+                        z-index: 1;
+                    }
+                    
+                    img#cuadro {
+                        width: 100px; 
+                        height: 134px;
+                        background: url(../imagenes/Cuadro.png);
+                        margin-bottom: 120px;
+                        margin-right: 20px;
+                    }
+
+                    img#cuadro:hover {
+                        background: url(../imagenes/CuadroC.png);
+                        margin-bottom: 120px;
+                        margin-right: 20px;
+                    }
+
+                    img#tragos {
+                        margin-left: 120px;
+                        margin-bottom: -40px;
+                        z-index: 1;
+                    }
+                    
+                    img#tragos:hover {
+                        background:url(../imagenes/TragosC.png) no-repeat;
+                        margin-left: 120px;
+                        margin-bottom: -40px;
+                        z-index: 1;
+                    }
+
+                    a {
+                        z-index: 1;
+                    }
+                }
+            }
+
+            div#derecha {
+                flex-direction: column;
+                justify-content: flex-start;
+            
+                img#w  {
+                    margin-left: -280px;
+                    margin-top: -70px;
+                }
+                
+                img#s  {
+                    margin-top: 230px;
+                    margin-left: -40px;
+                }
+            }
+
+            div#der {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: flex-start;
+                height: 180px;
+                margin-top: 70px;
+
+                a {
+                    text-decoration: none;
+                }
+
+                a#bart {
+                    margin-left: -120px;
+                    transform: rotate(-15deg);
+                    font-family: $haters;
+                    font-size: 300%;
+                    color: $negro;
+                }
+                
+                a#bart:hover {
+                    color: $mostaza;
+                    text-shadow:
+                    0 0 1px #000,
+                    -1px -1px 0 #000,  
+                    1px -1px 0 #000,
+                    -1px 1px 0 #000,
+                    1px 1px 0 #000;
+                }
+                
+                a#serv {
+                    margin-left: -40px;
+                    transform: rotate(15deg);
+                    font-family: $haters;
+                    font-size: 300%;
+                    color: $negro;
+                }
+                
+                a#serv:hover {
+                    color: $mostaza;
+                    text-shadow:
+                    0 0 1px #000,
+                    -1px -1px 0 #000,  
+                    1px -1px 0 #000,
+                    -1px 1px 0 #000,
+                    1px 1px 0 #000;
+                }
+            }
         }
     }
 }
 
-div#medio {
-    display: flex;
-    flex-direction: column;
-}
 
-div#centro {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-end;
-    margin-bottom: 30px;
-}
-
-div#barra {
-    padding:0%;
-    margin:0%;
-}
-
-div#centro {
-    a {
-        z-index: 1;
-    }
-}
-div#barra {
-    a {
-        z-index: 0;
-    }
-}
-
-/* /imagenes */
-img#bartender  {
-    margin-bottom: -50px;
-    margin-right: 40px;
-    z-index: 1;
-    width: 200px; 
-    height: 220px;
-}
-
-img#carta {
-    width: 100px; 
-    height: 130px;
-}
-
-img#cuadro {
-    width: 100px; 
-    height: 134px;
-}
-
-img#mesa {
-    width: 840px;
-    height: 490px;
-}
-
-img#bartender:hover {
-    background:url(../imagenes/BartenderC.png) no-repeat;
-    margin-bottom: -50px; 
-    z-index: 1;
-}
-
-img#carta {
-background: url(../imagenes/Cartas.png);
-    margin-right: 120px;
-    margin-bottom: -50px;
-    z-index: 1;
-}
-
-img#carta:hover {
-    background: url(../imagenes/CartasC.png) no-repeat;
-    margin-right: 120px;
-    margin-bottom: -50px;
-    z-index: 1;
-}
-
-img#cuadro {
-    background: url(../imagenes/Cuadro.png);
-    margin-bottom: 120px;
-    margin-right: 20px;
-}
-
-img#cuadro:hover {
-    background: url(../imagenes/CuadroC.png);
-    margin-bottom: 120px;
-    margin-right: 20px;
-}
-
-img#tragos {
-    margin-left: 120px;
-    margin-bottom: -40px;
-    z-index: 1;
-}
-
-img#tragos:hover {
-    background:url(../imagenes/TragosC.png) no-repeat;
-    margin-left: 120px;
-    margin-bottom: -40px;
-    z-index: 1;
-}
-
-img#mesa {
-    background: url(../imagenes/Barras.png) no-repeat;
-}
-
-img#mesa:hover {
-    background: url(../imagenes/BarrasC.png) no-repeat;
-    border: black;
-}
-
-/* FLECHAS */
-div#izquierda {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-end;
-}
-
-div#derecha {
-    flex-direction: column;
-    justify-content: flex-start;
-}
-
-img#a  {
-    margin-top: 100px;
-    margin-right: -80px;
-}
-
-img#r {
-    margin-top: 150px;
-    margin-right: -120px;
-}
-
-img#o  {
-    margin-right: -200px;
-
-}
-
-img#w  {
-    margin-left: -280px;
-    margin-top: -70px;
-}
-
-img#s  {
-    margin-top: 230px;
-    margin-left: -40px;
-}
-
-/* TEXTO */
-div#izq {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-end;
-    height: 570px;
-    margin-top: 30px;
-    padding-bottom: 40px;
-}
-
-div#izq a {
-    text-decoration: none;
-}
-
-div#der {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    height: 180px;
-    margin-top: 70px;
-}
-
-div#der a {
-    text-decoration: none;
-}
-
-a#cont {
-    margin-right: -170px;
-    transform: rotate(15deg);
-    font-family: $haters;
-    font-size: 300%;
-    color: $negro;
-}
-
-a#cont:hover {
-    color: $mostaza;
-    text-shadow:
-    0 0 1px #000,
-    -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-}
-
-a#coc {
-    margin-right: -60px;
-    transform: rotate(-15deg);
-    font-family: $haters;
-    font-size: 300%;
-    color: $negro;
-}
-
-a#coc:hover {
-    color: $mostaza;
-    text-shadow:
-    0 0 1px #000,
-    -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-}
-
-a#res {
-    margin-right: -40px;
-    transform: rotate(15deg);
-    font-family: $haters;
-    font-size: 300%;
-    color: $negro;
-}
-
-a#res:hover {
-    color: $mostaza;
-    text-shadow:
-    0 0 1px #000,
-    -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-}
-
-a#bart {
-    margin-left: -120px;
-    transform: rotate(-15deg);
-    font-family: $haters;
-    font-size: 300%;
-    color: $negro;
-}
-
-a#bart:hover {
-    color: $mostaza;
-    text-shadow:
-    0 0 1px #000,
-    -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-}
-
-a#serv {
-    margin-left: -40px;
-    transform: rotate(15deg);
-    font-family: $haters;
-    font-size: 300%;
-    color: $negro;
-}
-
-a#serv:hover {
-    color: $mostaza;
-    text-shadow:
-    0 0 1px #000,
-    -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-}
 
 
 
@@ -3645,7 +3592,6 @@ body {
                     width: 200px;
                 }
             }
-
 
             img {
             display: flex;
@@ -3858,7 +3804,6 @@ div#octa:hover {
     }
 }
 
-
 .certificados {
     display: none;
 
@@ -3866,7 +3811,6 @@ div#octa:hover {
         box-shadow: 0px 5px 5px rgb(124, 124, 124);
     }
 }
-
 
 /* --------------- COCKTAILS --------------- */
 body {
@@ -3888,52 +3832,50 @@ body {
 
                 div {
                     box-shadow: none;
+
+                    table {
+                        border-collapse: collapse;
+                        background-image: url(../imagenes/logoopaco.png);
+                        background-repeat:no-repeat;
+                        background-position:center center;
+                    
+                        th {     
+                            font-size: 12px;     
+                            font-weight: bold;     
+                            padding: 8px;     
+                            background: transparent;
+                            border-top: 1px solid $blanco;    
+                            border-bottom: 1px solid $blanco; 
+                            color: $mostaza; 
+                            letter-spacing: 2px;
+                        }
+                    
+                        th#th {
+                            font-size: 23px;     
+                        }
+                    
+                        td {    
+                            padding: 8px;     
+                            background: transparent;     
+                            border-bottom: 1px solid $blanco;
+                            color: $blanco;    
+                            border-top: 1px solid transparent; 
+                        }
+                    }
                 }
             }
+
+            div#bat {
+                height: 1250px;
+            }
+        }
+
+        tr:hover td {
+            background: transparent; 
+            color: $mostaza; 
         }
     }
 }
-
-div#bat {
-    height: 1250px;
-}
-
-table {
-    border-collapse: collapse;
-    background-image: url(../imagenes/logoopaco.png);
-    background-repeat:no-repeat;
-    background-position:center center;
-}
-
-th {     
-    font-size: 12px;     
-    font-weight: bold;     
-    padding: 8px;     
-    background: transparent;
-    border-top: 4px solid $negro;    
-    border-bottom: 1px solid $blanco; 
-    color: $mostaza; 
-    letter-spacing: 2px;
-}
-
-th#th {
-    font-size: 23px;     
-}
-
-td {    
-    padding: 8px;     
-    background: transparent;     
-    border-bottom: 1px solid $blanco;
-    color: $blanco;    
-    border-top: 1px solid transparent; 
-}
-
-tr:hover td {
-    background: transparent; 
-    color: $mostaza; 
-}
-
-
 
 
 /* --------------- CONTACTO --------------- */
@@ -3962,8 +3904,6 @@ body {
 }
 
 /* --------------- RESERVA --------------- */
-
-
 
 main#reservaBarra {
     h1 {
@@ -4072,14 +4012,6 @@ label.check input:checked+span {
 
 
 
-
-
-
-
-
-
-
-
 /* --------------- CLASES ---------------*/
 /* GENERALES*/
 .oculto {
@@ -4157,7 +4089,6 @@ $colorFont: (
 .listDisc {
     list-style-type: disc;
 }
-
 
 /* TRANSICIONES */
 .logo {

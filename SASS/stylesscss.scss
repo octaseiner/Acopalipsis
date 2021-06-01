@@ -419,26 +419,50 @@ body {
     main#service {
         display: flex;
         flex-direction: column;
+        align-items: center;
         margin-bottom: 50px;
 
-        div {
+
+        h1 {
+            font-size: 40px;
+            margin-top: 0px;
+            margin-bottom: 20px;
+        }
+
+        div#serv {
             display: flex;
             flex-direction: column;
-            justify-content: space-around;
-            margin: 0px 20px 20px 20px;
+            align-items: center;
 
-            h1 {
-                font-size: 40px;
-                margin-top: 0px;
-            }
+            div {
+                div {
 
-            img {
-            box-shadow: 5px 3px 3px rgb(124, 124, 124);
-            border-radius: 20px;
-            margin: 10px;
+                    img {
+                        width: 200px;
+                        margin-bottom: 20px;
+                        border-radius: 20px;
+                    }
+
+                    div {
+                        
+                        img {
+                            width: 200px;
+                            margin-bottom: 20px;
+                            border-radius: 20px;
+                        }
+                    }
+                }
             }
         }
     }
+}
+
+.flip-card-back {
+    display: none;
+}
+
+.middle {
+    display: none;
 }
 
 /* --------------- NOSOTROS --------------- */
@@ -1253,28 +1277,43 @@ body {
     main#service {
         display: flex;
         flex-direction: column;
+        align-items: center;
         margin-bottom: 50px;
 
-        div {
+
+        h1 {
+            font-size: 40px;
+            margin-top: 0px;
+            margin-bottom: 20px;
+        }
+
+        div#serv {
             display: flex;
             flex-direction: column;
-            justify-content: space-around;
-            margin: 0px 20px 20px 20px;
+            align-items: center;
 
-            h1 {
-                font-size: 40px;
-                margin-top: 0px;
-            }
+            div {
+                div {
 
-            img {
-            box-shadow: 5px 3px 3px rgb(124, 124, 124);
-            border-radius: 20px;
-            margin: 10px;
+                    img {
+                        width: 200px;
+                        margin-bottom: 20px;
+                        border-radius: 20px;
+                    }
+
+                    div {
+                        
+                        img {
+                            width: 200px;
+                            margin-bottom: 20px;
+                            border-radius: 20px;
+                        }
+                    }
+                }
             }
         }
     }
 }
-
 
 /* --------------- NOSOTROS --------------- */
 
@@ -2127,27 +2166,52 @@ body {
     main#service {
         display: flex;
         flex-direction: column;
+        align-items: center;
         margin-bottom: 50px;
 
-        div {
+
+        h1 {
+            font-size: 40px;
+            margin-top: 0px;
+            margin-bottom: 20px;
+        }
+
+        div#serv {
             display: flex;
             flex-direction: column;
-            justify-content: space-around;
-            margin: 0px 20px 20px 20px;
+            align-items: center;
 
-            h1 {
-                font-size: 40px;
-                margin-top: 0px;
-            }
+            div {
+                div {
 
-            img {
-            box-shadow: 5px 3px 3px rgb(124, 124, 124);
-            border-radius: 20px;
-            margin: 10px;
+                    img {
+                        width: 300px;
+                        margin-bottom: 20px;
+                        border-radius: 20px;
+                    }
+
+                    div {
+                        
+                        img {
+                            width: 300px;
+                            margin-bottom: 20px;
+                            border-radius: 20px;
+                        }
+                    }
+                }
             }
         }
     }
 }
+
+.flip-card-back {
+    display: none;
+}
+
+.middle {
+    display: none;
+}
+
 
 /* --------------- NOSOTROS --------------- */
 body {
@@ -2788,28 +2852,52 @@ body {
     main#service {
         display: flex;
         flex-direction: column;
+        align-items: center;
         margin-bottom: 50px;
 
-        div {
+
+        h1 {
+            font-size: 40px;
+            margin-top: 0px;
+            margin-bottom: 20px;
+        }
+
+        div#serv {
             display: flex;
             flex-direction: column;
-            justify-content: space-around;
-            margin: 0px 20px 20px 20px;
+            align-items: center;
 
-            h1 {
-                font-size: 60px;
-                margin-top: 0px;
-            }
+            div {
+                div {
 
-            img {
-            box-shadow: 5px 3px 3px rgb(124, 124, 124);
-            border-radius: 20px;
-            margin: 80px;
-            margin-top: 40px;
+                    img {
+                        width: 300px;
+                        margin-bottom: 20px;
+                        border-radius: 20px;
+                    }
+
+                    div {
+                        
+                        img {
+                            width: 300px;
+                            margin-bottom: 20px;
+                            border-radius: 20px;
+                        }
+                    }
+                }
             }
         }
     }
 }
+
+.flip-card-back {
+    display: none;
+}
+
+.middle {
+    display: none;
+}
+
 
 /* --------------- NOSOTROS --------------- */
 body {
@@ -3681,14 +3769,27 @@ body {
         div {
             display: flex;
             flex-direction: row;
-            justify-content: space-around;
+            justify-content: center;
+
+            div {
+                width: 300px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+
+                div {
+                    width: 200px;
+                }
+            }
+
 
             img {
             display: flex;
             flex-direction: row;
             justify-content: space-around;
             border-radius: 20px;
-            width: 300px;
+            width: 290px;
+            height: 560px;
             }
         }
     }

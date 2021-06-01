@@ -258,19 +258,28 @@
   body main#service {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-bottom: 50px; }
-    body main#service div {
+    body main#service h1 {
+      font-size: 40px;
+      margin-top: 0px;
+      margin-bottom: 20px; }
+    body main#service div#serv {
       display: flex;
       flex-direction: column;
-      justify-content: space-around;
-      margin: 0px 20px 20px 20px; }
-      body main#service div h1 {
-        font-size: 40px;
-        margin-top: 0px; }
-      body main#service div img {
-        box-shadow: 5px 3px 3px #7c7c7c;
-        border-radius: 20px;
-        margin: 10px; }
+      align-items: center; }
+      body main#service div#serv div div img {
+        width: 200px;
+        margin-bottom: 20px;
+        border-radius: 20px; }
+      body main#service div#serv div div div img {
+        width: 200px;
+        margin-bottom: 20px;
+        border-radius: 20px; }
+  .flip-card-back {
+    display: none; }
+  .middle {
+    display: none; }
   /* --------------- NOSOTROS --------------- */
   body main#nos {
     display: flex;
@@ -760,19 +769,24 @@
   body main#service {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-bottom: 50px; }
-    body main#service div {
+    body main#service h1 {
+      font-size: 40px;
+      margin-top: 0px;
+      margin-bottom: 20px; }
+    body main#service div#serv {
       display: flex;
       flex-direction: column;
-      justify-content: space-around;
-      margin: 0px 20px 20px 20px; }
-      body main#service div h1 {
-        font-size: 40px;
-        margin-top: 0px; }
-      body main#service div img {
-        box-shadow: 5px 3px 3px #7c7c7c;
-        border-radius: 20px;
-        margin: 10px; }
+      align-items: center; }
+      body main#service div#serv div div img {
+        width: 200px;
+        margin-bottom: 20px;
+        border-radius: 20px; }
+      body main#service div#serv div div div img {
+        width: 200px;
+        margin-bottom: 20px;
+        border-radius: 20px; }
   /* --------------- NOSOTROS --------------- */
   body main#nos {
     display: flex;
@@ -1274,19 +1288,28 @@
   body main#service {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-bottom: 50px; }
-    body main#service div {
+    body main#service h1 {
+      font-size: 40px;
+      margin-top: 0px;
+      margin-bottom: 20px; }
+    body main#service div#serv {
       display: flex;
       flex-direction: column;
-      justify-content: space-around;
-      margin: 0px 20px 20px 20px; }
-      body main#service div h1 {
-        font-size: 40px;
-        margin-top: 0px; }
-      body main#service div img {
-        box-shadow: 5px 3px 3px #7c7c7c;
-        border-radius: 20px;
-        margin: 10px; }
+      align-items: center; }
+      body main#service div#serv div div img {
+        width: 300px;
+        margin-bottom: 20px;
+        border-radius: 20px; }
+      body main#service div#serv div div div img {
+        width: 300px;
+        margin-bottom: 20px;
+        border-radius: 20px; }
+  .flip-card-back {
+    display: none; }
+  .middle {
+    display: none; }
   /* --------------- NOSOTROS --------------- */
   body main#nos {
     display: flex;
@@ -1661,20 +1684,28 @@
   body main#service {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-bottom: 50px; }
-    body main#service div {
+    body main#service h1 {
+      font-size: 40px;
+      margin-top: 0px;
+      margin-bottom: 20px; }
+    body main#service div#serv {
       display: flex;
       flex-direction: column;
-      justify-content: space-around;
-      margin: 0px 20px 20px 20px; }
-      body main#service div h1 {
-        font-size: 60px;
-        margin-top: 0px; }
-      body main#service div img {
-        box-shadow: 5px 3px 3px #7c7c7c;
-        border-radius: 20px;
-        margin: 80px;
-        margin-top: 40px; }
+      align-items: center; }
+      body main#service div#serv div div img {
+        width: 300px;
+        margin-bottom: 20px;
+        border-radius: 20px; }
+      body main#service div#serv div div div img {
+        width: 300px;
+        margin-bottom: 20px;
+        border-radius: 20px; }
+  .flip-card-back {
+    display: none; }
+  .middle {
+    display: none; }
   /* --------------- NOSOTROS --------------- */
   body main#nos {
     display: flex;
@@ -2188,13 +2219,21 @@
     body main#service div {
       display: flex;
       flex-direction: row;
-      justify-content: space-around; }
+      justify-content: center; }
+      body main#service div div {
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center; }
+        body main#service div div div {
+          width: 200px; }
       body main#service div img {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         border-radius: 20px;
-        width: 300px; }
+        width: 290px;
+        height: 560px; }
   .top {
     margin-bottom: 50px; }
   /* FLIP */

@@ -2589,13 +2589,13 @@ footer {
     p {
         padding-top: 17px;
         margin-left: 20px;
-        font-size: 12px
+        font-size: 14px
     }
 
     p#foot {
         padding-top: 17px;
         margin-left: 20px;
-        font-size: 20px
+        font-size: 23px
     }
 
     a#logoFooter {
@@ -2607,8 +2607,6 @@ footer {
 
 
 /* --------------- INDEX --------------- */
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
-
 div#mainMobile {
     display: flex;
     flex-direction: column;
@@ -2643,6 +2641,28 @@ div#mainMobile {
                 1px 1px 0 #000;
             }
         }
+
+        div#bartender {
+            margin-bottom: -123px;
+        
+            a#nos {
+                text-align: right;
+            }
+        }
+        
+        
+        div#tragos {
+            margin-bottom: -255px;
+        }
+        
+        div#cuadro {
+            margin-top: -100px;
+        }
+        
+        div#carta {
+            margin-bottom: -220px;
+            margin-left: 50px;
+        }
     }
 
     div#down {
@@ -2653,6 +2673,8 @@ div#mainMobile {
         z-index: 0;
 
         div#barra {
+            margin-top: 70px;
+            margin-bottom: 70px;
 
             a#bar {
                 display: flex;
@@ -2686,32 +2708,6 @@ div#mainMobile {
             }
         }
     }
-}
-
-div#bartender {
-    margin-bottom: -123px;
-}
-
-a#nos {
-    text-align: right;
-}
-
-div#tragos {
-    margin-bottom: -255px;
-}
-
-div#cuadro {
-    margin-top: -100px;
-}
-
-div#carta {
-    margin-bottom: -220px;
-    margin-left: 50px;
-}
-
-div#barra {
-    margin-top: 70px;
-    margin-bottom: 70px;
 }
 
 
@@ -2906,6 +2902,47 @@ body {
                 div {
                     box-shadow: none;
                     padding: 5px;
+
+                    table {
+                        border-collapse: collapse;
+                        padding: 3px;
+                        background-image: url(../imagenes/logoopaco.png);
+                        background-repeat:no-repeat;
+                        background-position:center center;
+                        background-size: 120%;
+                    
+                        th {     
+                            font-size: 25px;     
+                            font-weight: bold;     
+                            padding: 4px;     
+                            background: transparent;
+                            border-top: 1px solid $blanco;    
+                            border-bottom: 1px solid $blanco; 
+                            color: $mostaza; 
+                            letter-spacing: 2px;
+                        }
+                    
+                        th#th { 
+                            font-size: 35px;
+                        }
+                    
+                        td {    
+                            padding: 4px;    
+                            background: transparent;     
+                            border-bottom: 1px solid $blanco;
+                            color: $blanco;    
+                            border-top: 1px solid transparent; 
+                        }
+                    }
+                    
+                    table#segunda {
+                        width: 100px;
+                        margin-right: 200px;
+                    
+                        th{
+                        width: fit-content;
+                        }
+                    }
                 }
             }
         }
@@ -2916,62 +2953,21 @@ body {
         }
 
         h2 {
-            font-size: 30px;
+            font-size: 40px;
         }
 
         ul {
-            font-size: 12px;
+            font-size: 20px;
         }
 
         ol {
-            font-size: 12px;
+            font-size: 20px;
+        }
+
+        tr:hover td {
+            background: transparent; color: $mostaza; 
         }
     }
-}
-
-table {
-    border-collapse: collapse;
-    padding: 3px;
-    background-image: url(../imagenes/logoopaco.png);
-    background-repeat:no-repeat;
-    background-position:center center;
-    background-size: 120%;
-}
-
-th {     
-    font-size: 12px;     
-    font-weight: bold;     
-    padding: 4px;     
-    background: transparent;
-    border-top: 4px solid $negro;    
-    border-bottom: 1px solid $blanco; 
-    color: $mostaza; 
-    letter-spacing: 2px;
-}
-
-th#th { 
-    font-size: 25px;
-}
-
-td {    
-    padding: 4px;    
-    background: transparent;     
-    border-bottom: 1px solid $blanco;
-    color: $blanco;    
-    border-top: 1px solid transparent; 
-}
-
-table#segunda {
-    width: 100px;
-    margin-right: 200px;
-}
-
-table#segunda th{
-    width: fit-content;
-}
-
-tr:hover td {
-    background: transparent; color: $mostaza; 
 }
 
 .imgCenter {

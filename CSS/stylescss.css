@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
 @font-face {
   font-family: "haters";
   src: url("../font/heaters/Heaters.otf"); }
@@ -1598,11 +1597,11 @@
     footer p {
       padding-top: 17px;
       margin-left: 20px;
-      font-size: 12px; }
+      font-size: 14px; }
     footer p#foot {
       padding-top: 17px;
       margin-left: 20px;
-      font-size: 20px; }
+      font-size: 23px; }
     footer a#logoFooter img {
       width: 100px; }
   /* --------------- INDEX --------------- */
@@ -1630,48 +1629,48 @@
           color: #FFCF0B;
           background-clip: text;
           text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+      div#mainMobile div#up div#bartender {
+        margin-bottom: -123px; }
+        div#mainMobile div#up div#bartender a#nos {
+          text-align: right; }
+      div#mainMobile div#up div#tragos {
+        margin-bottom: -255px; }
+      div#mainMobile div#up div#cuadro {
+        margin-top: -100px; }
+      div#mainMobile div#up div#carta {
+        margin-bottom: -220px;
+        margin-left: 50px; }
     div#mainMobile div#down {
       display: flex;
       flex-direction: column;
       align-items: center;
       width: 100%;
       z-index: 0; }
-      div#mainMobile div#down div#barra a#bar {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        font: 1rem "haters";
-        text-decoration: none;
-        text-transform: uppercase;
-        background: linear-gradient(var(--fill-color) 0 100%) left/0 no-repeat;
-        color: #FFCF0B;
-        background-clip: text;
-        text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-        margin-top: 15px;
-        font-size: 200%;
-        border: solid #FFCF0B;
-        margin-left: 50px;
-        margin-right: 50px; }
-      div#mainMobile div#down div#barra img {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin-top: 33px;
-        margin-bottom: 50px; }
-  div#bartender {
-    margin-bottom: -123px; }
-  a#nos {
-    text-align: right; }
-  div#tragos {
-    margin-bottom: -255px; }
-  div#cuadro {
-    margin-top: -100px; }
-  div#carta {
-    margin-bottom: -220px;
-    margin-left: 50px; }
-  div#barra {
-    margin-top: 70px;
-    margin-bottom: 70px; }
+      div#mainMobile div#down div#barra {
+        margin-top: 70px;
+        margin-bottom: 70px; }
+        div#mainMobile div#down div#barra a#bar {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          font: 1rem "haters";
+          text-decoration: none;
+          text-transform: uppercase;
+          background: linear-gradient(var(--fill-color) 0 100%) left/0 no-repeat;
+          color: #FFCF0B;
+          background-clip: text;
+          text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+          margin-top: 15px;
+          font-size: 200%;
+          border: solid #FFCF0B;
+          margin-left: 50px;
+          margin-right: 50px; }
+        div#mainMobile div#down div#barra img {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          margin-top: 33px;
+          margin-bottom: 50px; }
   /* --------------- SERVICIOS --------------- */
   body main#service {
     display: flex;
@@ -1795,45 +1794,45 @@
       body main#bebidas div div div {
         box-shadow: none;
         padding: 5px; }
+        body main#bebidas div div div table {
+          border-collapse: collapse;
+          padding: 3px;
+          background-image: url(../imagenes/logoopaco.png);
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: 120%; }
+          body main#bebidas div div div table th {
+            font-size: 25px;
+            font-weight: bold;
+            padding: 4px;
+            background: transparent;
+            border-top: 1px solid snow;
+            border-bottom: 1px solid snow;
+            color: #FFCF0B;
+            letter-spacing: 2px; }
+          body main#bebidas div div div table th#th {
+            font-size: 35px; }
+          body main#bebidas div div div table td {
+            padding: 4px;
+            background: transparent;
+            border-bottom: 1px solid snow;
+            color: snow;
+            border-top: 1px solid transparent; }
+        body main#bebidas div div div table#segunda {
+          width: 100px;
+          margin-right: 200px; }
+          body main#bebidas div div div table#segunda th {
+            width: fit-content; }
   body main#bebidas h1 {
     font-size: 60px;
     margin-top: 40px; }
   body main#bebidas h2 {
-    font-size: 30px; }
+    font-size: 40px; }
   body main#bebidas ul {
-    font-size: 12px; }
+    font-size: 20px; }
   body main#bebidas ol {
-    font-size: 12px; }
-  table {
-    border-collapse: collapse;
-    padding: 3px;
-    background-image: url(../imagenes/logoopaco.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 120%; }
-  th {
-    font-size: 12px;
-    font-weight: bold;
-    padding: 4px;
-    background: transparent;
-    border-top: 4px solid black;
-    border-bottom: 1px solid snow;
-    color: #FFCF0B;
-    letter-spacing: 2px; }
-  th#th {
-    font-size: 25px; }
-  td {
-    padding: 4px;
-    background: transparent;
-    border-bottom: 1px solid snow;
-    color: snow;
-    border-top: 1px solid transparent; }
-  table#segunda {
-    width: 100px;
-    margin-right: 200px; }
-  table#segunda th {
-    width: fit-content; }
-  tr:hover td {
+    font-size: 20px; }
+  body main#bebidas tr:hover td {
     background: transparent;
     color: #FFCF0B; }
   .imgCenter {

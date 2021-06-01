@@ -395,23 +395,26 @@
       body main form fieldset h1 {
         font-size: 30px; }
   /* --------------- RESERVA --------------- */
-  main#reservaBarra h1 {
+  main#reservaBarra div h1 {
     font-size: 40px;
     margin: 0px;
     margin-bottom: 20px; }
+  main#reservaBarra form {
+    display: flex;
+    flex-direction: column; }
+    main#reservaBarra form div {
+      margin: 1px;
+      padding: 5px; }
+      main#reservaBarra form div input {
+        box-shadow: 10px 5px 5px #7c7c7c;
+        margin-bottom: 50px;
+        width: 70px;
+        font-size: 15px;
+        margin-left: 10px; }
   main#reservaBarra h4 {
     font-size: 30px; }
   main#reservaBarra span {
     font-size: 10px; }
-  main#reservaBarra div {
-    margin: 1px;
-    padding: 5px; }
-    main#reservaBarra div input {
-      box-shadow: 10px 5px 5px #7c7c7c;
-      margin-bottom: 50px;
-      width: 70px;
-      font-size: 15px;
-      margin-left: 10px; }
   .mt-100 {
     margin-top: 50px; }
   hr, .hrcolor {
@@ -466,7 +469,7 @@
   label.check input:checked + span {
     border-color: #FFCF0B;
     background-color: #FFCF0B;
-    color: snow; }
+    color: black; }
   /* --------------- CLASES --------------- */
   /* GENERALES */
   .marginTop {
@@ -775,11 +778,11 @@
       flex-direction: column;
       align-items: center; }
       body main#service div#serv div div img {
-        width: 200px;
+        width: 280px;
         margin-bottom: 20px;
         border-radius: 20px; }
       body main#service div#serv div div div img {
-        width: 200px;
+        width: 280px;
         margin-bottom: 20px;
         border-radius: 20px; }
   /* --------------- NOSOTROS --------------- */
@@ -837,6 +840,11 @@
       body main#bebidas div div div {
         box-shadow: none;
         padding: 5px; }
+        body main#bebidas div div div table {
+          background-image: url(../imagenes/logoopaco.png);
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: 100%; }
         body main#bebidas div div div table#bat {
           width: 100px;
           margin-right: 200px; }
@@ -902,23 +910,26 @@
       body main form fieldset h1 {
         font-size: 30px; }
   /* --------------- RESERVA --------------- */
-  main#reservaBarra h1 {
+  main#reservaBarra div h1 {
     font-size: 40px;
     margin: 0px;
     margin-bottom: 20px; }
+  main#reservaBarra form {
+    display: flex;
+    flex-direction: column; }
+    main#reservaBarra form div {
+      margin: 1px;
+      padding: 5px; }
+      main#reservaBarra form div input {
+        box-shadow: 10px 5px 5px #7c7c7c;
+        margin-bottom: 50px;
+        width: 70px;
+        font-size: 15px;
+        margin-left: 20px; }
   main#reservaBarra h4 {
     font-size: 30px; }
   main#reservaBarra span {
     font-size: 10px; }
-  main#reservaBarra div {
-    margin: 1px;
-    padding: 5px; }
-    main#reservaBarra div input {
-      box-shadow: 10px 5px 5px #7c7c7c;
-      margin-bottom: 50px;
-      width: 70px;
-      font-size: 15px;
-      margin-left: 20px; }
   .mt-100 {
     margin-top: 50px; }
   hr, .hrcolor {
@@ -973,7 +984,7 @@
   label.check input:checked + span {
     border-color: #FFCF0B;
     background-color: #FFCF0B;
-    color: snow; }
+    color: black; }
   /* --------------- CLASES --------------- */
   /* GENERALES */
   .marginTop {
@@ -1020,7 +1031,7 @@
       transform: rotate(360deg); } } }
 
 /* ---------------- INTERMEDIO ---------------- */
-@media only screen and (min-device-width: 480px) and (max-device-width: 768px) {
+@media only screen and (min-device-width: 480px) and (max-device-width: 767px) {
   /* --------------- BODY --------------- */
   body {
     background-image: url(../imagenes/fondo.png);
@@ -1290,11 +1301,11 @@
       flex-direction: column;
       align-items: center; }
       body main#service div#serv div div img {
-        width: 300px;
+        width: 350px;
         margin-bottom: 20px;
         border-radius: 20px; }
       body main#service div#serv div div div img {
-        width: 300px;
+        width: 350px;
         margin-bottom: 20px;
         border-radius: 20px; }
   .flip-card-back {
@@ -1362,7 +1373,7 @@
           background-image: url(../imagenes/logoopaco.png);
           background-repeat: no-repeat;
           background-position: center center;
-          background-size: 120%; }
+          background-size: 60%; }
           body main#bebidas div div div table th {
             font-size: 12px;
             font-weight: bold;
@@ -1419,23 +1430,26 @@
       body main form fieldset h1 {
         font-size: 30px; }
   /* --------------- RESERVA --------------- */
-  main#reservaBarra h1 {
+  main#reservaBarra div h1 {
     font-size: 40px;
     margin: 0px;
     margin-bottom: 20px; }
+  main#reservaBarra form {
+    display: flex;
+    flex-direction: column; }
+    main#reservaBarra form div {
+      margin: 1px;
+      padding: 5px; }
+      main#reservaBarra form div input {
+        box-shadow: 10px 5px 5px #7c7c7c;
+        margin-bottom: 50px;
+        width: 70px;
+        font-size: 15px;
+        margin-left: 20px; }
   main#reservaBarra h4 {
     font-size: 30px; }
   main#reservaBarra span {
     font-size: 10px; }
-  main#reservaBarra div {
-    margin: 1px;
-    padding: 5px; }
-    main#reservaBarra div input {
-      box-shadow: 10px 5px 5px #7c7c7c;
-      margin-bottom: 50px;
-      width: 70px;
-      font-size: 15px;
-      margin-left: 20px; }
   .mt-100 {
     margin-top: 50px; }
   hr, .hrcolor {
@@ -1490,7 +1504,7 @@
   label.check input:checked + span {
     border-color: #FFCF0B;
     background-color: #FFCF0B;
-    color: snow; }
+    color: black; }
   /* --------------- CLASES --------------- */
   /* GENERALES */
   .marginTop {
@@ -1537,7 +1551,7 @@
       transform: rotate(360deg); } } }
 
 /* --------------- iPads (portrait and landscape) --------------- */
-@media only screen and (min-device-width: 769px) and (max-device-width: 1223px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1223px) {
   /* --------------- BODY --------------- */
   body {
     background-image: url(../imagenes/fondo.png);
@@ -1686,11 +1700,11 @@
       flex-direction: column;
       align-items: center; }
       body main#service div#serv div div img {
-        width: 300px;
+        width: 500px;
         margin-bottom: 20px;
         border-radius: 20px; }
       body main#service div#serv div div div img {
-        width: 300px;
+        width: 500px;
         margin-bottom: 20px;
         border-radius: 20px; }
   .flip-card-back {
@@ -1861,24 +1875,28 @@
       body main form fieldset h1 {
         font-size: 30px; }
   /* --------------- RESERVA --------------- */
-  main#reservaBarra h1 {
+  main#reservaBarra div h1 {
     font-size: 40px;
     margin: 0px;
     margin-bottom: 20px; }
+  main#reservaBarra form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px; }
+    main#reservaBarra form div {
+      margin: 1px;
+      padding: 5px; }
+      main#reservaBarra form div input {
+        box-shadow: 10px 5px 5px #7c7c7c;
+        margin-bottom: 50px;
+        width: 70px;
+        font-size: 15px;
+        background-color: snow;
+        margin-left: 20px; }
   main#reservaBarra h4 {
     font-size: 30px; }
   main#reservaBarra span {
     font-size: 10px; }
-  main#reservaBarra div {
-    margin: 1px;
-    padding: 5px; }
-    main#reservaBarra div input {
-      box-shadow: 10px 5px 5px #7c7c7c;
-      margin-bottom: 50px;
-      width: 70px;
-      font-size: 15px;
-      background-color: snow;
-      margin-left: 20px; }
   .mt-100 {
     margin-top: 50px; }
   hr, .hrcolor {
@@ -1933,7 +1951,7 @@
   label.check input:checked + span {
     border-color: #FFCF0B;
     background-color: #FFCF0B;
-    color: snow; }
+    color: black; }
   /* --------------- CLASES --------------- */
   /* GENERALES */
   .marginTop {
@@ -2420,20 +2438,586 @@
   /* --------------- RESERVA --------------- */
   main#reservaBarra h1 {
     margin: 0px; }
-  main#reservaBarra div p {
-    font-size: 20px;
-    margin-bottom: .5rem;
-    line-height: 1.5rem; }
-  main#reservaBarra div input {
-    box-shadow: 10px 5px 5px #7c7c7c;
-    margin-bottom: 50px;
-    width: 70px;
-    font-size: 15px;
-    background-color: snow;
-    margin-left: 20px;
+  main#reservaBarra form {
+    display: flex;
+    flex-direction: column;
     margin-top: 0px; }
+    main#reservaBarra form div p {
+      font-size: 20px;
+      margin-bottom: .5rem;
+      line-height: 1.5rem; }
+    main#reservaBarra form div input {
+      box-shadow: 10px 5px 5px #7c7c7c;
+      margin-bottom: 50px;
+      width: 70px;
+      font-size: 15px;
+      background-color: snow;
+      margin-left: 20px;
+      margin-top: 0px; }
   .mt-100 {
     margin-top: 100px; }
+  hr, .hrcolor {
+    height: 1px;
+    border: 0;
+    color: #666;
+    background-color: snow; }
+  .mb-30 {
+    margin-bottom: 30px; }
+  .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: black;
+    background-clip: border-box;
+    border: 1px solid #d2d2dc;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px #7c7c7c; }
+  .card .card-body {
+    padding: 1.25rem 1.75rem; }
+  .card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem; }
+  .card .card-title {
+    color: #FFCF0B;
+    font-family: "haters";
+    font-size: 300%;
+    margin-bottom: 0.625rem;
+    text-transform: capitalize;
+    font-weight: 500; }
+  .card .card-description {
+    margin-bottom: .875rem;
+    font-weight: 400;
+    color: #708090; }
+  label.check {
+    cursor: pointer; }
+  label.check input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    pointer-events: none; }
+  label.check span {
+    padding: 7px 14px;
+    border: 2px solid #FFCF0B;
+    display: inline-block;
+    color: #FFCF0B;
+    border-radius: 3px;
+    text-transform: uppercase; }
+  label.check input:checked + span {
+    border-color: #FFCF0B;
+    background-color: #FFCF0B;
+    color: black; }
+  /* --------------- CLASES ---------------*/
+  /* GENERALES*/
+  .oculto {
+    display: none; }
+  .marginTop {
+    margin-top: 100px; }
+  .margin {
+    margin: 20px; }
+  .borde {
+    text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+  /* TEXTO */
+  /* COLOR */
+  .colormostaza #FFCF0B {
+    color: #FFCF0B; }
+  .colorMostaza {
+    color: #FFCF0B; }
+  .colorBlanco {
+    color: snow; }
+  .colorGris {
+    color: #708090; }
+  /* FONT */
+  .haters {
+    font-family: "haters"; }
+  .hatersBig {
+    font-family: "haters";
+    font-size: 200%; }
+  .mostazaHaters {
+    color: #FFCF0B;
+    font-family: "haters";
+    font-size: 200%; }
+  .font {
+    font-family: "Architects Daughter", cursive;
+    font-size: 100%; }
+  /* SIZE */
+  .bigFont {
+    font-size: 300%; }
+  .bigBigFont {
+    font-size: 500%; }
+  /* LISTAS */
+  .listRoman {
+    list-style-type: upper-roman; }
+  .listDisc {
+    list-style-type: disc; }
+  /* TRANSICIONES */
+  .logo {
+    animation: logo 1 3s; }
+  @keyframes logo {
+    0% {
+      transform: rotate(0deg); }
+    100% {
+      transform: rotate(360deg); } } }
+
+/* --------------- Large screens --------------- */
+@media only screen and (min-width: 1824px) {
+  /* --------------- BODY --------------- */
+  body {
+    background-image: url(../imagenes/fondo.png);
+    background-attachment: fixed; }
+  /* --------------- HEADER --------------- */
+  body header div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+  body header div#titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 80px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: black; }
+  /* --------------- NAV --------------- */
+  body header nav#nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: black;
+    list-style-type: none; }
+    body header nav#nav ul a {
+      text-decoration: none;
+      text-align: center; }
+  /* --------------- FOOTER --------------- */
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 60px;
+    margin-top: 40px; }
+    footer a#logoFooter img {
+      width: 100px; }
+    footer div {
+      display: flex;
+      flex-direction: row;
+      align-items: center; }
+      footer div a {
+        padding-right: 15px; }
+    footer p {
+      padding-top: 17px;
+      margin-left: 20px; }
+  /* --------------- INDEX --------------- */
+  /* DIV */
+  body main nav {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    body main nav div#izq {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-end;
+      height: 570px;
+      margin-top: 30px;
+      padding-bottom: 40px; }
+      body main nav div#izq a {
+        text-decoration: none; }
+      body main nav div#izq a#cont {
+        margin-right: -170px;
+        transform: rotate(15deg);
+        font-family: "haters";
+        font-size: 300%;
+        color: black; }
+      body main nav div#izq a#cont:hover {
+        color: #FFCF0B;
+        text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+      body main nav div#izq a#coc {
+        margin-right: -60px;
+        transform: rotate(-15deg);
+        font-family: "haters";
+        font-size: 300%;
+        color: black; }
+      body main nav div#izq a#coc:hover {
+        color: #FFCF0B;
+        text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+      body main nav div#izq a#res {
+        margin-right: -40px;
+        transform: rotate(15deg);
+        font-family: "haters";
+        font-size: 300%;
+        color: black; }
+      body main nav div#izq a#res:hover {
+        color: #FFCF0B;
+        text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+    body main nav div#izquierda {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-end; }
+      body main nav div#izquierda img#a {
+        margin-top: 100px;
+        margin-right: -80px; }
+      body main nav div#izquierda img#r {
+        margin-top: 150px;
+        margin-right: -120px; }
+      body main nav div#izquierda img#o {
+        margin-right: -200px; }
+    body main nav div#medio {
+      display: flex;
+      flex-direction: column; }
+      body main nav div#medio div#barra a {
+        z-index: 0;
+        padding: 0%;
+        margin: 0%; }
+      body main nav div#medio div#barra img#mesa {
+        width: 840px;
+        height: 490px;
+        background: url(../imagenes/Barras.png) no-repeat; }
+      body main nav div#medio div#barra img#mesa:hover {
+        background: url(../imagenes/BarrasC.png) no-repeat;
+        border: black; }
+      body main nav div#medio div#centro {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-end;
+        margin-bottom: 30px; }
+        body main nav div#medio div#centro img#bartender {
+          margin-bottom: -50px;
+          margin-right: 40px;
+          z-index: 1;
+          width: 200px;
+          height: 220px; }
+        body main nav div#medio div#centro img#bartender:hover {
+          background: url(../imagenes/BartenderC.png) no-repeat;
+          margin-bottom: -50px;
+          z-index: 1; }
+        body main nav div#medio div#centro img#carta {
+          width: 100px;
+          height: 130px;
+          background: url(../imagenes/Cartas.png);
+          margin-right: 120px;
+          margin-bottom: -50px;
+          z-index: 1; }
+        body main nav div#medio div#centro img#carta:hover {
+          background: url(../imagenes/CartasC.png) no-repeat;
+          margin-right: 120px;
+          margin-bottom: -50px;
+          z-index: 1; }
+        body main nav div#medio div#centro img#cuadro {
+          width: 100px;
+          height: 134px;
+          background: url(../imagenes/Cuadro.png);
+          margin-bottom: 120px;
+          margin-right: 20px; }
+        body main nav div#medio div#centro img#cuadro:hover {
+          background: url(../imagenes/CuadroC.png);
+          margin-bottom: 120px;
+          margin-right: 20px; }
+        body main nav div#medio div#centro img#tragos {
+          margin-left: 120px;
+          margin-bottom: -40px;
+          z-index: 1; }
+        body main nav div#medio div#centro img#tragos:hover {
+          background: url(../imagenes/TragosC.png) no-repeat;
+          margin-left: 120px;
+          margin-bottom: -40px;
+          z-index: 1; }
+        body main nav div#medio div#centro a {
+          z-index: 1; }
+    body main nav div#derecha {
+      flex-direction: column;
+      justify-content: flex-start; }
+      body main nav div#derecha img#w {
+        margin-left: -280px;
+        margin-top: -70px; }
+      body main nav div#derecha img#s {
+        margin-top: 230px;
+        margin-left: -40px; }
+    body main nav div#der {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      height: 180px;
+      margin-top: 70px; }
+      body main nav div#der a {
+        text-decoration: none; }
+      body main nav div#der a#bart {
+        margin-left: -120px;
+        transform: rotate(-15deg);
+        font-family: "haters";
+        font-size: 300%;
+        color: black; }
+      body main nav div#der a#bart:hover {
+        color: #FFCF0B;
+        text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+      body main nav div#der a#serv {
+        margin-left: -40px;
+        transform: rotate(15deg);
+        font-family: "haters";
+        font-size: 300%;
+        color: black; }
+      body main nav div#der a#serv:hover {
+        color: #FFCF0B;
+        text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+  /* --------------- SERVICIOS --------------- */
+  body main#service {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px; }
+    body main#service div {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; }
+      body main#service div div {
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center; }
+        body main#service div div div {
+          width: 200px; }
+          body main#service div div div img {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            border-radius: 20px;
+            width: 700px; }
+        body main#service div div img {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          border-radius: 20px;
+          width: 700px; }
+  .top {
+    margin-bottom: 50px; }
+  /* FLIP */
+  .flip-card {
+    background-color: transparent;
+    width: 350px;
+    height: 640px;
+    perspective: 1000px; }
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d; }
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg); }
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; }
+  .flip-card-front {
+    color: black; }
+  .flip-card-back {
+    color: white;
+    transform: rotateY(180deg); }
+  /* OPACITY */
+  .container {
+    position: relative;
+    width: 100%;
+    padding: 0%; }
+  .image {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden; }
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); }
+  .container:hover .image {
+    opacity: 0.3; }
+  .container:hover .middle {
+    opacity: 1; }
+  .text {
+    background-color: black;
+    font-family: "haters";
+    color: #FFCF0B;
+    font-size: 32px;
+    padding: 16px 32px;
+    border: solid #FFCF0B; }
+  .sep {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  /* --------------- NOSOTROS --------------- */
+  body main#nos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    body main#nos div {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 20px; }
+      body main#nos div div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin: 20px; }
+        body main#nos div div div {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          width: 295px;
+          height: 295px;
+          transition: background-color 1s, height 2s, width 2s;
+          overflow: hidden;
+          border: solid;
+          box-shadow: 10px 5px 5px #7c7c7c;
+          background-color: snow; }
+          body main#nos div div div img {
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            padding: 17px;
+            background-color: snow;
+            transition: border 1s; }
+          body main#nos div div div div {
+            box-shadow: none;
+            width: 500px;
+            margin: 35px;
+            border: none; }
+            body main#nos div div div div ul {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              padding-right: 20px;
+              box-shadow: none; }
+              body main#nos div div div div ul li {
+                color: black; }
+  div#valenOcta {
+    width: 800px; }
+  img#imgValen {
+    margin-left: 75px; }
+  img#imgOcta {
+    margin-right: 77px; }
+  div#todoNosotros {
+    height: 800px; }
+  div#valen:hover {
+    width: 800px;
+    height: 300px;
+    margin-bottom: 20px;
+    border: black solid;
+    background-color: snow; }
+    div#valen:hover img {
+      background-color: snow;
+      border: solid black;
+      padding: 10px; }
+  div#octa:hover {
+    width: 800px;
+    height: 300px;
+    margin-bottom: 20px;
+    border: black solid;
+    background-color: snow; }
+    div#octa:hover img {
+      background-color: snow;
+      border: solid black;
+      padding: 10px; }
+  .certificados {
+    display: none; }
+    .certificados img {
+      box-shadow: 0px 5px 5px #7c7c7c; }
+  /* --------------- COCKTAILS --------------- */
+  body main#bebidas div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px; }
+    body main#bebidas div div {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      border: 2px solid black;
+      background-color: black;
+      box-shadow: 10px 5px 5px #7c7c7c;
+      border-radius: 5px; }
+      body main#bebidas div div div {
+        box-shadow: none; }
+        body main#bebidas div div div table {
+          border-collapse: collapse;
+          background-image: url(../imagenes/logoopaco.png);
+          background-repeat: no-repeat;
+          background-position: center center; }
+          body main#bebidas div div div table th {
+            font-size: 12px;
+            font-weight: bold;
+            padding: 8px;
+            background: transparent;
+            border-top: 1px solid snow;
+            border-bottom: 1px solid snow;
+            color: #FFCF0B;
+            letter-spacing: 2px; }
+          body main#bebidas div div div table th#th {
+            font-size: 23px; }
+          body main#bebidas div div div table td {
+            padding: 8px;
+            background: transparent;
+            border-bottom: 1px solid snow;
+            color: snow;
+            border-top: 1px solid transparent; }
+    body main#bebidas div div#bat {
+      height: 1250px; }
+  body main#bebidas tr:hover td {
+    background: transparent;
+    color: #FFCF0B; }
+  /* --------------- CONTACTO --------------- */
+  body main form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 150px; }
+    body main form fieldset {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 900px;
+      height: 600px;
+      border: solid;
+      border-radius: 20px;
+      padding: 20px;
+      background-color: black;
+      box-shadow: 10px 5px 5px #7c7c7c; }
+  /* --------------- RESERVA --------------- */
+  main#reservaBarra div h1 {
+    margin: 0px; }
+  main#reservaBarra form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px; }
+    main#reservaBarra form div p {
+      font-size: 20px;
+      margin-bottom: .5rem;
+      line-height: 1.5rem; }
+    main#reservaBarra form div input {
+      box-shadow: 10px 5px 5px #7c7c7c;
+      margin-bottom: 50px;
+      width: 70px;
+      font-size: 15px;
+      background-color: snow;
+      margin-left: 20px;
+      margin-top: 0px; }
   hr, .hrcolor {
     height: 1px;
     border: 0;

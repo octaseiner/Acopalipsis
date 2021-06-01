@@ -637,31 +637,39 @@ body {
 
 /* --------------- RESERVA --------------- */
 main#reservaBarra {
-    h1 {
-        font-size: 40px;
-        margin: 0px;
-        margin-bottom: 20px;
+    div{
+        
+        h1 {
+            font-size: 40px;
+            margin: 0px;
+            margin-bottom: 20px;
+        }
     }
 
+    form {
+        display: flex;
+        flex-direction: column;
+        
+        div {
+            margin: 1px;
+            padding: 5px;
+
+            input {
+                box-shadow: 10px 5px 5px rgb(124, 124, 124);
+                margin-bottom: 50px;
+                width: 70px;
+                font-size: 15px;
+                margin-left: 10px;
+            }
+        }
+    }
+    
     h4 {
         font-size: 30px;
     }
 
     span {
         font-size: 10px;
-    }
-
-    div {
-        margin: 1px;
-        padding: 5px;
-
-        input {
-            box-shadow: 10px 5px 5px rgb(124, 124, 124);
-            margin-bottom: 50px;
-            width: 70px;
-            font-size: 15px;
-            margin-left: 10px;
-        }
     }
 }
 
@@ -741,7 +749,7 @@ label.check span {
 label.check input:checked+span {
     border-color: $mostaza;
     background-color: $mostaza;
-    color: $blanco;    
+    color: $negro;    
 }
 
 
@@ -1246,10 +1254,11 @@ body {
             align-items: center;
 
             div {
+
                 div {
 
                     img {
-                        width: 200px;
+                        width: 280px;
                         margin-bottom: 20px;
                         border-radius: 20px;
                     }
@@ -1257,7 +1266,7 @@ body {
                     div {
                         
                         img {
-                            width: 200px;
+                            width: 280px;
                             margin-bottom: 20px;
                             border-radius: 20px;
                         }
@@ -1348,6 +1357,13 @@ body {
                 div {
                     box-shadow: none;
                     padding: 5px;
+                    
+                    table {
+                        background-image: url(../imagenes/logoopaco.png);
+                        background-repeat:no-repeat;
+                        background-position:center center;
+                        background-size: 100%;
+                    }
 
                     table#bat {
                         width: 100px;
@@ -1462,31 +1478,38 @@ body {
 
 /* --------------- RESERVA --------------- */
 main#reservaBarra {
-    h1 {
-        font-size: 40px;
-        margin: 0px;
-        margin-bottom: 20px;
+    div {
+        h1 {
+            font-size: 40px;
+            margin: 0px;
+            margin-bottom: 20px;
+        }
     }
 
+    form {
+        display: flex;
+        flex-direction: column;
+
+        div {
+            margin: 1px;
+            padding: 5px;
+
+            input {
+                box-shadow: 10px 5px 5px rgb(124, 124, 124);
+                margin-bottom: 50px;
+                width: 70px;
+                font-size: 15px;
+                margin-left: 20px;
+            }
+        }
+    }
+    
     h4 {
         font-size: 30px;
     }
 
     span {
         font-size: 10px;
-    }
-
-    div {
-        margin: 1px;
-        padding: 5px;
-
-        input {
-            box-shadow: 10px 5px 5px rgb(124, 124, 124);
-            margin-bottom: 50px;
-            width: 70px;
-            font-size: 15px;
-            margin-left: 20px;
-        }
     }
 }
 
@@ -1566,7 +1589,7 @@ label.check span {
 label.check input:checked+span {
     border-color: $mostaza;
     background-color: $mostaza;
-    color: $blanco;    
+    color: $negro;    
 }
 
 
@@ -1673,7 +1696,7 @@ $colorFont: (
 
 
 
-@media only screen and (min-device-width : 480px) and (max-device-width : 768px) {
+@media only screen and (min-device-width : 480px) and (max-device-width : 767px) {
 /* --------------- BODY --------------- */
 body {
     background-image: url(../imagenes/fondo.png);
@@ -2086,7 +2109,7 @@ body {
                 div {
 
                     img {
-                        width: 300px;
+                        width: 350px;
                         margin-bottom: 20px;
                         border-radius: 20px;
                     }
@@ -2094,7 +2117,7 @@ body {
                     div {
                         
                         img {
-                            width: 300px;
+                            width: 350px;
                             margin-bottom: 20px;
                             border-radius: 20px;
                         }
@@ -2198,7 +2221,7 @@ body {
                         background-image: url(../imagenes/logoopaco.png);
                         background-repeat:no-repeat;
                         background-position:center center;
-                        background-size: 120%;
+                        background-size: 60%;
                     
                         th {     
                             font-size: 12px;     
@@ -2295,10 +2318,30 @@ body {
 
 /* --------------- RESERVA --------------- */
 main#reservaBarra {
-    h1 {
-        font-size: 40px;
-        margin: 0px;
-        margin-bottom: 20px;
+    div{
+        h1 {
+            font-size: 40px;
+            margin: 0px;
+            margin-bottom: 20px;
+        }
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+
+        div {
+            margin: 1px;
+            padding: 5px;
+
+            input {
+                box-shadow: 10px 5px 5px rgb(124, 124, 124);
+                margin-bottom: 50px;
+                width: 70px;
+                font-size: 15px;
+                margin-left: 20px;
+            }
+        }
     }
 
     h4 {
@@ -2307,19 +2350,6 @@ main#reservaBarra {
 
     span {
         font-size: 10px;
-    }
-
-    div {
-        margin: 1px;
-        padding: 5px;
-
-        input {
-            box-shadow: 10px 5px 5px rgb(124, 124, 124);
-            margin-bottom: 50px;
-            width: 70px;
-            font-size: 15px;
-            margin-left: 20px;
-        }
     }
 }
 
@@ -2399,7 +2429,7 @@ label.check span {
 label.check input:checked+span {
     border-color: $mostaza;
     background-color: $mostaza;
-    color: $blanco;    
+    color: $negro;    
 }
 
 
@@ -2497,7 +2527,7 @@ $colorFont: (
 
 
 
-@media only screen and (min-device-width : 769px) and (max-device-width : 1223px) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1223px) {
     /* --------------- BODY --------------- */
 body {
     background-image: url(../imagenes/fondo.png);
@@ -2735,7 +2765,7 @@ body {
                 div {
 
                     img {
-                        width: 300px;
+                        width: 500px;
                         margin-bottom: 20px;
                         border-radius: 20px;
                     }
@@ -2743,7 +2773,7 @@ body {
                     div {
                         
                         img {
-                            width: 300px;
+                            width: 500px;
                             margin-bottom: 20px;
                             border-radius: 20px;
                         }
@@ -3010,10 +3040,32 @@ body {
 /* --------------- RESERVA --------------- */
 
 main#reservaBarra {
-    h1 {
-        font-size: 40px;
-        margin: 0px;
-        margin-bottom: 20px;
+    div {
+        h1 {
+            font-size: 40px;
+            margin: 0px;
+            margin-bottom: 20px;
+        }
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        div {
+            margin: 1px;
+            padding: 5px;
+
+            input {
+                box-shadow: 10px 5px 5px rgb(124, 124, 124);
+                margin-bottom: 50px;
+                width: 70px;
+                font-size: 15px;
+                background-color: $blanco;
+                margin-left: 20px;
+            }
+        }
+        
     }
 
     h4 {
@@ -3022,20 +3074,6 @@ main#reservaBarra {
 
     span {
         font-size: 10px;
-    }
-
-    div {
-        margin: 1px;
-        padding: 5px;
-
-        input {
-            box-shadow: 10px 5px 5px rgb(124, 124, 124);
-            margin-bottom: 50px;
-            width: 70px;
-            font-size: 15px;
-            background-color: $blanco;
-            margin-left: 20px;
-        }
     }
 }
 
@@ -3115,7 +3153,7 @@ label.check span {
 label.check input:checked+span {
     border-color: $mostaza;
     background-color: $mostaza;
-    color: $blanco;    
+    color: $negro;    
 }
 
 
@@ -3566,9 +3604,6 @@ body {
 }
 
 
-
-
-
 /* --------------- SERVICIOS --------------- */
 
 body {
@@ -3910,21 +3945,28 @@ main#reservaBarra {
         margin: 0px;
     }
 
-    div {
-        p {
-            font-size: 20px;
-            margin-bottom: .5rem;
-            line-height: 1.5rem
-        }
+    form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
 
-        input {
-            box-shadow: 10px 5px 5px rgb(124, 124, 124);
-            margin-bottom: 50px;
-            width: 70px;
-            font-size: 15px;
-            background-color: $blanco;
-            margin-left: 20px;
-            margin-top: 0px;
+        div {
+
+            p {
+                font-size: 20px;
+                margin-bottom: .5rem;
+                line-height: 1.5rem
+            }
+
+            input {
+                box-shadow: 10px 5px 5px rgb(124, 124, 124);
+                margin-bottom: 50px;
+                width: 70px;
+                font-size: 15px;
+                background-color: $blanco;
+                margin-left: 20px;
+                margin-top: 0px;
+            }
         }
     }
 }
@@ -4104,8 +4146,906 @@ $colorFont: (
         transform: rotate(360deg);
     }
 }
-
 }
 
 
+
+/* --------------- Large screens --------------- */
+
+
+
+@media only screen and (min-width : 1824px) {
+/* --------------- BODY --------------- */
+body {
+    background-image: url(../imagenes/fondo.png);
+    background-attachment: fixed;
+}
+
+/* --------------- HEADER --------------- */
+body {
+    header{
+        div {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        div#titulo {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            height: 80px;
+            margin-top: 30px;
+            margin-bottom: 50px;
+            background-color: $negro;
+        }
+    }
+}
+
+/* --------------- NAV --------------- */
+body {
+    header{
+        nav#nav{
+            ul {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                height: 80px;
+                margin-top: 30px;
+                margin-bottom: 50px;
+                background-color: $negro;
+                list-style-type: none;
+
+                a {
+                    text-decoration: none;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+/* --------------- FOOTER --------------- */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $negro;
+    height: 60px;
+    margin-top: 40px;
+
+    a#logoFooter {
+        img {
+            width: 100px;
+        }
+    }
+
+    div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        a{
+            padding-right: 15px;
+        }
+    }
+
+    p {
+        padding-top: 17px;
+        margin-left: 20px;
+    }
+}
+
+/* --------------- INDEX --------------- */
+/* DIV */
+body {
+    main{
+        nav {
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+            div#izq {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: flex-end;
+                height: 570px;
+                margin-top: 30px;
+                padding-bottom: 40px;
+            
+                a {
+                    text-decoration: none;
+                }
+            
+                a#cont {
+                    margin-right: -170px;
+                    transform: rotate(15deg);
+                    font-family: $haters;
+                    font-size: 300%;
+                    color: $negro;
+                }
+                
+                a#cont:hover {
+                    color: $mostaza;
+                    text-shadow:
+                    0 0 1px #000,
+                    -1px -1px 0 #000,  
+                    1px -1px 0 #000,
+                    -1px 1px 0 #000,
+                    1px 1px 0 #000;
+                }
+                
+                a#coc {
+                    margin-right: -60px;
+                    transform: rotate(-15deg);
+                    font-family: $haters;
+                    font-size: 300%;
+                    color: $negro;
+                }
+                
+                a#coc:hover {
+                    color: $mostaza;
+                    text-shadow:
+                    0 0 1px #000,
+                    -1px -1px 0 #000,  
+                    1px -1px 0 #000,
+                    -1px 1px 0 #000,
+                    1px 1px 0 #000;
+                }
+                
+                a#res {
+                    margin-right: -40px;
+                    transform: rotate(15deg);
+                    font-family: $haters;
+                    font-size: 300%;
+                    color: $negro;
+                }
+                
+                a#res:hover {
+                    color: $mostaza;
+                    text-shadow:
+                    0 0 1px #000,
+                    -1px -1px 0 #000,  
+                    1px -1px 0 #000,
+                    -1px 1px 0 #000,
+                    1px 1px 0 #000;
+                }
+            }
+
+            div#izquierda {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-end;
+            
+                img#a  {
+                    margin-top: 100px;
+                    margin-right: -80px;
+                }
+                
+                img#r {
+                    margin-top: 150px;
+                    margin-right: -120px;
+                }
+                
+                img#o  {
+                    margin-right: -200px;
+                }
+            }
+
+            div#medio {
+                display: flex;
+                flex-direction: column;
+
+                div#barra {
+                    a {
+                        z-index: 0;
+                        padding:0%;
+                        margin:0%;
+                    }
+
+                    img#mesa {
+                        width: 840px;
+                        height: 490px;
+                        background: url(../imagenes/Barras.png) no-repeat;
+                    }
+
+                    img#mesa:hover {
+                        background: url(../imagenes/BarrasC.png) no-repeat;
+                        border: black;
+                    }
+                }
+
+                div#centro {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: flex-end;
+                    margin-bottom: 30px;
+
+                    img#bartender  {
+                        margin-bottom: -50px;
+                        margin-right: 40px;
+                        z-index: 1;
+                        width: 200px; 
+                        height: 220px;
+                    }
+
+                    img#bartender:hover {
+                        background:url(../imagenes/BartenderC.png) no-repeat;
+                        margin-bottom: -50px; 
+                        z-index: 1;
+                    }
+                    
+                    img#carta {
+                        width: 100px; 
+                        height: 130px;
+                        background: url(../imagenes/Cartas.png);
+                        margin-right: 120px;
+                        margin-bottom: -50px;
+                        z-index: 1;
+                    }
+
+                    img#carta:hover {
+                        background: url(../imagenes/CartasC.png) no-repeat;
+                        margin-right: 120px;
+                        margin-bottom: -50px;
+                        z-index: 1;
+                    }
+                    
+                    img#cuadro {
+                        width: 100px; 
+                        height: 134px;
+                        background: url(../imagenes/Cuadro.png);
+                        margin-bottom: 120px;
+                        margin-right: 20px;
+                    }
+
+                    img#cuadro:hover {
+                        background: url(../imagenes/CuadroC.png);
+                        margin-bottom: 120px;
+                        margin-right: 20px;
+                    }
+
+                    img#tragos {
+                        margin-left: 120px;
+                        margin-bottom: -40px;
+                        z-index: 1;
+                    }
+                    
+                    img#tragos:hover {
+                        background:url(../imagenes/TragosC.png) no-repeat;
+                        margin-left: 120px;
+                        margin-bottom: -40px;
+                        z-index: 1;
+                    }
+
+                    a {
+                        z-index: 1;
+                    }
+                }
+            }
+
+            div#derecha {
+                flex-direction: column;
+                justify-content: flex-start;
+            
+                img#w  {
+                    margin-left: -280px;
+                    margin-top: -70px;
+                }
+                
+                img#s  {
+                    margin-top: 230px;
+                    margin-left: -40px;
+                }
+            }
+
+            div#der {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: flex-start;
+                height: 180px;
+                margin-top: 70px;
+
+                a {
+                    text-decoration: none;
+                }
+
+                a#bart {
+                    margin-left: -120px;
+                    transform: rotate(-15deg);
+                    font-family: $haters;
+                    font-size: 300%;
+                    color: $negro;
+                }
+                
+                a#bart:hover {
+                    color: $mostaza;
+                    text-shadow:
+                    0 0 1px #000,
+                    -1px -1px 0 #000,  
+                    1px -1px 0 #000,
+                    -1px 1px 0 #000,
+                    1px 1px 0 #000;
+                }
+                
+                a#serv {
+                    margin-left: -40px;
+                    transform: rotate(15deg);
+                    font-family: $haters;
+                    font-size: 300%;
+                    color: $negro;
+                }
+                
+                a#serv:hover {
+                    color: $mostaza;
+                    text-shadow:
+                    0 0 1px #000,
+                    -1px -1px 0 #000,  
+                    1px -1px 0 #000,
+                    -1px 1px 0 #000,
+                    1px 1px 0 #000;
+                }
+            }
+        }
+    }
+}
+
+
+/* --------------- SERVICIOS --------------- */
+
+body {
+    main#service {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+
+        div {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+
+            div {
+                width: 300px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+
+                div {
+                    width: 200px;
+
+                    img {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                        border-radius: 20px;
+                        width: 700px;
+                        }
+                    }
+
+                img {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    border-radius: 20px;
+                    width: 700px;
+
+                }
+            }
+        }
+    }
+}
+
+.top {
+    margin-bottom: 50px;
+}
+
+/* FLIP */
+.flip-card {
+    background-color: transparent;
+    width: 350px;
+    height: 640px;
+    perspective: 1000px; 
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    color: black;
+}
+
+.flip-card-back {
+    color: white;
+    transform: rotateY(180deg);
+}
+
+/* OPACITY */
+.container {
+    position: relative;
+    width: 100%;
+    padding: 0%;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.container:hover .image {
+    opacity: 0.3;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: $negro;
+    font-family: $haters;
+    color: $mostaza;
+    font-size: 32px;
+    padding: 16px 32px;
+    border: solid $mostaza;
+}
+
+.sep {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* --------------- NOSOTROS --------------- */
+
+body {
+    main#nos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 20px;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                margin: 20px;
+
+                div {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    width: 295px;
+                    height: 295px;
+                    transition: background-color 1s, height 2s, width 2s;
+                    overflow: hidden;
+                    border: solid;
+                    box-shadow: 10px 5px 5px rgb(124, 124, 124);
+                    background-color: $blanco;
+
+                    img {
+                        display: flex;
+                        flex-direction: column;
+                        justify-items: center;
+                        padding: 17px;
+                        background-color: $blanco;
+                        transition: border 1s;
+                    }
+
+                    div {
+                        box-shadow: none;
+                        width: 500px;
+                        margin: 35px;
+                        border: none;
+
+                        ul {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            padding-right: 20px;    
+                            box-shadow: none;
+                            
+                            li {
+                                color: $negro;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+div#valenOcta {
+    width: 800px;
+}
+
+img#imgValen {
+    margin-left: 75px;
+}
+
+img#imgOcta {
+    margin-right: 77px;
+}
+
+div#todoNosotros {
+    height: 800px;
+}
+
+div#valen:hover {
+    width: 800px;
+    height: 300px;
+    margin-bottom: 20px; 
+    border: $negro solid;
+    background-color: $blanco;
+
+    img {
+        background-color: $blanco;
+        border: solid $negro;
+        padding: 10px;
+    }
+}
+
+div#octa:hover {
+    width: 800px;
+    height: 300px;
+    margin-bottom: 20px;
+    border: $negro solid;
+    background-color: $blanco;
+
+    img {
+        background-color: $blanco;
+        border: solid $negro;
+        padding: 10px;
+    }
+}
+
+.certificados {
+    display: none;
+
+    img {
+        box-shadow: 0px 5px 5px rgb(124, 124, 124);
+    }
+}
+
+/* --------------- COCKTAILS --------------- */
+body {
+    main#bebidas {
+        div {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin: 20px;
+
+            div {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            border: 2px solid $negro;
+            background-color: $negro;
+            box-shadow: 10px 5px 5px rgb(124, 124, 124);
+            border-radius: 5px;
+
+                div {
+                    box-shadow: none;
+
+                    table {
+                        border-collapse: collapse;
+                        background-image: url(../imagenes/logoopaco.png);
+                        background-repeat:no-repeat;
+                        background-position:center center;
+                    
+                        th {     
+                            font-size: 12px;     
+                            font-weight: bold;     
+                            padding: 8px;     
+                            background: transparent;
+                            border-top: 1px solid $blanco;    
+                            border-bottom: 1px solid $blanco; 
+                            color: $mostaza; 
+                            letter-spacing: 2px;
+                        }
+                    
+                        th#th {
+                            font-size: 23px;     
+                        }
+                    
+                        td {    
+                            padding: 8px;     
+                            background: transparent;     
+                            border-bottom: 1px solid $blanco;
+                            color: $blanco;    
+                            border-top: 1px solid transparent; 
+                        }
+                    }
+                }
+            }
+
+            div#bat {
+                height: 1250px;
+            }
+        }
+
+        tr:hover td {
+            background: transparent; 
+            color: $mostaza; 
+        }
+    }
+}
+
+
+/* --------------- CONTACTO --------------- */
+body {
+    main {
+        form {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: 150px;
+
+            fieldset {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                width: 900px;
+                height: 600px;
+                border: solid;
+                border-radius: 20px;
+                padding: 20px;
+                background-color: $negro;
+                box-shadow: 10px 5px 5px rgb(124, 124, 124);
+            }
+        }
+    }
+}
+
+/* --------------- RESERVA --------------- */
+
+main#reservaBarra {
+    div {
+        h1 {
+            margin: 0px;
+        }
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+
+        div {
+            p {
+                font-size: 20px;
+                margin-bottom: .5rem;
+                line-height: 1.5rem
+            }
+
+            input {
+                box-shadow: 10px 5px 5px rgb(124, 124, 124);
+                margin-bottom: 50px;
+                width: 70px;
+                font-size: 15px;
+                background-color: $blanco;
+                margin-left: 20px;
+                margin-top: 0px;
+            }
+        }
+    }
+}
+
+hr, .hrcolor {
+    height: 1px;
+    border: 0;
+    color: #666;
+    background-color: $blanco;
+}
+
+.mb-30 {
+    margin-bottom: 30px
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: $negro;
+    background-clip: border-box;
+    border: 1px solid #d2d2dc;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px rgb(124, 124, 124);
+}
+
+.card .card-body {
+    padding: 1.25rem 1.75rem
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem
+}
+
+.card .card-title {
+    color: $mostaza;
+    font-family: $haters;
+    font-size: 300%;
+    margin-bottom: 0.625rem;
+    text-transform: capitalize;
+    font-weight: 500
+}
+
+.card .card-description {
+    margin-bottom: .875rem;
+    font-weight: 400;
+    color: $gris;
+}
+
+label.check {
+    cursor: pointer
+}
+
+label.check input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    pointer-events: none
+}
+
+label.check span {
+    padding: 7px 14px;
+    border: 2px solid $mostaza;
+    display: inline-block;
+    color: $mostaza;
+    border-radius: 3px;
+    text-transform: uppercase
+}
+
+label.check input:checked+span {
+    border-color: $mostaza;
+    background-color: $mostaza;
+    color: $negro;    
+}
+
+
+
+
+
+/* --------------- CLASES ---------------*/
+/* GENERALES*/
+.oculto {
+    display: none;
+}
+
+.marginTop {
+    margin-top: 100px;
+}
+
+.margin {
+    margin: 20px;
+}
+
+.borde {
+    text-shadow:
+    0 0 1px #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+/* TEXTO */
+/* COLOR */
+$colorFont: (
+    colormostaza$mostaza: $mostaza,
+    colorMostaza: $mostaza,
+    colorBlanco: $blanco,
+    colorGris: $gris
+);
+
+@each $color, $colores in $colorFont {
+    .#{$color} {
+        color: $colores;
+    }
+}
+/* FONT */
+
+.haters {
+    font-family: $haters;
+}
+
+.hatersBig {
+    font-family: $haters;
+    font-size: 200%;
+}
+
+.mostazaHaters {
+    color: $mostaza;
+    font-family: $haters;
+    font-size: 200%;
+}
+
+.font {
+    font-family: $font;
+    font-size: 100%;
+}
+
+/* SIZE */
+
+.bigFont {
+    font-size: 300%;
+}
+
+.bigBigFont {
+    font-size: 500%;
+}
+
+/* LISTAS */
+.listRoman {
+    list-style-type: upper-roman;
+}
+
+.listDisc {
+    list-style-type: disc;
+}
+
+/* TRANSICIONES */
+.logo {
+    animation: logo 1 3s;
+}
+
+@keyframes logo {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+}
 

@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
 @font-face {
   font-family: "haters";
   src: url("../font/heaters/Heaters.otf"); }
@@ -201,59 +200,58 @@
           color: #FFCF0B;
           background-clip: text;
           text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+      div#mainMobile div#up div#bartender {
+        margin-bottom: -40px; }
+        div#mainMobile div#up div#bartender a#nos {
+          text-align: right; }
+        div#mainMobile div#up div#bartender img#bartender {
+          margin-bottom: -50px;
+          margin-right: 40px;
+          z-index: 1;
+          width: 75px; }
+      div#mainMobile div#up div#tragos {
+        margin-bottom: -140px; }
+        div#mainMobile div#up div#tragos img#tragos {
+          width: 30px; }
+      div#mainMobile div#up div#cuadro {
+        margin-top: -60px; }
+        div#mainMobile div#up div#cuadro img#cuadro {
+          width: 35px; }
+      div#mainMobile div#up div#carta {
+        margin-bottom: -130px; }
+        div#mainMobile div#up div#carta img#carta {
+          width: 35px; }
     div#mainMobile div#down {
       display: flex;
       flex-direction: column;
       align-items: center;
       width: 100%;
       z-index: 0; }
-      div#mainMobile div#down div#barra a#bar {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        font: 1rem "haters";
-        text-decoration: none;
-        text-transform: uppercase;
-        background: linear-gradient(var(--fill-color) 0 100%) left/0 no-repeat;
-        color: #FFCF0B;
-        background-clip: text;
-        text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-        margin-top: 15px;
-        font-size: 150%;
-        border: solid #FFCF0B;
-        margin-left: 50px;
-        margin-right: 50px; }
-      div#mainMobile div#down div#barra img {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin-top: 33px; }
-  a#nos {
-    text-align: right; }
-  div#bartender {
-    margin-bottom: -40px; }
-    div#bartender img#bartender {
-      margin-bottom: -50px;
-      margin-right: 40px;
-      z-index: 1;
-      width: 75px; }
-  div#tragos {
-    margin-bottom: -140px; }
-    div#tragos img#tragos {
-      width: 30px; }
-  div#cuadro {
-    margin-top: -60px; }
-    div#cuadro img#cuadro {
-      width: 35px; }
-  div#carta {
-    margin-bottom: -130px; }
-    div#carta img#carta {
-      width: 35px; }
-  div#barra {
-    margin-bottom: 70px;
-    margin-top: 50px; }
-    div#barra img#tabla {
-      width: 240px; }
+      div#mainMobile div#down div#barra {
+        margin-bottom: 70px;
+        margin-top: 50px; }
+        div#mainMobile div#down div#barra a#bar {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          font: 1rem "haters";
+          text-decoration: none;
+          text-transform: uppercase;
+          background: linear-gradient(var(--fill-color) 0 100%) left/0 no-repeat;
+          color: #FFCF0B;
+          background-clip: text;
+          text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+          margin-top: 15px;
+          font-size: 150%;
+          border: solid #FFCF0B;
+          margin-left: 50px;
+          margin-right: 50px; }
+        div#mainMobile div#down div#barra img {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          margin-top: 33px;
+          width: 240px; }
   /* --------------- SERVICIOS --------------- */
   body main#service {
     display: flex;
@@ -337,6 +335,35 @@
       body main#bebidas div div div {
         box-shadow: none;
         padding: 5px; }
+        body main#bebidas div div div table {
+          border-collapse: collapse;
+          padding: 3px;
+          background-image: url(../imagenes/logoopaco.png);
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: 120%; }
+          body main#bebidas div div div table th {
+            font-size: 9px;
+            font-weight: bold;
+            padding: 2px;
+            background: transparent;
+            border-top: 1px solid snow;
+            border-bottom: 1px solid snow;
+            color: #FFCF0B;
+            letter-spacing: 2px; }
+          body main#bebidas div div div table th#th {
+            font-size: 14px; }
+          body main#bebidas div div div table td {
+            padding: 2px;
+            background: transparent;
+            border-bottom: 1px solid snow;
+            color: snow;
+            border-top: 1px solid transparent; }
+        body main#bebidas div div div table#segunda {
+          width: 100px;
+          margin-right: 200px; }
+          body main#bebidas div div div table#segunda th {
+            width: fit-content; }
   body main#bebidas h1 {
     font-size: 40px;
     margin-top: 40px; }
@@ -346,35 +373,6 @@
     font-size: 12px; }
   body main#bebidas ol {
     font-size: 12px; }
-  table {
-    border-collapse: collapse;
-    padding: 3px;
-    background-image: url(../imagenes/logoopaco.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 120%; }
-  th {
-    font-size: 9px;
-    font-weight: bold;
-    padding: 2px;
-    background: transparent;
-    border-top: 4px solid black;
-    border-bottom: 1px solid snow;
-    color: #FFCF0B;
-    letter-spacing: 2px; }
-  th#th {
-    font-size: 14px; }
-  td {
-    padding: 2px;
-    background: transparent;
-    border-bottom: 1px solid snow;
-    color: snow;
-    border-top: 1px solid transparent; }
-  table#segunda {
-    width: 100px;
-    margin-right: 200px; }
-  table#segunda th {
-    width: fit-content; }
   tr:hover td {
     background: transparent;
     color: #FFCF0B; }
@@ -482,7 +480,7 @@
     display: none; }
   /* TEXTO*/
   /* COLOR */
-  .colorAmarillo {
+  .colormostaza #FFCF0B {
     color: #FFCF0B; }
   .colorMostaza {
     color: #FFCF0B; }
@@ -992,7 +990,7 @@
     display: none; }
   /* TEXTO*/
   /* COLOR */
-  .colorAmarillo {
+  .colormostaza #FFCF0B {
     color: #FFCF0B; }
   .colorMostaza {
     color: #FFCF0B; }
@@ -1510,7 +1508,7 @@
     display: none; }
   /* TEXTO*/
   /* COLOR */
-  .colorAmarillo {
+  .colormostaza #FFCF0B {
     color: #FFCF0B; }
   .colorMostaza {
     color: #FFCF0B; }
@@ -1956,7 +1954,7 @@
   /* TEXTO*/
   /* COLOR */
   /* COLOR */
-  .colorAmarillo {
+  .colormostaza #FFCF0B {
     color: #FFCF0B; }
   .colorMostaza {
     color: #FFCF0B; }
@@ -2515,7 +2513,7 @@
     text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
   /* TEXTO */
   /* COLOR */
-  .colorAmarillo {
+  .colormostaza #FFCF0B {
     color: #FFCF0B; }
   .colorMostaza {
     color: #FFCF0B; }

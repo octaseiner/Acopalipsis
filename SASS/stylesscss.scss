@@ -9,14 +9,10 @@ $haters: "haters";
 $font: "Architects Daughter", cursive;
 
 // FONT COLOR
-$amarillo: #FFCF0B;
 $mostaza: #FFCF0B;
 $gris: #708090;
 $blanco: snow;
 $negro: black;
-
-// MARGIN
-$mar: 40px;
 
 
 
@@ -40,35 +36,35 @@ body {
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            height: $mar+10;
-            margin-top: ($mar)-10;
-            margin-bottom: $mar+10;
+            height: 50px;
+            margin-top: 30px;
+            margin-bottom: 50px;
             background-color: $negro;
 
             h1 {
                 text-align: center;
-                font-size: ($mar)-25;
-                margin: $mar/8;
+                font-size: 15px;
+                margin: 5px;
             }
 
             a {
                 img {
-                    width: $mar+35;
-                    height: $mar+35;
+                    width: 75px;
+                    height: 75px;
                 }
             }
 
             h2 {
                 text-align: center;
-                font-size: ($mar)-25;
-                margin: $mar/8;
+                font-size: 15px;
+                margin: 5px;
             }
         }
     }
 }
 
 /* --------------- NAV --------------- */
-/* GENERAL*/
+    /* GENERAL*/
 body {
     header {
         DIV#navMobile {
@@ -76,15 +72,15 @@ body {
                 flex-direction: row;
                 justify-content: space-around;
                 align-items: center;
-                height: $mar+20;
-                margin-top: $mar/2;
-                margin-bottom: $mar+10;
+                height: 60px;
+                margin-top: 20px;
+                margin-bottom: 50px;
                 background-color: $negro;
         }
     }
 }
 
-/* BOTON */
+    /* BOTON */
 div#navMobile {
     display: flex;
     flex-direction: row;
@@ -98,9 +94,9 @@ input#abrir-cerrar {
 
 .toggle-button {
     display:block;
-    width:$mar;
-    height:$mar;
-    border:1px solid $amarillo;
+    width: 40px;
+    height: 40px;
+    border:1px solid $mostaza;
     position:relative;
     cursor: pointer;
     box-sizing: border-box;
@@ -120,14 +116,14 @@ input#abrir-cerrar {
 .toggle-button:before {
     top: calc(100% / 4);
     height:calc(100% / 4);
-    border-top:1px solid $amarillo;
-    border-bottom:1px solid $amarillo;
+    border-top:1px solid $mostaza;
+    border-bottom:1px solid $mostaza;
     background-color: transparent;
 }
 
 .toggle-button:after {
     height:1px;
-    background-color: $amarillo;
+    background-color: $mostaza;
     bottom:calc(100% / 4);
 }
 
@@ -179,7 +175,7 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"], input#abrir-cerrar:check
     z-index: 2;
 }
 
-/* MENU DESPLEGABLE */
+    /* MENU DESPLEGABLE */
 #sidebar {
     width:0;
 }
@@ -281,8 +277,6 @@ footer {
 }
 
 /* --------------- INDEX --------------- */
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
-
 div#mainMobile {
     display: flex;
     flex-direction: column;
@@ -318,6 +312,46 @@ div#mainMobile {
                 1px 1px 0 #000;
             }
         }
+
+        div#bartender {
+            margin-bottom: -40px;
+        
+            a#nos {
+                text-align: right;
+            }
+            
+            img#bartender  {
+                margin-bottom: -50px;
+                margin-right: 40px;
+                z-index: 1;
+                width: 75px; 
+            }
+        }
+
+        div#tragos {
+            margin-bottom: -140px;
+        
+            img#tragos {
+                width: 30px; 
+            }
+        }
+        
+        div#cuadro {
+            margin-top: -60px;
+        
+            img#cuadro {
+                width: 35px; 
+            }
+        }
+        
+        div#carta {
+            margin-bottom: -130px;
+        
+            img#carta {
+                width: 35px; 
+            }
+        }
+        
     }
 
     div#down {
@@ -328,6 +362,8 @@ div#mainMobile {
         z-index: 0;
 
         div#barra {
+            margin-bottom: 70px;
+            margin-top: 50px;
 
             a#bar {
                 display: flex;
@@ -357,62 +393,11 @@ div#mainMobile {
                 flex-direction: row;
                 justify-content: center;
                 margin-top: 33px;
+                width: 240px; 
             }
         }
     }
 }
-
-a#nos {
-    text-align: right;
-}
-
-div#bartender {
-    margin-bottom: -40px;
-
-    img#bartender  {
-        margin-bottom: -50px;
-        margin-right: 40px;
-        z-index: 1;
-        width: 75px; 
-    }
-    
-}
-
-div#tragos {
-    margin-bottom: -140px;
-
-    img#tragos {
-        width: 30px; 
-    }
-}
-
-div#cuadro {
-    margin-top: -60px;
-
-    img#cuadro {
-        width: 35px; 
-    }
-}
-
-div#carta {
-    margin-bottom: -130px;
-
-    img#carta {
-        width: 35px; 
-    }
-}
-
-div#barra {
-    margin-bottom: 70px;
-    margin-top: 50px;
-
-    img#tabla {
-        width: 240px; 
-    }
-    
-}
-
-
 
 /* --------------- SERVICIOS --------------- */
 body {
@@ -545,6 +530,48 @@ body {
                 div {
                     box-shadow: none;
                     padding: 5px;
+                
+                    table {
+                        border-collapse: collapse;
+                        padding: 3px;
+                        background-image: url(../imagenes/logoopaco.png);
+                        background-repeat:no-repeat;
+                        background-position:center center;
+                        background-size: 120%;
+                    
+                        th {     
+                            font-size: 9px;     
+                            font-weight: bold;     
+                            padding: 2px;     
+                            background: transparent;
+                            border-top: 1px solid $blanco;    
+                            border-bottom: 1px solid $blanco; 
+                            color: $mostaza;
+                            letter-spacing: 2px; 
+                        }
+                    
+                        th#th { 
+                            font-size: 14px;
+                        }
+                    
+                        td {    
+                            padding: 2px;    
+                            background: transparent;     
+                            border-bottom: 1px solid $blanco;
+                            color: $blanco;    
+                            border-top: 1px solid transparent; 
+                        }
+                    }
+                    
+                    table#segunda {
+                        width: 100px;
+                        margin-right: 200px;
+                    
+                        th{
+                            width: fit-content;
+                        }
+                    }
+                    
                 }
             }
         }
@@ -568,50 +595,8 @@ body {
     }
 }
 
-
-table {
-    border-collapse: collapse;
-    padding: 3px;
-    background-image: url(../imagenes/logoopaco.png);
-    background-repeat:no-repeat;
-    background-position:center center;
-    background-size: 120%;
-}
-
-th {     
-    font-size: 9px;     
-    font-weight: bold;     
-    padding: 2px;     
-    background: transparent;
-    border-top: 4px solid $negro;    
-    border-bottom: 1px solid $blanco; 
-    color: $mostaza;
-    letter-spacing: 2px; 
-}
-
-th#th { 
-    font-size: 14px;
-}
-
-td {    
-    padding: 2px;    
-    background: transparent;     
-    border-bottom: 1px solid $blanco;
-    color: $blanco;    
-    border-top: 1px solid transparent; 
-}
-
-table#segunda {
-    width: 100px;
-    margin-right: 200px;
-}
-
-table#segunda th{
-    width: fit-content;
-}
-
 tr:hover td {
-    background: transparent; color: $amarillo; 
+    background: transparent; color: $mostaza; 
 }
 
 
@@ -786,7 +771,7 @@ label.check input:checked+span {
 /* TEXTO*/
 /* COLOR */
 $colorFont: (
-    colorAmarillo: $amarillo,
+    colormostaza$mostaza: $mostaza,
     colorMostaza: $mostaza,
     colorBlanco: $blanco,
     colorGris: $gris
@@ -811,7 +796,6 @@ $colorFont: (
     font-family: $haters;
     color: $mostaza;
 }
-
 
 /* SIZE */
 
@@ -957,7 +941,7 @@ input#abrir-cerrar {
     display:block;
     width:40px;
     height:40px;
-    border:1px solid $amarillo;
+    border:1px solid $mostaza;
     position:relative;
     cursor: pointer;
     box-sizing: border-box;
@@ -977,14 +961,14 @@ input#abrir-cerrar {
 .toggle-button:before {
     top: calc(100% / 4);
     height:calc(100% / 4);
-    border-top:1px solid $amarillo;
-    border-bottom:1px solid $amarillo;
+    border-top:1px solid $mostaza;
+    border-bottom:1px solid $mostaza;
     background-color: transparent;
 }
 
 .toggle-button:after {
     height:1px;
-    background-color: $amarillo;
+    background-color: $mostaza;
     bottom:calc(100% / 4);
 }
 
@@ -1475,7 +1459,7 @@ table#bat th{
 }
 
 tr:hover td {
-    background: transparent; color: $amarillo; 
+    background: transparent; color: $mostaza; 
 }
 
 
@@ -1651,7 +1635,7 @@ label.check input:checked+span {
 /* TEXTO*/
 /* COLOR */
 $colorFont: (
-    colorAmarillo: $amarillo,
+    colormostaza$mostaza: $mostaza,
     colorMostaza: $mostaza,
     colorBlanco: $blanco,
     colorGris: $gris
@@ -1835,7 +1819,7 @@ input#abrir-cerrar {
     display:block;
     width:40px;
     height:40px;
-    border:1px solid $amarillo;
+    border:1px solid $mostaza;
     position:relative;
     cursor: pointer;
     box-sizing: border-box;
@@ -1855,14 +1839,14 @@ input#abrir-cerrar {
 .toggle-button:before {
     top: calc(100% / 4);
     height:calc(100% / 4);
-    border-top:1px solid $amarillo;
-    border-bottom:1px solid $amarillo;
+    border-top:1px solid $mostaza;
+    border-bottom:1px solid $mostaza;
     background-color: transparent;
 }
 
 .toggle-button:after {
     height:1px;
-    background-color: $amarillo;
+    background-color: $mostaza;
     bottom:calc(100% / 4);
 }
 
@@ -2356,7 +2340,7 @@ table#segunda th{
 }
 
 tr:hover td {
-    background: transparent; color: $amarillo; 
+    background: transparent; color: $mostaza; 
 }
 
 
@@ -2533,7 +2517,7 @@ label.check input:checked+span {
 /* TEXTO*/
 /* COLOR */
 $colorFont: (
-    colorAmarillo: $amarillo,
+    colormostaza$mostaza: $mostaza,
     colorMostaza: $mostaza,
     colorBlanco: $blanco,
     colorGris: $gris
@@ -3103,7 +3087,7 @@ table#segunda th{
 }
 
 tr:hover td {
-    background: transparent; color: $amarillo; 
+    background: transparent; color: $mostaza; 
 }
 
 .imgCenter {
@@ -3290,7 +3274,7 @@ label.check input:checked+span {
 /* COLOR */
 /* COLOR */
 $colorFont: (
-    colorAmarillo: $amarillo,
+    colormostaza$mostaza: $mostaza,
     colorMostaza: $mostaza,
     colorBlanco: $blanco,
     colorGris: $gris
@@ -3675,7 +3659,7 @@ a#cont {
 }
 
 a#cont:hover {
-    color: $amarillo;
+    color: $mostaza;
     text-shadow:
     0 0 1px #000,
     -1px -1px 0 #000,  
@@ -3693,7 +3677,7 @@ a#coc {
 }
 
 a#coc:hover {
-    color: $amarillo;
+    color: $mostaza;
     text-shadow:
     0 0 1px #000,
     -1px -1px 0 #000,  
@@ -3711,7 +3695,7 @@ a#res {
 }
 
 a#res:hover {
-    color: $amarillo;
+    color: $mostaza;
     text-shadow:
     0 0 1px #000,
     -1px -1px 0 #000,  
@@ -3729,7 +3713,7 @@ a#bart {
 }
 
 a#bart:hover {
-    color: $amarillo;
+    color: $mostaza;
     text-shadow:
     0 0 1px #000,
     -1px -1px 0 #000,  
@@ -3747,7 +3731,7 @@ a#serv {
 }
 
 a#serv:hover {
-    color: $amarillo;
+    color: $mostaza;
     text-shadow:
     0 0 1px #000,
     -1px -1px 0 #000,  
@@ -4066,7 +4050,7 @@ td {
 
 tr:hover td {
     background: transparent; 
-    color: $amarillo; 
+    color: $mostaza; 
 }
 
 
@@ -4242,7 +4226,7 @@ label.check input:checked+span {
 /* TEXTO */
 /* COLOR */
 $colorFont: (
-    colorAmarillo: $amarillo,
+    colormostaza$mostaza: $mostaza,
     colorMostaza: $mostaza,
     colorBlanco: $blanco,
     colorGris: $gris

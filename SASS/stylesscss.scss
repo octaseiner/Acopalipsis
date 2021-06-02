@@ -189,7 +189,9 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"], input#abrir-cerrar:check
     top: 0;
     left: 0;
     z-index: 1;
-    background-color: gray;
+    background-color: $negro;
+    opacity: 0.85;
+    border-right: 2px solid $blanco;
     overflow-x: hidden;
     transition: 0.4s;
     padding: 1rem 0;
@@ -649,7 +651,7 @@ main#reservaBarra {
     form {
         display: flex;
         flex-direction: column;
-        
+
         div {
             margin: 1px;
             padding: 5px;
@@ -1019,7 +1021,9 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"], input#abrir-cerrar:check
     top: 0;
     left: 0;
     z-index: 1;
-    background-color: gray;
+    background-color: $negro;
+    opacity: 0.85;
+    border-right: 2px solid $blanco;
     overflow-x: hidden;
     transition: 0.4s;
     padding: 1rem 0;
@@ -1863,7 +1867,9 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"], input#abrir-cerrar:check
     top: 0;
     left: 0;
     z-index: 1;
-    background-color: gray;
+    background-color: $negro;
+    opacity: 0.85;
+    border-right: 2px solid $blanco;
     overflow-x: hidden;
     transition: 0.4s;
     padding: 1rem 0;

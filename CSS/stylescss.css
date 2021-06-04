@@ -2,6 +2,88 @@
   font-family: "haters";
   src: url("../font/heaters/Heaters.otf"); }
 
+/* TRANSICIONES */
+.logo {
+  animation: logo 1 3s; }
+
+@keyframes logo {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+
+.animationLeft {
+  position: relative;
+  animation: left 1 2s; }
+
+@keyframes left {
+  0% {
+    left: -300px;
+    opacity: 0; }
+  100% {
+    left: 0px;
+    opacity: 1; } }
+
+.animationRight {
+  position: relative;
+  animation: right 1 2s; }
+
+@keyframes right {
+  0% {
+    right: -300px;
+    opacity: 0; }
+  100% {
+    right: 0px;
+    opacity: 1; } }
+
+.animationTop {
+  position: relative;
+  animation: top 1 2s; }
+
+@keyframes top {
+  0% {
+    top: -300px;
+    opacity: 0; }
+  100% {
+    top: 0px;
+    opacity: 1; } }
+
+.animationBottom {
+  position: relative;
+  animation: bottom 1 2s; }
+
+@keyframes bottom {
+  0% {
+    bottom: -300px;
+    opacity: 0; }
+  100% {
+    bottom: 0px;
+    opacity: 1; } }
+
+.animationOpacity {
+  animation: opacity 0.7s; }
+
+@keyframes opacity {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.animationPulse {
+  animation: pulse 1s;
+  animation-timing-function: ease-in-out; }
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1); }
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05); }
+  to {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1); } }
+
 /* MEDIA QUERIES */
 /* ---------------- Smartphones (portrait) ---------------- */
 @media only screen and (max-width: 319px) {
@@ -507,15 +589,7 @@
   .listRoman {
     list-style-type: upper-roman; }
   .listDisc {
-    list-style-type: disc; }
-  /* TRANSICIONES */
-  .logo {
-    animation: logo 1 3s; }
-  @keyframes logo {
-    0% {
-      transform: rotate(0deg); }
-    100% {
-      transform: rotate(360deg); } } }
+    list-style-type: disc; } }
 
 /* ---------------- Smartphones (portrait and landscape) ---------------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -1024,15 +1098,7 @@
   .listRoman {
     list-style-type: upper-roman; }
   .listDisc {
-    list-style-type: disc; }
-  /* TRANSICIONES */
-  .logo {
-    animation: logo 1 3s; }
-  @keyframes logo {
-    0% {
-      transform: rotate(0deg); }
-    100% {
-      transform: rotate(360deg); } } }
+    list-style-type: disc; } }
 
 /* ---------------- INTERMEDIO ---------------- */
 @media only screen and (min-device-width: 480px) and (max-device-width: 767px) {
@@ -1546,15 +1612,7 @@
   .listRoman {
     list-style-type: upper-roman; }
   .listDisc {
-    list-style-type: disc; }
-  /* TRANSICIONES */
-  .logo {
-    animation: logo 1 3s; }
-  @keyframes logo {
-    0% {
-      transform: rotate(0deg); }
-    100% {
-      transform: rotate(360deg); } } }
+    list-style-type: disc; } }
 
 /* --------------- iPads (portrait and landscape) --------------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1223px) {
@@ -1998,15 +2056,7 @@
   .listRoman {
     list-style-type: upper-roman; }
   .listDisc {
-    list-style-type: disc; }
-  /* TRANSICIONES */
-  .logo {
-    animation: logo 1 3s; }
-  @keyframes logo {
-    0% {
-      transform: rotate(0deg); }
-    100% {
-      transform: rotate(360deg); } } }
+    list-style-type: disc; } }
 
 /* --------------- Desktops and laptops --------------- */
 @media only screen and (min-width: 1224px) {
@@ -2557,15 +2607,7 @@
   .listRoman {
     list-style-type: upper-roman; }
   .listDisc {
-    list-style-type: disc; }
-  /* TRANSICIONES */
-  .logo {
-    animation: logo 1 3s; }
-  @keyframes logo {
-    0% {
-      transform: rotate(0deg); }
-    100% {
-      transform: rotate(360deg); } } }
+    list-style-type: disc; } }
 
 /* --------------- Large screens --------------- */
 @media only screen and (min-width: 1824px) {
@@ -3119,12 +3161,4 @@
   .listRoman {
     list-style-type: upper-roman; }
   .listDisc {
-    list-style-type: disc; }
-  /* TRANSICIONES */
-  .logo {
-    animation: logo 1 3s; }
-  @keyframes logo {
-    0% {
-      transform: rotate(0deg); }
-    100% {
-      transform: rotate(360deg); } } }
+    list-style-type: disc; } }

@@ -61,7 +61,7 @@
     opacity: 1; } }
 
 .animationOpacity {
-  animation: opacity 0.7s; }
+  animation: opacity 1s; }
 
 @keyframes opacity {
   0% {

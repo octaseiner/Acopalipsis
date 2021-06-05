@@ -100,7 +100,7 @@ $negro: black;
 }
 
 .animationOpacity {
-    animation: opacity 1s;
+    animation: opacity 3s;
 }
 
 @keyframes opacity {
@@ -656,43 +656,63 @@ body {
                     padding: 5px;
                 
                     table {
-                        border-collapse: collapse;
+                        border-collapse: separate;
                         padding: 3px;
                         background-image: url(../imagenes/logoopaco.png);
                         background-repeat:no-repeat;
                         background-position:center center;
                         background-size: 120%;
-                    
+                        border-radius: 15px;
+                        -moz-border-radius: 10px;
+                        -webkit-border-radius: 10px;
+                        border: 1px solid $blanco;
+
                         th {     
-                            font-size: 0.6rem;     
+                            font-size: 0.5rem;     
                             font-weight: bold;     
-                            padding: 2px;     
+                            padding: 1px;     
                             background: transparent;
-                            border-top: 1px solid $blanco;    
-                            border-bottom: 1px solid $blanco; 
+                            border: 1px solid $blanco;
                             color: $mostaza;
                             letter-spacing: 2px; 
+                            border-radius: 15px;
+                            -moz-border-radius: 10px;
+                            -webkit-border-radius: 10px;
                         }
                     
                         th#th { 
-                            font-size: 1rem;
+                            font-size: 0.8rem;
+                            border-radius: 15px;
+                            -moz-border-radius: 10px;
+                            -webkit-border-radius: 10px;
+                            border: 1px solid $blanco;
                         }
                     
                         td {    
-                            padding: 2px;    
+                            padding: 1px;    
                             background: transparent;     
-                            border-bottom: 1px solid $blanco;
+                            border: 1px solid $blanco;
                             color: $blanco;    
-                            border-top: 1px solid transparent; 
+                            border-radius: 15px;
+                            -moz-border-radius: 10px;
+                            -webkit-border-radius: 10px;
                         }
                     }
                     
                     table#segunda {
                         width: 100px;
                         margin-right: 200px;
+                        border-radius: 15px;
+                        -moz-border-radius: 10px;
+                        -webkit-border-radius: 10px;
+                        border: 1px solid $blanco;
                     
                         th{
                             width: fit-content;
+                            border-radius: 15px;
+                            -moz-border-radius: 10px;
+                            -webkit-border-radius: 10px;
+                            border: 1px solid $blanco;
                         }
                     }
                     
@@ -1481,26 +1501,12 @@ body {
                         background-repeat:no-repeat;
                         background-position:center center;
                         background-size: 100%;
+                        border-collapse: separate;
+                        border: 1px solid $blanco;
+                        border-radius: 15px;
+                        -moz-border-radius: 10px;
+                        -webkit-border-radius: 10px;
                     }
-
-                    table#bat {
-                        width: 100px;
-                        margin-right: 200px;
-                    
-                        th {
-                        width: fit-content;
-                        }
-                    }
-
-                    table#dir {
-                        width: 100px;
-                        margin-right: 200px;
-                        
-                        th {
-                        width: fit-content;
-                        }
-                    }
-                    
                 }
             }
         }
@@ -1539,11 +1545,19 @@ body {
             border-bottom: 1px solid $blanco; 
             color: $mostaza; 
             width: 10px;
+            border-radius: 15px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            border: 1px solid $blanco;
         }
         
         th#th { 
             font-size: 1.2rem;
             letter-spacing: 2px;
+            border-radius: 15px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            border: 1px solid $blanco;
         }
         
         td {     
@@ -1551,6 +1565,10 @@ body {
             border-bottom: 1px solid $blanco;
             color: $blanco;    
             border-top: 1px solid transparent; 
+            border-radius: 15px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            border: 1px solid $blanco;
         }
         
         tr:hover td {
@@ -2330,43 +2348,60 @@ body {
                     padding: 5px;
 
                     table {
-                        border-collapse: collapse;
+                        border-collapse: separate;
                         padding: 3px;
                         background-image: url(../imagenes/logoopaco.png);
                         background-repeat:no-repeat;
                         background-position:center center;
                         background-size: 60%;
+                        border: 1px solid $blanco;
                     
                         th {     
                             font-size: 1.2rem;     
                             font-weight: bold;     
                             padding: 4px;     
                             background: transparent;
-                            border-top: 1px solid $blanco;    
-                            border-bottom: 1px solid $blanco; 
                             color: $mostaza; 
                             letter-spacing: 2px;
+                            border-radius: 15px;
+                            -moz-border-radius: 10px;
+                            -webkit-border-radius: 10px;
+                            border: 1px solid $blanco;
                         }
                     
                         th#th { 
                             font-size: 1.7rem;
+                            border-radius: 15px;
+                            -moz-border-radius: 10px;
+                            -webkit-border-radius: 10px;
+                            border: 1px solid $blanco;
                         }
                     
                         td {    
                             padding: 4px;    
                             background: transparent;     
-                            border-bottom: 1px solid $blanco;
                             color: $blanco;    
-                            border-top: 1px solid transparent; 
+                            border-radius: 15px;
+                            -moz-border-radius: 10px;
+                            -webkit-border-radius: 10px;
+                            border: 1px solid $blanco;
                         }
                     }
                     
                     table#segunda {
                         width: 100px;
                         margin-right: 200px;
+                        border-radius: 15px;
+                        -moz-border-radius: 10px;
+                        -webkit-border-radius: 10px;
+                        border: 1px solid $blanco;
                         
                         th{
                         width: fit-content;
+                        border-radius: 15px;
+                        -moz-border-radius: 10px;
+                        -webkit-border-radius: 10px;
+                        border: 1px solid $blanco;
                         }
                     }
                 }
@@ -3039,43 +3074,63 @@ body {
                     padding: 5px;
 
                     table {
-                        border-collapse: collapse;
+                        border-collapse: separate;
                         padding: 3px;
                         background-image: url(../imagenes/logoopaco.png);
                         background-repeat:no-repeat;
                         background-position:center center;
                         background-size: 120%;
+                        border-radius: 15px;
+                        -moz-border-radius: 10px;
+                        -webkit-border-radius: 10px;
+                        border: 1px solid $blanco;
                     
                         th {     
                             font-size: 1rem;     
                             font-weight: bold;     
                             padding: 4px;     
                             background: transparent;
-                            border-top: 1px solid $blanco;    
-                            border-bottom: 1px solid $blanco; 
+                            border: 1px solid $blanco;
                             color: $mostaza; 
                             letter-spacing: 2px;
+                            border-radius: 15px;
+                            -moz-border-radius: 10px;
+                            -webkit-border-radius: 10px;
                         }
                     
                         th#th { 
                             font-size: 2rem;
+                            border-radius: 15px;
+                            -moz-border-radius: 10px;
+                            -webkit-border-radius: 10px;
+                            border: 1px solid $blanco;
                         }
                     
                         td {    
                             padding: 4px;    
                             background: transparent;     
-                            border-bottom: 1px solid $blanco;
                             color: $blanco;    
-                            border-top: 1px solid transparent; 
+                            border: 1px solid $blanco; 
+                            border-radius: 15px;
+                            -moz-border-radius: 10px;
+                            -webkit-border-radius: 10px;
                         }
                     }
                     
                     table#segunda {
                         width: 100px;
                         margin-right: 200px;
+                        border-radius: 15px;
+                        -moz-border-radius: 10px;
+                        -webkit-border-radius: 10px;
+                        border: 1px solid $blanco;
                     
                         th{
                         width: fit-content;
+                        border-radius: 15px;
+                        -moz-border-radius: 10px;
+                        -webkit-border-radius: 10px;
+                        border: 1px solid $blanco;
                         }
                     }
                 }
@@ -3818,7 +3873,7 @@ body {
     background-color: $negro;
     font-family: $haters;
     color: $mostaza;
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 16px 32px;
     border: solid $mostaza;
 }
@@ -3969,39 +4024,52 @@ body {
                     box-shadow: none;
 
                     table {
-                        border-collapse: collapse;
+                        border-collapse: separate;
                         background-image: url(../imagenes/logoopaco.png);
                         background-repeat:no-repeat;
                         background-position:center center;
+                        border-radius: 15px;
+                        -moz-border-radius: 10px;
+                        -webkit-border-radius: 10px;
+                        border: 1px solid $blanco;
                     
                         th {     
                             font-size: 1rem;     
                             font-weight: bold;     
                             padding: 8px;     
                             background: transparent;
-                            border-top: 1px solid $blanco;    
-                            border-bottom: 1px solid $blanco; 
                             color: $mostaza; 
                             letter-spacing: 2px;
+                            border-radius: 15px;
+                            -moz-border-radius: 10px;
+                            -webkit-border-radius: 10px;
+                            border: 1px solid $blanco;
                         }
                     
                         th#th {
                             font-size: 2rem;     
+                            border-radius: 15px;
+                            -moz-border-radius: 10px;
+                            -webkit-border-radius: 10px;
+                            border: 1px solid $blanco;
                         }
                     
                         td {    
                             padding: 8px;     
                             background: transparent;     
-                            border-bottom: 1px solid $blanco;
                             color: $blanco;    
-                            border-top: 1px solid transparent; 
+                            border: 1px solid $blanco;
+                            border: 1px solid $blanco;
+                            border-radius: 15px;
+                            -moz-border-radius: 10px;
+                            -webkit-border-radius: 10px;
                         }
                     }
                 }
             }
 
             div#bat {
-                height: 1250px;
+                height: 1300px;
             }
         }
 
@@ -4716,7 +4784,7 @@ body {
     background-color: $negro;
     font-family: $haters;
     color: $mostaza;
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 16px 32px;
     border: solid $mostaza;
 }
@@ -4867,39 +4935,51 @@ body {
                     box-shadow: none;
 
                     table {
-                        border-collapse: collapse;
+                        border-collapse: separate;
                         background-image: url(../imagenes/logoopaco.png);
                         background-repeat:no-repeat;
                         background-position:center center;
+                        border: 1px solid $blanco;
+                        border-radius: 15px;
+                        -moz-border-radius: 10px;
+                        -webkit-border-radius: 10px;
                     
                         th {     
                             font-size: 1rem;     
                             font-weight: bold;     
                             padding: 8px;     
                             background: transparent;
-                            border-top: 1px solid $blanco;    
-                            border-bottom: 1px solid $blanco; 
                             color: $mostaza; 
                             letter-spacing: 2px;
+                            border: 1px solid $blanco;
+                            border-radius: 15px;
+                            -moz-border-radius: 10px;
+                            -webkit-border-radius: 10px;
                         }
                     
                         th#th {
-                            font-size: 2rem;     
+                            font-size: 2rem;   
+                            border: 1px solid $blanco;
+                            border-radius: 15px;
+                            -moz-border-radius: 10px;
+                            -webkit-border-radius: 10px;  
                         }
                     
                         td {    
                             padding: 8px;     
                             background: transparent;     
-                            border-bottom: 1px solid $blanco;
                             color: $blanco;    
-                            border-top: 1px solid transparent; 
+                            border: 1px solid $blanco;
+                            border-radius: 15px;
+                            -moz-border-radius: 10px;
+                            -webkit-border-radius: 10px;
                         }
                     }
                 }
             }
 
             div#bat {
-                height: 1250px;
+                height: 1200px;
             }
         }
 
@@ -4909,6 +4989,7 @@ body {
         }
     }
 }
+
 
 
 /* --------------- CONTACTO --------------- */

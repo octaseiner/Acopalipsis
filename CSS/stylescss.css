@@ -61,7 +61,7 @@
     opacity: 1; } }
 
 .animationOpacity {
-  animation: opacity 1s; }
+  animation: opacity 3s; }
 
 @keyframes opacity {
   0% {
@@ -417,34 +417,54 @@
         box-shadow: none;
         padding: 5px; }
         body main#bebidas div div div table {
-          border-collapse: collapse;
+          border-collapse: separate;
           padding: 3px;
           background-image: url(../imagenes/logoopaco.png);
           background-repeat: no-repeat;
           background-position: center center;
-          background-size: 120%; }
+          background-size: 120%;
+          border-radius: 15px;
+          -moz-border-radius: 10px;
+          -webkit-border-radius: 10px;
+          border: 1px solid snow; }
           body main#bebidas div div div table th {
-            font-size: 0.6rem;
+            font-size: 0.5rem;
             font-weight: bold;
-            padding: 2px;
+            padding: 1px;
             background: transparent;
-            border-top: 1px solid snow;
-            border-bottom: 1px solid snow;
+            border: 1px solid snow;
             color: #FFCF0B;
-            letter-spacing: 2px; }
+            letter-spacing: 2px;
+            border-radius: 15px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px; }
           body main#bebidas div div div table th#th {
-            font-size: 1rem; }
+            font-size: 0.8rem;
+            border-radius: 15px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            border: 1px solid snow; }
           body main#bebidas div div div table td {
-            padding: 2px;
+            padding: 1px;
             background: transparent;
-            border-bottom: 1px solid snow;
+            border: 1px solid snow;
             color: snow;
-            border-top: 1px solid transparent; }
+            border-radius: 15px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px; }
         body main#bebidas div div div table#segunda {
           width: 100px;
-          margin-right: 200px; }
+          margin-right: 200px;
+          border-radius: 15px;
+          -moz-border-radius: 10px;
+          -webkit-border-radius: 10px;
+          border: 1px solid snow; }
           body main#bebidas div div div table#segunda th {
-            width: fit-content; }
+            width: fit-content;
+            border-radius: 15px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            border: 1px solid snow; }
   body main#bebidas h1 {
     font-size: 2.5rem;
     margin-top: 40px; }
@@ -927,17 +947,12 @@
           background-image: url(../imagenes/logoopaco.png);
           background-repeat: no-repeat;
           background-position: center center;
-          background-size: 100%; }
-        body main#bebidas div div div table#bat {
-          width: 100px;
-          margin-right: 200px; }
-          body main#bebidas div div div table#bat th {
-            width: fit-content; }
-        body main#bebidas div div div table#dir {
-          width: 100px;
-          margin-right: 200px; }
-          body main#bebidas div div div table#dir th {
-            width: fit-content; }
+          background-size: 100%;
+          border-collapse: separate;
+          border: 1px solid snow;
+          border-radius: 15px;
+          -moz-border-radius: 10px;
+          -webkit-border-radius: 10px; }
   body main#bebidas h1 {
     font-size: 3rem;
     margin-top: 40px; }
@@ -959,15 +974,27 @@
     border-top: 1px solid snow;
     border-bottom: 1px solid snow;
     color: #FFCF0B;
-    width: 10px; }
+    width: 10px;
+    border-radius: 15px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: 1px solid snow; }
   body main#bebidas th#th {
     font-size: 1.2rem;
-    letter-spacing: 2px; }
+    letter-spacing: 2px;
+    border-radius: 15px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: 1px solid snow; }
   body main#bebidas td {
     background: transparent;
     border-bottom: 1px solid snow;
     color: snow;
-    border-top: 1px solid transparent; }
+    border-top: 1px solid transparent;
+    border-radius: 15px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: 1px solid snow; }
   body main#bebidas tr:hover td {
     background: transparent;
     color: #FFCF0B; }
@@ -1450,34 +1477,51 @@
         box-shadow: none;
         padding: 5px; }
         body main#bebidas div div div table {
-          border-collapse: collapse;
+          border-collapse: separate;
           padding: 3px;
           background-image: url(../imagenes/logoopaco.png);
           background-repeat: no-repeat;
           background-position: center center;
-          background-size: 60%; }
+          background-size: 60%;
+          border: 1px solid snow; }
           body main#bebidas div div div table th {
             font-size: 1.2rem;
             font-weight: bold;
             padding: 4px;
             background: transparent;
-            border-top: 1px solid snow;
-            border-bottom: 1px solid snow;
             color: #FFCF0B;
-            letter-spacing: 2px; }
+            letter-spacing: 2px;
+            border-radius: 15px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            border: 1px solid snow; }
           body main#bebidas div div div table th#th {
-            font-size: 1.7rem; }
+            font-size: 1.7rem;
+            border-radius: 15px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            border: 1px solid snow; }
           body main#bebidas div div div table td {
             padding: 4px;
             background: transparent;
-            border-bottom: 1px solid snow;
             color: snow;
-            border-top: 1px solid transparent; }
+            border-radius: 15px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            border: 1px solid snow; }
         body main#bebidas div div div table#segunda {
           width: 100px;
-          margin-right: 200px; }
+          margin-right: 200px;
+          border-radius: 15px;
+          -moz-border-radius: 10px;
+          -webkit-border-radius: 10px;
+          border: 1px solid snow; }
           body main#bebidas div div div table#segunda th {
-            width: fit-content; }
+            width: fit-content;
+            border-radius: 15px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            border: 1px solid snow; }
   body main#bebidas h1 {
     font-size: 4rem;
     margin-top: 40px; }
@@ -1887,34 +1931,54 @@
         box-shadow: none;
         padding: 5px; }
         body main#bebidas div div div table {
-          border-collapse: collapse;
+          border-collapse: separate;
           padding: 3px;
           background-image: url(../imagenes/logoopaco.png);
           background-repeat: no-repeat;
           background-position: center center;
-          background-size: 120%; }
+          background-size: 120%;
+          border-radius: 15px;
+          -moz-border-radius: 10px;
+          -webkit-border-radius: 10px;
+          border: 1px solid snow; }
           body main#bebidas div div div table th {
             font-size: 1rem;
             font-weight: bold;
             padding: 4px;
             background: transparent;
-            border-top: 1px solid snow;
-            border-bottom: 1px solid snow;
+            border: 1px solid snow;
             color: #FFCF0B;
-            letter-spacing: 2px; }
+            letter-spacing: 2px;
+            border-radius: 15px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px; }
           body main#bebidas div div div table th#th {
-            font-size: 2rem; }
+            font-size: 2rem;
+            border-radius: 15px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            border: 1px solid snow; }
           body main#bebidas div div div table td {
             padding: 4px;
             background: transparent;
-            border-bottom: 1px solid snow;
             color: snow;
-            border-top: 1px solid transparent; }
+            border: 1px solid snow;
+            border-radius: 15px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px; }
         body main#bebidas div div div table#segunda {
           width: 100px;
-          margin-right: 200px; }
+          margin-right: 200px;
+          border-radius: 15px;
+          -moz-border-radius: 10px;
+          -webkit-border-radius: 10px;
+          border: 1px solid snow; }
           body main#bebidas div div div table#segunda th {
-            width: fit-content; }
+            width: fit-content;
+            border-radius: 15px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            border: 1px solid snow; }
   body main#bebidas h1 {
     font-size: 4rem;
     margin-top: 4rem; }
@@ -2364,7 +2428,7 @@
     background-color: black;
     font-family: "haters";
     color: #FFCF0B;
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 16px 32px;
     border: solid #FFCF0B; }
   .sep {
@@ -2467,29 +2531,42 @@
       body main#bebidas div div div {
         box-shadow: none; }
         body main#bebidas div div div table {
-          border-collapse: collapse;
+          border-collapse: separate;
           background-image: url(../imagenes/logoopaco.png);
           background-repeat: no-repeat;
-          background-position: center center; }
+          background-position: center center;
+          border-radius: 15px;
+          -moz-border-radius: 10px;
+          -webkit-border-radius: 10px;
+          border: 1px solid snow; }
           body main#bebidas div div div table th {
             font-size: 1rem;
             font-weight: bold;
             padding: 8px;
             background: transparent;
-            border-top: 1px solid snow;
-            border-bottom: 1px solid snow;
             color: #FFCF0B;
-            letter-spacing: 2px; }
+            letter-spacing: 2px;
+            border-radius: 15px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            border: 1px solid snow; }
           body main#bebidas div div div table th#th {
-            font-size: 2rem; }
+            font-size: 2rem;
+            border-radius: 15px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            border: 1px solid snow; }
           body main#bebidas div div div table td {
             padding: 8px;
             background: transparent;
-            border-bottom: 1px solid snow;
             color: snow;
-            border-top: 1px solid transparent; }
+            border: 1px solid snow;
+            border: 1px solid snow;
+            border-radius: 15px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px; }
     body main#bebidas div div#bat {
-      height: 1250px; }
+      height: 1300px; }
   body main#bebidas tr:hover td {
     background: transparent;
     color: #FFCF0B; }
@@ -2924,7 +3001,7 @@
     background-color: black;
     font-family: "haters";
     color: #FFCF0B;
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 16px 32px;
     border: solid #FFCF0B; }
   .sep {
@@ -3027,29 +3104,41 @@
       body main#bebidas div div div {
         box-shadow: none; }
         body main#bebidas div div div table {
-          border-collapse: collapse;
+          border-collapse: separate;
           background-image: url(../imagenes/logoopaco.png);
           background-repeat: no-repeat;
-          background-position: center center; }
+          background-position: center center;
+          border: 1px solid snow;
+          border-radius: 15px;
+          -moz-border-radius: 10px;
+          -webkit-border-radius: 10px; }
           body main#bebidas div div div table th {
             font-size: 1rem;
             font-weight: bold;
             padding: 8px;
             background: transparent;
-            border-top: 1px solid snow;
-            border-bottom: 1px solid snow;
             color: #FFCF0B;
-            letter-spacing: 2px; }
+            letter-spacing: 2px;
+            border: 1px solid snow;
+            border-radius: 15px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px; }
           body main#bebidas div div div table th#th {
-            font-size: 2rem; }
+            font-size: 2rem;
+            border: 1px solid snow;
+            border-radius: 15px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px; }
           body main#bebidas div div div table td {
             padding: 8px;
             background: transparent;
-            border-bottom: 1px solid snow;
             color: snow;
-            border-top: 1px solid transparent; }
+            border: 1px solid snow;
+            border-radius: 15px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px; }
     body main#bebidas div div#bat {
-      height: 1250px; }
+      height: 1200px; }
   body main#bebidas tr:hover td {
     background: transparent;
     color: #FFCF0B; }

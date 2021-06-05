@@ -749,8 +749,17 @@ body {
                 background-color: $negro;
                 box-shadow: 10px 5px 5px rgb(124, 124, 124);
 
-                h1 {
-                    font-size: 30px;
+                legend {
+                    font-size: 3rem;
+                }
+
+                p {
+                    font-size: 1rem;
+                    font-family: $font;
+                }
+
+                input {
+                    margin: 3px;
                 }
             }
         }
@@ -1577,8 +1586,17 @@ body {
                 background-color: $negro;
                 box-shadow: 10px 5px 5px rgb(124, 124, 124);
 
-                h1 {
-                    font-size: 30px;
+                legend {
+                    font-size: 3rem;
+                }
+
+                p {
+                    font-size: 1.5rem;
+                    font-family: $font;
+                }
+
+                input {
+                    margin: 3px;
                 }
             }
         }
@@ -2404,8 +2422,13 @@ body {
                 background-color: $negro;
                 box-shadow: 10px 5px 5px rgb(124, 124, 124);
 
-                h1 {
-                    font-size: 30px;
+                legend {
+                    font-size: 3rem;
+                }
+
+                p {
+                    font-size: 1.5rem;
+                    font-family: $font;
                 }
             }
         }
@@ -3110,8 +3133,13 @@ body {
                 background-color: $negro;
                 box-shadow: 10px 5px 5px rgb(124, 124, 124);
 
-                h1 {
-                    font-size: 30px;
+                legend {
+                    font-size: 3rem;
+                }
+
+                p {
+                    font-size: 1.5rem;
+                    font-family: $font;
                 }
             }
         }
@@ -3142,7 +3170,6 @@ main#reservaBarra {
                 margin-bottom: 50px;
                 width: 70px;
                 font-size: 15px;
-                background-color: $blanco;
                 margin-left: 20px;
             }
         }
@@ -4000,6 +4027,11 @@ body {
                 padding: 20px;
                 background-color: $negro;
                 box-shadow: 10px 5px 5px rgb(124, 124, 124);
+
+                p {
+                    font-size: 1.5rem;
+                    font-family: $font;
+                }
             }
         }
     }
@@ -4030,7 +4062,6 @@ main#reservaBarra {
                 margin-bottom: 50px;
                 width: 70px;
                 font-size: 15px;
-                background-color: $blanco;
                 margin-left: 20px;
                 margin-top: 0px;
             }
@@ -4890,6 +4921,16 @@ body {
                 padding: 20px;
                 background-color: $negro;
                 box-shadow: 10px 5px 5px rgb(124, 124, 124);
+
+                legend {
+                    font-size: 3rem;
+                }
+
+
+                p {
+                    font-size: 1.5rem;
+                    font-family: $font;
+                }
             }
         }
     }
@@ -4921,7 +4962,6 @@ main#reservaBarra {
                 margin-bottom: 50px;
                 width: 70px;
                 font-size: 15px;
-                background-color: $blanco;
                 margin-left: 20px;
                 margin-top: 0px;
             }
@@ -5053,28 +5093,27 @@ $colorFont: (
 
 .hatersBig {
     font-family: $haters;
-    font-size: 200%;
+    font-size: 2rem;
 }
 
 .mostazaHaters {
     color: $mostaza;
     font-family: $haters;
-    font-size: 200%;
 }
 
 .font {
     font-family: $font;
-    font-size: 100%;
+    font-size: 1rem;
 }
 
 /* SIZE */
 
 .bigFont {
-    font-size: 300%;
+    font-size: 3rem;
 }
 
 .bigBigFont {
-    font-size: 500%;
+    font-size: 5rem;
 }
 
 /* LISTAS */

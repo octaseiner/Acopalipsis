@@ -476,8 +476,13 @@
       padding: 20px;
       background-color: black;
       box-shadow: 10px 5px 5px #7c7c7c; }
-      body main form fieldset h1 {
-        font-size: 30px; }
+      body main form fieldset legend {
+        font-size: 3rem; }
+      body main form fieldset p {
+        font-size: 1rem;
+        font-family: "Architects Daughter", cursive; }
+      body main form fieldset input {
+        margin: 3px; }
   /* --------------- RESERVA --------------- */
   main#reservaBarra div h1 {
     font-size: 40px;
@@ -985,8 +990,13 @@
       padding: 20px;
       background-color: black;
       box-shadow: 10px 5px 5px #7c7c7c; }
-      body main form fieldset h1 {
-        font-size: 30px; }
+      body main form fieldset legend {
+        font-size: 3rem; }
+      body main form fieldset p {
+        font-size: 1.5rem;
+        font-family: "Architects Daughter", cursive; }
+      body main form fieldset input {
+        margin: 3px; }
   /* --------------- RESERVA --------------- */
   main#reservaBarra div h1 {
     font-size: 40px;
@@ -1499,8 +1509,11 @@
       padding: 20px;
       background-color: black;
       box-shadow: 10px 5px 5px #7c7c7c; }
-      body main form fieldset h1 {
-        font-size: 30px; }
+      body main form fieldset legend {
+        font-size: 3rem; }
+      body main form fieldset p {
+        font-size: 1.5rem;
+        font-family: "Architects Daughter", cursive; }
   /* --------------- RESERVA --------------- */
   main#reservaBarra div h1 {
     font-size: 40px;
@@ -1936,8 +1949,11 @@
       padding: 20px;
       background-color: black;
       box-shadow: 10px 5px 5px #7c7c7c; }
-      body main form fieldset h1 {
-        font-size: 30px; }
+      body main form fieldset legend {
+        font-size: 3rem; }
+      body main form fieldset p {
+        font-size: 1.5rem;
+        font-family: "Architects Daughter", cursive; }
   /* --------------- RESERVA --------------- */
   main#reservaBarra div h1 {
     font-size: 40px;
@@ -1955,7 +1971,6 @@
         margin-bottom: 50px;
         width: 70px;
         font-size: 15px;
-        background-color: snow;
         margin-left: 20px; }
   main#reservaBarra h4 {
     font-size: 30px; }
@@ -2491,6 +2506,9 @@
       padding: 20px;
       background-color: black;
       box-shadow: 10px 5px 5px #7c7c7c; }
+      body main form fieldset p {
+        font-size: 1.5rem;
+        font-family: "Architects Daughter", cursive; }
   /* --------------- RESERVA --------------- */
   main#reservaBarra h1 {
     margin: 0px; }
@@ -2507,7 +2525,6 @@
       margin-bottom: 50px;
       width: 70px;
       font-size: 15px;
-      background-color: snow;
       margin-left: 20px;
       margin-top: 0px; }
   .mt-100 {
@@ -3047,6 +3064,11 @@
       padding: 20px;
       background-color: black;
       box-shadow: 10px 5px 5px #7c7c7c; }
+      body main form fieldset legend {
+        font-size: 3rem; }
+      body main form fieldset p {
+        font-size: 1.5rem;
+        font-family: "Architects Daughter", cursive; }
   /* --------------- RESERVA --------------- */
   main#reservaBarra div h1 {
     margin: 0px; }
@@ -3063,7 +3085,6 @@
       margin-bottom: 50px;
       width: 70px;
       font-size: 15px;
-      background-color: snow;
       margin-left: 20px;
       margin-top: 0px; }
   hr, .hrcolor {
@@ -3144,19 +3165,18 @@
     font-family: "haters"; }
   .hatersBig {
     font-family: "haters";
-    font-size: 200%; }
+    font-size: 2rem; }
   .mostazaHaters {
     color: #FFCF0B;
-    font-family: "haters";
-    font-size: 200%; }
+    font-family: "haters"; }
   .font {
     font-family: "Architects Daughter", cursive;
-    font-size: 100%; }
+    font-size: 1rem; }
   /* SIZE */
   .bigFont {
-    font-size: 300%; }
+    font-size: 3rem; }
   .bigBigFont {
-    font-size: 500%; }
+    font-size: 5rem; }
   /* LISTAS */
   .listRoman {
     list-style-type: upper-roman; }

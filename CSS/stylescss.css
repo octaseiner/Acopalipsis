@@ -1853,8 +1853,8 @@
           display: flex;
           flex-direction: row;
           justify-content: center;
-          width: 147px;
-          height: 147px;
+          width: 203px;
+          height: 203px;
           transition: background-color 1s, height 2s, width 2s;
           overflow: hidden;
           border: solid;
@@ -1867,7 +1867,7 @@
             padding: 17px;
             background-color: snow;
             transition: border 1s;
-            width: 145px; }
+            width: 200px; }
           body main#nos div div div div {
             box-shadow: none;
             width: 600px;
@@ -1878,7 +1878,7 @@
               box-shadow: none; }
               body main#nos div div div div ul li {
                 color: black;
-                font-size: 1rem; }
+                font-size: 0.85rem; }
   div#valenOcta {
     width: 800px; }
   img#imgValen {
@@ -1889,7 +1889,7 @@
     height: 800px; }
   div#valen:hover {
     width: 430px;
-    height: 180px;
+    height: 250px;
     margin-bottom: 20px;
     border: black solid;
     background-color: snow; }
@@ -1900,7 +1900,7 @@
       margin-left: 10px; }
   div#octa:hover {
     width: 430px;
-    height: 180px;
+    height: 250px;
     margin-bottom: 20px;
     border: black solid;
     background-color: snow; }
@@ -2232,7 +2232,7 @@
         color: #FFCF0B;
         text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
       body main nav div#izq a#res {
-        margin-right: -40px;
+        margin-right: -80px;
         transform: rotate(15deg);
         font-family: "haters";
         font-size: 3rem;
@@ -2344,7 +2344,7 @@
         color: #FFCF0B;
         text-shadow: 0 0 1px #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
       body main nav div#der a#serv {
-        margin-left: -40px;
+        margin-left: -50px;
         transform: rotate(15deg);
         font-family: "haters";
         font-size: 3rem;
@@ -2519,7 +2519,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 20px; }
+    margin: 5px; }
     body main#bebidas div div {
       display: flex;
       flex-direction: column;

@@ -159,9 +159,9 @@ body {
             justify-content: center;
             align-items: center;
             height: 50px;
-            margin-top: 30px;
             margin-bottom: 50px;
             background-color: $negro;
+            border-bottom: 1px solid $mostaza;
 
             h1 {
                 text-align: center;
@@ -173,6 +173,7 @@ body {
                 img {
                     width: 75px;
                     height: 75px;
+                    margin-top: 10px;
                 }
             }
 
@@ -189,15 +190,26 @@ body {
     /* GENERAL*/
 body {
     header {
-        DIV#navMobile {
+        position: sticky;
+        top: 0%;
+        z-index: 2;
+
+        div#navMobile {
                 display: flex;
                 flex-direction: row;
                 justify-content: space-around;
                 align-items: center;
-                height: 60px;
-                margin-top: 20px;
+                height: 70px;
                 margin-bottom: 50px;
                 background-color: $negro;
+                border-bottom: 1px solid $mostaza;
+
+                a {
+                    img {
+                        margin-top: -12px;
+                        width: 80px;
+                    }
+                }
         }
     }
 }
@@ -1004,10 +1016,10 @@ body {
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            height: 50px;
-            margin-top: 30px;
+            height: 60px;
             margin-bottom: 50px;
             background-color: $negro;
+            border-bottom: 1px solid $mostaza;
 
             h1 {
                 text-align: center;
@@ -1019,6 +1031,7 @@ body {
                 img {
                     width: 100px;
                     height: 100px;
+                    margin-top: 20px;
                 }
             }
 
@@ -1036,7 +1049,7 @@ body {
 body {
     header {
         position: sticky;
-        top: 10px;
+        top: 0%;
         z-index: 2;
 
         div#navMobile {
@@ -1044,12 +1057,18 @@ body {
                 flex-direction: row;
                 justify-content: space-around;
                 align-items: center;
-                height: 60px;
-                margin-top: 20px;
+                height: 75px;
                 margin-bottom: 50px;
                 background-color: $negro;
-                border-top: solid $blanco;
-                border-bottom: solid $blanco;
+                border-top: 1px solid $mostaza;
+                border-bottom: 1px solid $mostaza;
+
+                a {
+                    img {
+                        width: 90px;
+                        margin-top: -12px;
+                    }
+                }
         }
     }
 }
@@ -1168,6 +1187,10 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"], input#abrir-cerrar:check
     transition: 0.4s;
     padding: 1rem 0;
     box-sizing:border-box;
+}
+
+.hid-toggle{
+    display: none;
 }
 
 .sidebar ul, .sidebar li{
@@ -1848,10 +1871,10 @@ body {
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            height: 50px;
-            margin-top: 30px;
+            height: 70px;
             margin-bottom: 50px;
             background-color: $negro;
+            border-bottom: 1px solid $mostaza;
 
             h1 {
                 text-align: center;
@@ -1863,6 +1886,7 @@ body {
                 img {
                     width: 100px;
                     height: 100px;
+                    margin-top: 15px;
                 }
             }
 
@@ -1879,15 +1903,26 @@ body {
 /* GENERAL*/
 body {
     header {
+        position: sticky;
+        top: 0%;
+        z-index: 2;
+
         div#navMobile {
                 display: flex;
                 flex-direction: row;
                 justify-content: space-around;
                 align-items: center;
-                height: 60px;
-                margin-top: 20px;
+                height: 90px;
                 margin-bottom: 50px;
                 background-color: $negro;
+                border-bottom: 1px $mostaza solid;
+
+                a {
+                    img {
+                        width: 100px;
+                        margin-top: -12px;
+                    }
+                }
         }
     }
 }

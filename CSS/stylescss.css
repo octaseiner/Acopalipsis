@@ -98,31 +98,39 @@
     justify-content: center;
     align-items: center;
     height: 50px;
-    margin-top: 30px;
     margin-bottom: 50px;
-    background-color: black; }
+    background-color: black;
+    border-bottom: 1px solid #FFCF0B; }
     body header div#titulo h1 {
       text-align: center;
       font-size: 1rem;
       margin: 5px; }
     body header div#titulo a img {
       width: 75px;
-      height: 75px; }
+      height: 75px;
+      margin-top: 10px; }
     body header div#titulo h2 {
       text-align: center;
       font-size: 1rem;
       margin: 5px; }
   /* --------------- NAV --------------- */
   /* GENERAL*/
-  body header DIV#navMobile {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    height: 60px;
-    margin-top: 20px;
-    margin-bottom: 50px;
-    background-color: black; }
+  body header {
+    position: sticky;
+    top: 0%;
+    z-index: 2; }
+    body header div#navMobile {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      height: 70px;
+      margin-bottom: 50px;
+      background-color: black;
+      border-bottom: 1px solid #FFCF0B; }
+      body header div#navMobile a img {
+        margin-top: -12px;
+        width: 80px; }
   /* BOTON */
   div#navMobile {
     display: flex;
@@ -628,17 +636,18 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 50px;
-    margin-top: 30px;
+    height: 60px;
     margin-bottom: 50px;
-    background-color: black; }
+    background-color: black;
+    border-bottom: 1px solid #FFCF0B; }
     body header div#titulo h1 {
       text-align: center;
       font-size: 1.3rem;
       margin: 5px; }
     body header div#titulo a img {
       width: 100px;
-      height: 100px; }
+      height: 100px;
+      margin-top: 20px; }
     body header div#titulo h2 {
       text-align: center;
       font-size: 1.3rem;
@@ -647,19 +656,21 @@
   /* GENERAL*/
   body header {
     position: sticky;
-    top: 10px;
+    top: 0%;
     z-index: 2; }
     body header div#navMobile {
       display: flex;
       flex-direction: row;
       justify-content: space-around;
       align-items: center;
-      height: 60px;
-      margin-top: 20px;
+      height: 75px;
       margin-bottom: 50px;
       background-color: black;
-      border-top: solid snow;
-      border-bottom: solid snow; }
+      border-top: 1px solid #FFCF0B;
+      border-bottom: 1px solid #FFCF0B; }
+      body header div#navMobile a img {
+        width: 90px;
+        margin-top: -12px; }
   /* BOTON */
   div#navMobile {
     display: flex;
@@ -740,6 +751,8 @@
     transition: 0.4s;
     padding: 1rem 0;
     box-sizing: border-box; }
+  .hid-toggle {
+    display: none; }
   .sidebar ul, .sidebar li {
     margin: 0;
     padding: 0;
@@ -1155,32 +1168,40 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 50px;
-    margin-top: 30px;
+    height: 70px;
     margin-bottom: 50px;
-    background-color: black; }
+    background-color: black;
+    border-bottom: 1px solid #FFCF0B; }
     body header div#titulo h1 {
       text-align: center;
       font-size: 1.6rem;
       margin: 5px; }
     body header div#titulo a img {
       width: 100px;
-      height: 100px; }
+      height: 100px;
+      margin-top: 15px; }
     body header div#titulo h2 {
       text-align: center;
       font-size: 1.6rem;
       margin: 5px; }
   /* --------------- NAV --------------- */
   /* GENERAL*/
-  body header div#navMobile {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    height: 60px;
-    margin-top: 20px;
-    margin-bottom: 50px;
-    background-color: black; }
+  body header {
+    position: sticky;
+    top: 0%;
+    z-index: 2; }
+    body header div#navMobile {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      height: 90px;
+      margin-bottom: 50px;
+      background-color: black;
+      border-bottom: 1px #FFCF0B solid; }
+      body header div#navMobile a img {
+        width: 100px;
+        margin-top: -12px; }
   /* BOTON */
   div#navMobile {
     display: flex;

@@ -1035,6 +1035,10 @@ body {
 /* GENERAL*/
 body {
     header {
+        position: sticky;
+        top: 10px;
+        z-index: 2;
+
         div#navMobile {
                 display: flex;
                 flex-direction: row;
@@ -1044,6 +1048,8 @@ body {
                 margin-top: 20px;
                 margin-bottom: 50px;
                 background-color: $negro;
+                border-top: solid $blanco;
+                border-bottom: solid $blanco;
         }
     }
 }
@@ -1065,7 +1071,7 @@ input#abrir-cerrar {
     width:40px;
     height:40px;
     border:1px solid $mostaza;
-    position:relative;
+    position: relative;
     cursor: pointer;
     box-sizing: border-box;
     margin-top: 5px;

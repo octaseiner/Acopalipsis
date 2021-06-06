@@ -645,15 +645,21 @@
       margin: 5px; }
   /* --------------- NAV --------------- */
   /* GENERAL*/
-  body header div#navMobile {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    height: 60px;
-    margin-top: 20px;
-    margin-bottom: 50px;
-    background-color: black; }
+  body header {
+    position: sticky;
+    top: 10px;
+    z-index: 2; }
+    body header div#navMobile {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      height: 60px;
+      margin-top: 20px;
+      margin-bottom: 50px;
+      background-color: black;
+      border-top: solid snow;
+      border-bottom: solid snow; }
   /* BOTON */
   div#navMobile {
     display: flex;

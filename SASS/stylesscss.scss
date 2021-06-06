@@ -1873,7 +1873,7 @@ body {
 /* GENERAL*/
 body {
     header {
-        DIV#navMobile {
+        div#navMobile {
                 display: flex;
                 flex-direction: row;
                 justify-content: space-around;
@@ -2070,16 +2070,16 @@ footer {
     }
 
     img {
-        width: 30px;
-        height: 30px;
+        width: 50px;
+        height: 50px;
     }
 
     a#logoFooter {
         padding-right: 20px;
 
         img {
-            width: 100px;
-            height: 100px
+            width: 150px;
+            height: 150px
         }
     }
 }
@@ -2287,6 +2287,7 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 50px;
 
         img {
             padding: 10px;
@@ -2314,9 +2315,9 @@ body {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                width: 250px;
+                width: 400px;
                 padding: 10px;
-                padding-left: 20px;
+                padding-left: 30px;
                 border: solid;
                 background-color: $blanco;
                 font-size: 1rem;
@@ -2935,119 +2936,88 @@ body {
 
 /* --------------- NOSOTROS --------------- */
 body {
+    
     main#nos {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        margin-top: 40px;
 
-        div {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin: 20px;
+        h1 {
+            font-size: 4rem;
+        }
 
-            div {
+        div#todoNosotros {
+            width: 100vw;
+
+            div#valen {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            margin-top: 125px;
+
+            img {
+                padding: 10px;
+                border: solid;
+                background-color: $blanco;
+                width: 220px;
+                box-shadow: 10px 5px 5px rgb(124, 124, 124);
+                }
+            }
+
+            div#octa {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            margin-top: 10px;
+
+            img {
+                padding: 10px;
+                border: solid;
+                background-color: $blanco;
+                width: 220px;
+                box-shadow: 10px 5px 5px rgb(124, 124, 124);
+                }
+            }
+
+            div#ulNos {
+
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    width: 600px;
+                    height: 180px;
+                    padding: 10px;
+                    padding-left: 30px;
+                    border: solid;
+                    background-color: $blanco;
+                    font-size: 1.2rem;
+                    margin: 30px;
+                    box-shadow: 10px 5px 5px rgb(124, 124, 124);
+                }
+            }
+
+            div#cert {
                 display: flex;
                 flex-direction: column;
                 justify-content: space-around;
                 align-items: center;
-                margin: 20px;
+                width: 200px;
+                height: 1400px;
 
-                div {
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: center;
-                    width: 203px;
-                    height: 203px;
-                    transition: background-color 1s, height 2s, width 2s;
-                    overflow: hidden;
-                    border: solid;
+                img {
+                    box-shadow: 0px 5px 5px rgb(124, 124, 124);
+                    width: 90px;
                     box-shadow: 10px 5px 5px rgb(124, 124, 124);
-                    background-color: $blanco;
-
-                    img {
-                        display: flex;
-                        flex-direction: column;
-                        justify-items: center;
-                        padding: 17px;
-                        background-color: $blanco;
-                        transition: border 1s;
-                        width: 200px;
-                    }
-
-                    div {
-                        box-shadow: none;
-                        width: 600px;
-                        border: none;
-
-                        ul {
-                            display: flex;
-                            flex-direction: column;  
-                            box-shadow: none;
-                            
-                            li {
-                                color: $negro;
-                                font-size: 0.85rem;
-                            }
-                        }
-                    }
                 }
             }
+            
+            div#cert img:hover {
+                transform: scale(2.5)
+            }
         }
-    }
-}
-
-div#valenOcta {
-    width: 800px;
-}
-
-img#imgValen {
-    margin-left: 40px;
-}
-
-img#imgOcta {
-    margin-right: 40px;
-}
-
-div#todoNosotros {
-    height: 800px;
-}
-
-div#valen:hover {
-    width: 430px;
-    height: 250px;
-    margin-bottom: 20px; 
-    border: $negro solid;
-    background-color: $blanco;
-
-    img {
-        background-color: $blanco;
-        border: solid $negro;
-        padding: 10px;
-        margin-left: 10px;
-    }
-}
-
-div#octa:hover {
-    width: 430px;
-    height: 250px;
-    margin-bottom: 20px;
-    border: $negro solid;
-    background-color: $blanco;
-
-    img {
-        background-color: $blanco;
-        border: solid $negro;
-        padding: 10px;
-        margin-right: 10px;
-    }
-}
-
-div#cert {
-    display: none;
-
-    img {
-        width: 65px;
     }
 }
 
@@ -3904,13 +3874,14 @@ body {
                 justify-content: space-around;
                 align-items: center;
                 margin: 20px;
+                width: 500px;
 
                 div {
                     display: flex;
                     flex-direction: row;
                     justify-content: center;
-                    width: 295px;
-                    height: 295px;
+                    width: 203px;
+                    height: 203px;
                     transition: background-color 1s, height 2s, width 2s;
                     overflow: hidden;
                     border: solid;
@@ -3924,6 +3895,7 @@ body {
                         padding: 17px;
                         background-color: $blanco;
                         transition: border 1s;
+                        width: 200px;
                     }
 
                     div {
@@ -3935,12 +3907,12 @@ body {
                         ul {
                             display: flex;
                             flex-direction: column;
-                            justify-content: center;
-                            padding-right: 20px;    
+                            justify-content: center;   
                             box-shadow: none;
                             
                             li {
                                 color: $negro;
+                                font-size: 0.8rem;
                             }
                         }
                     }
@@ -3955,11 +3927,11 @@ div#valenOcta {
 }
 
 img#imgValen {
-    margin-left: 75px;
+    margin-left: 70px;
 }
 
 img#imgOcta {
-    margin-right: 77px;
+    margin-right: 70px;
 }
 
 div#todoNosotros {
@@ -3967,8 +3939,8 @@ div#todoNosotros {
 }
 
 div#valen:hover {
-    width: 800px;
-    height: 300px;
+    width: 500px;
+    height: 250px;
     margin-bottom: 20px; 
     border: $negro solid;
     background-color: $blanco;
@@ -3977,12 +3949,14 @@ div#valen:hover {
         background-color: $blanco;
         border: solid $negro;
         padding: 10px;
+        width: 200px;
+        margin: 20px;
     }
 }
 
 div#octa:hover {
-    width: 800px;
-    height: 300px;
+    width: 500px;
+    height: 250px;
     margin-bottom: 20px;
     border: $negro solid;
     background-color: $blanco;
@@ -3991,15 +3965,22 @@ div#octa:hover {
         background-color: $blanco;
         border: solid $negro;
         padding: 10px;
+        width: 200px;
+        margin: 20px;
     }
 }
 
-.certificados {
-    display: none;
+div#cert {
+    width: 100px;
 
     img {
         box-shadow: 0px 5px 5px rgb(124, 124, 124);
+        width: 150px;
     }
+}
+
+div#cert img:hover {
+    transform: scale(2)
 }
 
 /* --------------- COCKTAILS --------------- */
@@ -4815,6 +4796,7 @@ body {
                 justify-content: space-around;
                 align-items: center;
                 margin: 20px;
+                width: 800px;
 
                 div {
                     display: flex;
@@ -4835,6 +4817,7 @@ body {
                         padding: 17px;
                         background-color: $blanco;
                         transition: border 1s;
+                        width: 300px;
                     }
 
                     div {
@@ -4852,6 +4835,7 @@ body {
                             
                             li {
                                 color: $negro;
+                                font-size: 1.2rem;
                             }
                         }
                     }
@@ -4866,11 +4850,11 @@ div#valenOcta {
 }
 
 img#imgValen {
-    margin-left: 75px;
+    margin-left: 70px;
 }
 
 img#imgOcta {
-    margin-right: 77px;
+    margin-right: 70px;
 }
 
 div#todoNosotros {
@@ -4888,6 +4872,7 @@ div#valen:hover {
         background-color: $blanco;
         border: solid $negro;
         padding: 10px;
+        width: 290px;
     }
 }
 
@@ -4902,15 +4887,20 @@ div#octa:hover {
         background-color: $blanco;
         border: solid $negro;
         padding: 10px;
+        width: 290px;
     }
 }
 
-.certificados {
-    display: none;
-
+div#cert {
+    width: 350px;
     img {
         box-shadow: 0px 5px 5px rgb(124, 124, 124);
+        width: 150px;
     }
+}
+
+div#cert img:hover {
+    transform: scale(2.5)
 }
 
 /* --------------- COCKTAILS --------------- */

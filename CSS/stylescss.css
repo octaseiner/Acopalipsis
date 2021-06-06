@@ -1166,7 +1166,7 @@
       margin: 5px; }
   /* --------------- NAV --------------- */
   /* GENERAL*/
-  body header DIV#navMobile {
+  body header div#navMobile {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -1300,13 +1300,13 @@
       footer div a {
         padding-right: 10px; }
     footer img {
-      width: 30px;
-      height: 30px; }
+      width: 50px;
+      height: 50px; }
     footer a#logoFooter {
       padding-right: 20px; }
       footer a#logoFooter img {
-        width: 100px;
-        height: 100px; }
+        width: 150px;
+        height: 150px; }
   /* --------------- INDEX --------------- */
   div#mainMobile {
     display: flex;
@@ -1434,7 +1434,8 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center; }
+      align-items: center;
+      margin-top: 50px; }
       body main#nos div#valen img {
         padding: 10px;
         border: solid;
@@ -1452,9 +1453,9 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      width: 250px;
+      width: 400px;
       padding: 10px;
-      padding-left: 20px;
+      padding-left: 30px;
       border: solid;
       background-color: snow;
       font-size: 1rem;
@@ -1835,84 +1836,63 @@
     display: none; }
   /* --------------- NOSOTROS --------------- */
   body main#nos {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; }
-    body main#nos div {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      margin: 20px; }
-      body main#nos div div {
+    margin-top: 40px; }
+    body main#nos h1 {
+      font-size: 4rem; }
+    body main#nos div#todoNosotros {
+      width: 100vw; }
+      body main#nos div#todoNosotros div#valen {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        margin-top: 125px; }
+        body main#nos div#todoNosotros div#valen img {
+          padding: 10px;
+          border: solid;
+          background-color: snow;
+          width: 220px;
+          box-shadow: 10px 5px 5px #7c7c7c; }
+      body main#nos div#todoNosotros div#octa {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        margin-top: 10px; }
+        body main#nos div#todoNosotros div#octa img {
+          padding: 10px;
+          border: solid;
+          background-color: snow;
+          width: 220px;
+          box-shadow: 10px 5px 5px #7c7c7c; }
+      body main#nos div#todoNosotros div#ulNos ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 600px;
+        height: 180px;
+        padding: 10px;
+        padding-left: 30px;
+        border: solid;
+        background-color: snow;
+        font-size: 1.2rem;
+        margin: 30px;
+        box-shadow: 10px 5px 5px #7c7c7c; }
+      body main#nos div#todoNosotros div#cert {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        margin: 20px; }
-        body main#nos div div div {
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          width: 203px;
-          height: 203px;
-          transition: background-color 1s, height 2s, width 2s;
-          overflow: hidden;
-          border: solid;
-          box-shadow: 10px 5px 5px #7c7c7c;
-          background-color: snow; }
-          body main#nos div div div img {
-            display: flex;
-            flex-direction: column;
-            justify-items: center;
-            padding: 17px;
-            background-color: snow;
-            transition: border 1s;
-            width: 200px; }
-          body main#nos div div div div {
-            box-shadow: none;
-            width: 600px;
-            border: none; }
-            body main#nos div div div div ul {
-              display: flex;
-              flex-direction: column;
-              box-shadow: none; }
-              body main#nos div div div div ul li {
-                color: black;
-                font-size: 0.85rem; }
-  div#valenOcta {
-    width: 800px; }
-  img#imgValen {
-    margin-left: 40px; }
-  img#imgOcta {
-    margin-right: 40px; }
-  div#todoNosotros {
-    height: 800px; }
-  div#valen:hover {
-    width: 430px;
-    height: 250px;
-    margin-bottom: 20px;
-    border: black solid;
-    background-color: snow; }
-    div#valen:hover img {
-      background-color: snow;
-      border: solid black;
-      padding: 10px;
-      margin-left: 10px; }
-  div#octa:hover {
-    width: 430px;
-    height: 250px;
-    margin-bottom: 20px;
-    border: black solid;
-    background-color: snow; }
-    div#octa:hover img {
-      background-color: snow;
-      border: solid black;
-      padding: 10px;
-      margin-right: 10px; }
-  div#cert {
-    display: none; }
-    div#cert img {
-      width: 65px; }
+        width: 200px;
+        height: 1400px; }
+        body main#nos div#todoNosotros div#cert img {
+          box-shadow: 0px 5px 5px #7c7c7c;
+          width: 90px;
+          box-shadow: 10px 5px 5px #7c7c7c; }
+      body main#nos div#todoNosotros div#cert img:hover {
+        transform: scale(2.5); }
   /* --------------- COCKTAILS --------------- */
   body main#bebidas div {
     display: flex;
@@ -2450,13 +2430,14 @@
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        margin: 20px; }
+        margin: 20px;
+        width: 500px; }
         body main#nos div div div {
           display: flex;
           flex-direction: row;
           justify-content: center;
-          width: 295px;
-          height: 295px;
+          width: 203px;
+          height: 203px;
           transition: background-color 1s, height 2s, width 2s;
           overflow: hidden;
           border: solid;
@@ -2468,7 +2449,8 @@
             justify-items: center;
             padding: 17px;
             background-color: snow;
-            transition: border 1s; }
+            transition: border 1s;
+            width: 200px; }
           body main#nos div div div div {
             box-shadow: none;
             width: 500px;
@@ -2478,42 +2460,49 @@
               display: flex;
               flex-direction: column;
               justify-content: center;
-              padding-right: 20px;
               box-shadow: none; }
               body main#nos div div div div ul li {
-                color: black; }
+                color: black;
+                font-size: 0.8rem; }
   div#valenOcta {
     width: 800px; }
   img#imgValen {
-    margin-left: 75px; }
+    margin-left: 70px; }
   img#imgOcta {
-    margin-right: 77px; }
+    margin-right: 70px; }
   div#todoNosotros {
     height: 800px; }
   div#valen:hover {
-    width: 800px;
-    height: 300px;
+    width: 500px;
+    height: 250px;
     margin-bottom: 20px;
     border: black solid;
     background-color: snow; }
     div#valen:hover img {
       background-color: snow;
       border: solid black;
-      padding: 10px; }
+      padding: 10px;
+      width: 200px;
+      margin: 20px; }
   div#octa:hover {
-    width: 800px;
-    height: 300px;
+    width: 500px;
+    height: 250px;
     margin-bottom: 20px;
     border: black solid;
     background-color: snow; }
     div#octa:hover img {
       background-color: snow;
       border: solid black;
-      padding: 10px; }
-  .certificados {
-    display: none; }
-    .certificados img {
-      box-shadow: 0px 5px 5px #7c7c7c; }
+      padding: 10px;
+      width: 200px;
+      margin: 20px; }
+  div#cert {
+    width: 100px; }
+    div#cert img {
+      box-shadow: 0px 5px 5px #7c7c7c;
+      width: 150px; }
+  div#cert img:hover {
+    transform: scale(2); }
   /* --------------- COCKTAILS --------------- */
   body main#bebidas div {
     display: flex;
@@ -3023,7 +3012,8 @@
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        margin: 20px; }
+        margin: 20px;
+        width: 800px; }
         body main#nos div div div {
           display: flex;
           flex-direction: row;
@@ -3041,7 +3031,8 @@
             justify-items: center;
             padding: 17px;
             background-color: snow;
-            transition: border 1s; }
+            transition: border 1s;
+            width: 300px; }
           body main#nos div div div div {
             box-shadow: none;
             width: 500px;
@@ -3054,13 +3045,14 @@
               padding-right: 20px;
               box-shadow: none; }
               body main#nos div div div div ul li {
-                color: black; }
+                color: black;
+                font-size: 1.2rem; }
   div#valenOcta {
     width: 800px; }
   img#imgValen {
-    margin-left: 75px; }
+    margin-left: 70px; }
   img#imgOcta {
-    margin-right: 77px; }
+    margin-right: 70px; }
   div#todoNosotros {
     height: 800px; }
   div#valen:hover {
@@ -3072,7 +3064,8 @@
     div#valen:hover img {
       background-color: snow;
       border: solid black;
-      padding: 10px; }
+      padding: 10px;
+      width: 290px; }
   div#octa:hover {
     width: 800px;
     height: 300px;
@@ -3082,11 +3075,15 @@
     div#octa:hover img {
       background-color: snow;
       border: solid black;
-      padding: 10px; }
-  .certificados {
-    display: none; }
-    .certificados img {
-      box-shadow: 0px 5px 5px #7c7c7c; }
+      padding: 10px;
+      width: 290px; }
+  div#cert {
+    width: 350px; }
+    div#cert img {
+      box-shadow: 0px 5px 5px #7c7c7c;
+      width: 150px; }
+  div#cert img:hover {
+    transform: scale(2.5); }
   /* --------------- COCKTAILS --------------- */
   body main#bebidas div {
     display: flex;

@@ -136,7 +136,6 @@ $negro: black;
 }
 
 
-
 /* MEDIA QUERIES */
 
 /* ---------------- Smartphones (portrait) ---------------- */
@@ -995,6 +994,15 @@ $colorFont: (
     list-style-type: disc;
 }
 
+/* ALERT */
+.backMostaza {
+    background-color: $mostaza;
+    border: 2px solid $negro;
+    font-size: 0.6rem;
+    width: 90%;
+    margin: 10px;
+}
+
 }
 
 
@@ -1848,6 +1856,15 @@ $colorFont: (
     list-style-type: disc;
 }
 
+/* ALERT */
+.backMostaza {
+    background-color: $mostaza;
+    border: 2px solid $negro;
+    font-size: 0.8rem;
+    width: 90%;
+    margin: 10px;
+}
+
 }
 
 
@@ -2139,7 +2156,7 @@ div#mainMobile {
     flex-direction: column;
     align-items: start;
     list-style-type: none;
-    margin-top: 100px;
+    margin-top: 30px;
 
     div#up {
         display: flex;
@@ -2248,7 +2265,7 @@ div#mainMobile {
                 padding-right: 20px;
                 margin-left: 50px;
                 margin-right: 50px;
-                margin-bottom: 100px;
+                margin-bottom: 50px;
                 margin-top: 15px;
                 width: fit-content;
             }
@@ -2707,6 +2724,15 @@ $colorFont: (
 
 .listDisc {
     list-style-type: disc;
+}
+
+/* ALERT */
+.backMostaza {
+    background-color: $mostaza;
+    border: 2px solid $negro;
+    font-size: 0.8rem;
+    width: 70%;
+    margin: 10px;
 }
 
 }
@@ -3425,6 +3451,15 @@ $colorFont: (
 
 .listDisc {
     list-style-type: disc;
+}
+
+/* ALERT */
+.backMostaza {
+    background-color: $mostaza;
+    border: 2px solid $negro;
+    font-size: 1rem;
+    width: 50%;
+    margin: 10px;
 }
 
 }
@@ -4343,6 +4378,16 @@ $colorFont: (
     list-style-type: disc;
 }
 
+/* ALERT */
+.backMostaza {
+    background-color: $mostaza;
+    border: 2px solid $negro;
+    font-size: 1rem;
+    width: 25%;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
 }
 
 
@@ -5259,6 +5304,15 @@ $colorFont: (
 
 .listDisc {
     list-style-type: disc;
+}
+
+/* ALERT */
+.backMostaza {
+    background-color: $mostaza;
+    border: 2px solid $negro;
+    font-size: 1rem;
+    width: 25%;
+    margin: 10px;
 }
 
 }

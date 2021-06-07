@@ -118,7 +118,7 @@
   body header {
     position: sticky;
     top: 0%;
-    z-index: 2; }
+    z-index: 20; }
     body header div#navMobile {
       display: flex;
       flex-direction: row;
@@ -367,6 +367,8 @@
     display: none; }
   .middle {
     display: none; }
+  div#carouselExampleIndicators {
+    width: 200px; }
   /* --------------- NOSOTROS --------------- */
   body main#nos {
     display: flex;
@@ -657,7 +659,7 @@
   body header {
     position: sticky;
     top: 0%;
-    z-index: 2; }
+    z-index: 20; }
     body header div#navMobile {
       display: flex;
       flex-direction: row;
@@ -907,6 +909,8 @@
         width: 280px;
         margin-bottom: 20px;
         border-radius: 20px; }
+  div#carouselExampleIndicators {
+    width: 280px; }
   /* --------------- NOSOTROS --------------- */
   body main#nos {
     display: flex;
@@ -1189,7 +1193,7 @@
   body header {
     position: sticky;
     top: 0%;
-    z-index: 2; }
+    z-index: 20; }
     body header div#navMobile {
       display: flex;
       flex-direction: row;
@@ -1448,6 +1452,8 @@
     display: none; }
   .middle {
     display: none; }
+  div#carouselExampleIndicators {
+    width: 350px; }
   /* --------------- NOSOTROS --------------- */
   body main#nos {
     display: flex;
@@ -1861,6 +1867,8 @@
     display: none; }
   .middle {
     display: none; }
+  div#carouselExampleIndicators {
+    width: 500px; }
   /* --------------- NOSOTROS --------------- */
   body main#nos {
     margin-top: 40px; }

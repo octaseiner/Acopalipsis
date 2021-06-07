@@ -192,7 +192,7 @@ body {
     header {
         position: sticky;
         top: 0%;
-        z-index: 2;
+        z-index: 20;
 
         div#navMobile {
                 display: flex;
@@ -584,6 +584,10 @@ body {
 
 .middle {
     display: none;
+}
+
+div#carouselExampleIndicators {
+    width: 200px;
 }
 
 /* --------------- NOSOTROS --------------- */
@@ -1050,7 +1054,7 @@ body {
     header {
         position: sticky;
         top: 0%;
-        z-index: 2;
+        z-index: 20;
 
         div#navMobile {
                 display: flex;
@@ -1442,6 +1446,10 @@ body {
             }
         }
     }
+}
+
+div#carouselExampleIndicators {
+    width: 280px;
 }
 
 /* --------------- NOSOTROS --------------- */
@@ -1905,7 +1913,7 @@ body {
     header {
         position: sticky;
         top: 0%;
-        z-index: 2;
+        z-index: 20;
 
         div#navMobile {
                 display: flex;
@@ -2309,6 +2317,9 @@ body {
     display: none;
 }
 
+div#carouselExampleIndicators {
+    width: 350px;
+}
 
 /* --------------- NOSOTROS --------------- */
 body {
@@ -2974,6 +2985,9 @@ body {
     display: none;
 }
 
+div#carouselExampleIndicators {
+    width: 500px;
+}
 
 /* --------------- NOSOTROS --------------- */
 body {

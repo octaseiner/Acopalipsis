@@ -1,2 +1,2 @@
 # AcopalipsisSeinerEF
-https://octaseiner.github.io/AcopalipsisSeinerEF/
+https://octaseiner.github.io/Acopalipsis/
